@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Exercício 3</title>
+    <meta charset="utf-8">
+    <style>
+        #h11 {
+            margin: 0 0 1vw 0.3vw;
+        }
+        .lado {
+            margin: 0 0 0 0.3vw;
+        }
+        .resultado {
+            margin-left: 0.3vw;
+            background-color: greenyellow;
+        }
+        #divcal {
+            margin: 1vw 0 0 0;
+        }
+        #cal {
+            color: white;
+            background-color: gray;
+            border: 0.1vw solid black;
+            border-radius: 7%;
+        }
+        #totalVar {
+            background-color: rgb(139, 192, 253);
+            padding: 1vw 0 1vw 1vw;
+            font-size: 3vw;
+            margin-right: 60%;
+        }
+    </style>
+    <script>
+        function calcular1() {
+            var total1 = document.getElementsByClassName("resultado")[0];
+            total1.innerHTML = document.getElementsByClassName("valor")[0].value * document.getElementsByClassName("quantidade")[0].value + " R$";
+        }
+        function calcular2() {
+            var total2 = document.getElementsByClassName("resultado")[1];
+            total2.innerHTML = document.getElementsByClassName("valor")[1].value * document.getElementsByClassName("quantidade")[1].value + " R$";
+        }
+        function calcular3() {
+            var total2 = document.getElementsByClassName("resultado")[2];
+            total2.innerHTML = document.getElementsByClassName("valor")[2].value * document.getElementsByClassName("quantidade")[2].value + " R$";
+        }
+    </script>
+    </head>
+    <div>
+        <h1 id="h11">Orçamento</h1>
+        <div>
+        <label for="item" class="lado">Item:</label> <input type="text" class="item" placeholder="Item">
+        <label for="valor">Valor:</label> <input type="number" class="valor" placeholder="0.00">
+        <label for="quantidade">Quantidade:</label> <input type="number" class="quantidade" placeholder="0">
+        <button class="button" onclick="calcular1()">=</button>
+        <span class="resultado">0.00 R$</span>
+        <br>
+        <label for="item" class="lado">Item:</label> <input type="text" class="item" placeholder="Item">
+        <label for="valor">Valor:</label> <input type="number" class="valor" placeholder="0.00">
+        <label for="quantidade">Quantidade:</label> <input type="number" class="quantidade" placeholder="0">
+        <button class="button" onclick="calcular2()">=</button>
+        <span class="resultado">0.00 R$</span>
+        <br>
+        <label for="item" class="lado">Item:</label> <input type="text" class="item" placeholder="Item">
+        <label for="valor">Valor:</label> <input type="number" class="valor" placeholder="0.00">
+        <label for="quantidade">Quantidade:</label> <input type="number" class="quantidade" placeholder="0">
+        <button class="button" onclick="calcular3()">=</button>
+        <span class="resultado">0.00 R$</span></div>
+        <div id="divcal"><button id="cal">Calcular</button></div>
+        <p id="totalVar">Valor total: <span>0.00</span> R$</p>
+    </body>
+</html>

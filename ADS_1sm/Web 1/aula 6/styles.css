@@ -1,0 +1,68 @@
+/* exercício 1  */
+.content1{
+    background-color: lightgreen;
+    border: 1px solid green;
+    padding: 10px;
+    margin: 2%;
+    color: darkblue;
+}
+
+.content1 form{
+    display: inline-grid;
+    grid-template-columns: max-content max-content;
+    gap: 3%;
+    padding: 1%;
+}
+.content1 label{
+    justify-self: right;
+}
+.content1 button{
+    justify-self: left;
+}
+
+/* exercício 2  */
+#hrp2{
+    border-bottom: 2px solid rgb(195, 195, 195);
+    border-top: 2px solid rgb(154, 154, 154);
+    border-radius: 1px;
+}
+.content2{
+    font-family: verdana;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content2 form{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid lightgray;
+    padding: 4% 3%;
+    justify-self: center;
+    margin: 1%;
+}
+.content2 header{
+    font-size: 300%;
+    margin: 5% 4%;
+}
+.content2 label{
+    font-weight: bold;
+}
+.content2 input{
+    margin: 3% 0.5% 3% 0.5%;
+    padding: 2%;
+    width: 90%;
+}
+#datac2 input{
+    width: auto;
+}
+.content2 select{
+    width: 41%;
+}
+#sex{
+    width: 96%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+#nome{
+    width: 42%;
+}

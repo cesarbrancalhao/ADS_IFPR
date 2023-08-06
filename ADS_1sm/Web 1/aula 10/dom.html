@@ -1,0 +1,56 @@
+<html>
+<body>
+    
+    <!-- dom.html
+        - Document Object Model (DOM)
+        - Definição: Modelo da pagina html que o javascript utiliza
+    -->
+
+    <h1>Título</h1>
+    <div>
+        <a href="$">Site A</a>
+    </div>
+    <a href="#">Site B</a>
+    <br>
+    <input type="text"/>
+    
+</body>
+
+<script>
+    // acessa o dom atraves do caminho body - h1
+    // e salva na variavel h1
+    // document - representa a pagina html ou dom
+    // querySelector - procura por um elemento no dom
+    // let h1 - declara uma variavel
+
+    let h1 = document.querySelector("body > h1");
+
+    /*
+    Algumas formas de acessar a tag <h1>
+    
+        document.querySelector("body > h1");
+
+        document.querySelector("h1");
+
+        document.querySelector("h1.titulo");
+
+        let h1 = document.querySelector("#top");
+    */
+
+    // alterar o valor do texto em h1
+    h1.innerText = "Novo título";
+
+    // alterar o estilo - cor background
+    h1.style.backgroundColor = "#ccc";
+
+    // define uma variavel
+    let ano = document.querySelector("input");
+
+    // le o valor do input e imprime no console
+    console.log(ano.value);
+
+    // atribui um valor para input
+    ano.value = "2020"
+</script>
+
+</html>

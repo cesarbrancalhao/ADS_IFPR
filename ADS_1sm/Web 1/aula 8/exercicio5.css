@@ -1,0 +1,25 @@
+.container
+{
+    display: grid;
+    grid-template-columns: max-content;
+}
+.casas
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid #CCC;
+}
+b
+{
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #5EFB6E;
+    padding: 0.1vw 0 0.1vw 0;
+    margin:  0.1vw 0.1vw 0.1vw 0.1vw;
+}
+.t1
+{
+    border: 2px solid #CCC;
+    margin: 0.1vw;
+    padding: 0.1vw 0.2vw 0.1vw 0.2vw;
+}

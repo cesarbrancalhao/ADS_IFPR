@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <title>Exercício 4</title>
+    <style>
+        div{
+            margin: 0 0 1% 0;
+        }
+        input{
+            margin: 1% 0 0 0;
+        }
+        button{
+            margin: 0 0 1% 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="conceito">Insira o conceito a ser convertido.</label>
+        <br>
+        <input type="text" id="conceito" placeholder="A, B, C, D">
+    </div>
+    <button id="calcular" onclick="converter()">Calcular</button>
+    <div>Nota: <span id="resultado">0</span></div>
+
+    <script>
+       function converter(){
+            let nota = document.querySelector("#conceito").value;
+            if (nota === "A" || nota === "a") {
+                document.querySelector("#resultado").innerText = "10";
+            } else if (nota === "B" || nota === "b"){
+                document.querySelector("#resultado").innerText = "8";
+            } else if (nota === "C" || nota === "c"){
+                document.querySelector("#resultado").innerText = "6";
+            } else if (nota === "D" || nota === "d"){
+                document.querySelector("#resultado").innerText = "3";
+            } else {
+                document.querySelector("#resultado").innerText = "Entrada inválida";
+            }
+        }
+    </script>
+</body>
+</html>

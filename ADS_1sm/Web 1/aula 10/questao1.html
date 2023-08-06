@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Questão 1</title>
+</head>
+<body>
+    
+    <p>ALterar a cor dos parágrafos para vermelho quando o usuário clica no botão alterar</p>
+
+    <p>Resposta...</p>
+
+    <pre>
+Resumo lógica JS: <br>
+1) Identificando quem ou quais são os alvos (tags)
+2) Qual evento dispara a ação
+3) Implementar a função de realização dessa ação
+    </pre>
+
+    <button onclick="alteraCor()">Alterar</button>
+
+<script>
+function alteraCor(){
+    //1) obter uma referencia aos paragrafos
+    //a) altera somente o primeiro:
+    
+    //let p = document.querySelector("p");
+    
+    //b) altera todos:
+
+    let ps = document.querySelectorAll("p");
+    // faz um for aqui...
+        for(let i = 0; i < ps.length; i++){
+            ps[i].style.color = "red";
+        }
+
+
+    //2) alterar a cor dos paragrafos
+    //a)
+
+    //p.style.color = "red";
+
+    //b) vetor
+    //ps[0].style.color = 'red';
+    //ps[1].style.color = 'red';
+
+    // ps[i].style.color = 'red';
+
+        // Fazer compras no super
+    // listas = vetor = array
+    let compras = ["Tomate", "Batata", "Sardinha", "Pizza", "Agua"];
+    
+    console.log("Tamanho do vetor:", compras.length);
+
+    
+    // for ou loop começando em
+    // compras[0] até compras[3] podemos
+    // imprimir todos os itens da lista
+    for(let i = 0; i <= compras.lenght ; i++) {
+        console.log(i, compras[i]);
+    }
+
+    //imprime 
+    console.log(compras[1]);
+
+    // for moderno (E65)
+    compras.forEach(c => console.log(c));
+}
+</script>
+
+</body>
+</html>

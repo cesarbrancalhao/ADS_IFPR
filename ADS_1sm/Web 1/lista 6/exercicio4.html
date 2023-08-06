@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Exercício 4</title>
+    <meta charset="utf-8">
+    <style>
+        .div1 {
+            float: left;
+            text-align: right;
+            border: 0.15vw solid green;
+            padding: 1vw;
+            margin-right: 70%;
+        }
+        #enviar {
+            margin-right: 100%;
+        }
+    </style>
+    <script>
+        function dados() {
+            var nome = document.getElementById("nome").value;
+            var cpf = document.getElementById("cpf").value;
+            var email = document.getElementById("email").value;
+
+            if (nome.length > 2 && email.length > 3 && cpf.length > 10) {
+                alert("Sucesso no cadastro");
+            } else { alert("Erro, cadastro inválido") }
+        }
+    </script>
+    </head>
+    <div class="div1">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Seu nome"><br>
+
+        <label for="cpf">CPF:</label>
+        <input type="number" id="cpf" placeholder="XXX.XXX.XXX-XX"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Exemplo@ifpr.com"><br>
+        
+        <button id="enviar" onclick="dados()">Enviar</button>
+    </div>
+    </body>
+</html>

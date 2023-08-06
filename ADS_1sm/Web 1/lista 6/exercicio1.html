@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Exercício 1</title>
+    <meta charset="utf-8">
+    <style>
+        .sq {
+        width: 4vw;
+        height: 5vh;
+        margin: 10px 0px 0px 30px;
+        display: inline-block;
+        border: 1px solid gray;
+        }
+        #re {
+        background-color: rgb(159, 53, 53);
+        }
+        #bl {
+        background-color: rgb(91, 148, 229);
+        }
+        #ye {
+        background-color: rgb(230, 194, 88);
+        }
+        #gr {
+        background-color: rgb(127, 165, 103);
+        }
+        table {
+        margin-top: 1vw;
+        border-collapse: collapse;
+        }
+        td {
+        padding: 10px;
+        border: 1px solid black;
+        }
+        #oi {
+            margin-top: 1%;
+            text-align: center;
+            margin-right: 4%;
+        }
+    </style>
+
+    <script>
+        function r1() {
+            var red = document.getElementById("um");
+            red.style.backgroundColor = "rgb(159, 53, 53)";
+        }
+        function r2() {
+            var blue = document.getElementById("dois");
+            blue.style.backgroundColor = "rgb(91, 148, 229)";
+        }
+        function r3() {
+            var yellow = document.getElementById("tres");
+            yellow.style.backgroundColor = "rgb(230, 194, 88)";
+        }
+        function r4() {
+            var green = document.getElementById("quatro");
+            green.style.backgroundColor = "rgb(127, 165, 103)";
+        }
+        function r5() {
+            for (let i = 0; i <= 3; i++) {
+                var clean = document.getElementsByTagName("td")[i];
+                clean.style.backgroundColor = "rgb(255, 255, 255)";
+            }
+        }
+    </script>
+
+    </head>
+    <body>
+        <h2>Opções de cores</h2>
+        <div class="sq" id="re" onmouseover="r1()"></div>
+        <div class="sq" id="bl" onmouseover="r2()"></div>
+        <div class="sq" id="ye" onmouseover="r3()"></div>
+        <div class="sq" id="gr" onmouseover="r4()"></div>
+
+        <table>
+        <tr>
+        <td id="um">1- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel turpis in est convallis sagittis. Aenean ultrices, tortor in sodales finibus, eros odio cursus massa, eu pharetra elit ex nec turpis. Praesent molestie cursus felis ac malesuada. Suspendisse mattis lorem vel enim tincidunt, et sodales nisi laoreet. Pellentesque a sagittis odio. In gravida elit ac tincidunt posuere. Donec ante turpis, blandit sit amet aliquet eget, sagittis tincidunt neque.</td>
+        <td id="dois">2- Quisque pharetra est id justo posuere auctor. Etiam eros dolor, suscipit lobortis nunc ut, interdum varius ipsum. Nunc quis turpis venenatis, convallis lacus id, blandit est. Maecenas ullamcorper ante vitae augue luctus, quis aliquet mauris feugiat. Curabitur vehicula dapibus quam, ut mollis urna. Suspendisse potenti. Sed at nisl erat. Donec dictum dictum orci, et aliquet ex ultrices non. Sed auctor dapibus tortor, eget maximus lorem semper vel. Phasellus a luctus lacus, quis posuere urna.</td>
+        </tr>
+        <tr>
+        <td id="tres">3- Sed luctus, lacus quis placerat fringilla, neque ante volutpat lectus, et elementum dui lectus vel elit. Phasellus fermentum nulla libero, ac commodo elit mattis et. Sed ac nulla metus. Curabitur gravida, justo non accumsan dignissim, neque purus facilisis augue, sit amet euismod urna quam non purus. Fusce ac lacinia massa, sodales consectetur lectus. Pellentesque egestas tellus sagittis purus pulvinar, vitae aliquam tellus venenatis.</td>
+        <td id="quatro">4- Cras ac porta est, vel sagittis sapien. Suspendisse quis purus ultrices, auctor leo sed, dapibus nulla. Etiam at lacus lacus. Mauris at odio justo. Curabitur in velit quam. Nunc vel venenatis nulla. Donec non eleifend odio. Duis vel porttitor lorem. Suspendisse lacinia pretium consequat. Praesent urna diam, scelerisque non dolor a, dictum dictum dolor. Etiam purus mauris, ultrices ut feugiat commodo, tristique a urna.</td>
+        </tr>
+        </table>
+        <div id="oi"><button onclick="r5()">oi</button></div>
+    </body>
+</html>

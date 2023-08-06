@@ -1,0 +1,29 @@
+table
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+th{
+    border: 1px solid black;
+    padding: 3% 5px 3% 5px;
+}
+td{
+    padding: 3% 5px 3% 5px;
+    border: 1px solid black;
+}
+.t1
+{
+    background-color: rgb(243, 213, 124);
+}
+.t2
+{
+    background-color: #97CBFA;
+}
+.t3
+{
+    padding: 3% 5px 3% 5px;
+    text-align: center;
+    font-size: 0.7em;
+    background-color: #E6e6e6;
+}

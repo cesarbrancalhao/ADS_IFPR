@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <title>Exercício 5</title>
+    <style>
+        div{
+            margin: 0 0 1% 0;
+        }
+        input{
+            margin: 1% 0 0 0;
+        }
+        button{
+            margin: 0 0 1% 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="conceito">Insira o conceito a ser convertido.</label>
+        <br>
+        <input type="text" placeholder="Conceito 1"><br>
+        <input type="text" placeholder="Conceito 2"><br>
+        <input type="text" placeholder="Conceito 3"><br>
+        <input type="text" placeholder="Conceito 4"><br>
+    </div>
+    <button id="calcular" onclick="converter()">Calcular</button>
+    <div>Média: <span id="resultado">0</span></div>
+
+    <script>
+       function converter(){
+            let soma = 0;
+            let notas = document.querySelectorAll("input");
+            let nota = 0;
+            for (let i = 0; i < notas.length; i++) {
+                if (notas[i].value === "A" || notas[i].value === "a") {
+                nota = 10;
+            } else if (notas[i].value === "B" || notas[i].value === "b"){
+                nota = 8;
+            } else if (notas[i].value === "C" || notas[i].value === "c"){
+                nota = 6;
+            } else if (notas[i].value === "D" || notas[i].value === "d"){
+                nota = 3;
+            } else {
+                document.querySelector("#resultado").innerText = "Entrada inválida detectada.";
+            }
+
+                soma = soma + nota;
+            }
+            let media = soma / notas.length;
+            document.querySelector("#resultado").innerText = media;
+        }
+    </script>
+</body>
+</html>

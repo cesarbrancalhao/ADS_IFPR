@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 1</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+    <hr id="hrp2">
+    <div class="content2">
+        <header>
+            Formulário de cadastro.
+        </header>
+        <form action="#">
+            <label for="nome">Nome</label><br>
+            <div><input placeholder="Nome" name="nome" id="nome" type="name"><input placeholder="Sobrenome" id="nome" type="name"></div>
+
+            <label for="username">Escolher um nome de usuário</label>
+            <div><input type="text" name="username"></div>
+
+            <label for="password">Criar uma senha</label>
+            <div><input type="password" nome="password"></div>
+
+            <label for="confirmpass">Confirme sua senha</label>
+            <div><input type="password" name="confirmpass"></div>
+
+            <label for="birthyear, birthday, birthmonth">Data de nascimento</label>
+            <div id="datac2">
+                <input type="number" min="1" max="100" id="birthday" size="3"  placeholder="Dia" name="birthday">
+                <select name="birthmonth">
+                    <option value="mes">Mês</option>
+                    <option value="jan">Janeiro</option>
+                    <option value="fev">Fevereiro</option>
+                    <option value="mar">Março</option>
+                    <option value="abr">Abril</option>
+                    <option value="mai">Maio</option>
+                    <option value="jun">Junho</option>
+                    <option value="jul">Julho</option>
+                    <option value="ago">Agosto</option>
+                    <option value="set">Setembro</option>
+                    <option value="out">Outubro</option>
+                    <option value="nov">Novembro</option>
+                    <option value="dez">Dezembro</option>
+                </select>
+                <input type="number" placeholder="Ano" min="1923" max="2023" size="4" name="birthyear">
+            </div>
+            
+            <label for="sexo">Sexo</label>
+            <div>
+                <select name="sexo" id="sex">
+                    <option value="mas">Masculino</option>
+                    <option value="fem">Feminino</option>
+                    <option value="non">Prefiro não informar</option>
+                </select></div>
+
+            <div>
+                <label for="cel">Celular</label>
+                <input type="number" name="cel">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 1</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+    <div class="content1">
+        <form action="#">
+            <label for="birth">Data de nascimento:</label>
+            <input type="date" name="birth">
+
+            <label for="school">Escolaridade:</label>
+            <select name="school">
+                <option value="fund">Ensino fundamental</option>
+                <option value="medio">Ensino médio</option>
+                <option value="sup">Ensino superior</option>
+                <option value="pos">Pós graduação</option>
+            </select>
+
+                <label for="schoolstate">Situação da Escolaridade:</label>
+                <span>
+                <input type="radio" name="schoolstate" value="completo">Completo
+                <input type="radio" name="schoolstate" value="incompleto">Incompleto</span>
+
+                <label for="nacionalidade">Nacionalidade:</label>
+                <select name="nacionalidade">
+                    <option value="BR">Brasil</option>
+                    <option value="AR">Argentina</option>
+                    <option value="PY">Paraguay</option>
+                    <option value="OR">Outro</option>
+                </select>
+
+                <label for="state">UF onde nasceu:</label>
+                <select name="state">
+                <option value="PR">Paraná</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="OU">Outro</option></select>
+
+                <button>Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

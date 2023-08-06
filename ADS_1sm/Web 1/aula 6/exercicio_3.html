@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 1</title>
+    <link rel="stylesheet" href="exercicio_3.css" type="text/css">
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            Cadastro usuário
+        </header>
+        <form action="#">
+
+                    <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Felix Moraes Silveira">
+
+                    <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="fms@test.org">
+
+                    <label for="birthday">Nascimento</label>
+                <input id="data" type="date" name="birthday">
+                    
+                    <label for="pais">País</label>
+                <select name="pais" id="selecione">
+                    <option value="BR">Brasil</option>
+                    <option value="AR">Argentina</option>
+                    <option value="PY">Paraguay</option>
+                    <option value="OR">Outro</option>
+                </select>
+
+                <label for="idade">Idade</label>
+                    <input id="idade" type="number" name="idade" min="18" max="110" maxlength="3" size="3">
+        
+                <label for="ddd">DDD</label>
+                    <input placeholder="22" id="ddd" type="number" name="ddd" min="01" size="2" max="99" maxlength="3">
+        
+                <label for="telefone">Telefone</label>
+                    <input id="telefone" type="number" name="telefone" min="10000000" max="99999999" maxlength="8">
+        
+                <button>Adicionar</button>
+        </form>
+</body>
+</html>

@@ -1,0 +1,75 @@
+.titulo{
+    background-color: tan;
+    text-align: center;
+    padding: 0.25% 0px 1.5% 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.titulo h1{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: darkblue;
+}
+.titulo a{
+    color: yellow;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+}
+.titulo a:hover{
+    background-color: black;
+    color: white;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+.sidenav{
+    background-color: tan;
+}
+.nav{
+    background-color: white;
+    padding: 5% 10% 5% 3%;
+    border-radius: 0.4em;
+    margin: 5% 4% 5% 4%;
+}
+.nav:hover{
+    background-color: lightgreen;
+}
+.sidenav a{
+    text-decoration: none;
+    text-align: left;
+    margin: 8%;
+}
+.part2{
+    margin-left: 1%;
+}
+.content{
+    background-color: white;
+    padding: 0.5% 0px 0.5% 0px;
+    margin: 0px 2% 0px 0%;
+}
+.content h1{
+    margin: 0px 0px 0px 0.5%;
+    color: darkblue;
+}
+.content hr{
+    margin: 0px 0.5% 0px 0.5%;
+    border-color: darkblue;
+    border-bottom: none;
+}
+.text{
+    margin: 1% 0.5% 0px 0.5%;
+}
+#t2{
+    padding-bottom: 1%;
+}
+.footnote{
+    background-color: lightgray;
+    text-align: center;
+    padding: 1% 0px 1% 0px;
+}
+.sidenav{
+    background-color: tan;
+    margin: 0px 0% 80% 0%;
+    size: inherit;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <title>Exercício 1</title>
+    <style>
+        div{
+            margin: 0 0 1% 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+    <label for="valorProduto">Insira o valor do produto em dólar:</label>
+    <input id="valorProduto" type="number">
+    </div>
+
+    <div>
+    <label for="valorCotacao">Insira o valor da cotação do dólar:</label>
+    <input id="valorCotacao" type="number">
+    </div>
+
+    <div><button onclick="calcular()">Calcular</button></div>
+
+    <div>Resultado: <span id="resultado">0</span></div>
+    <script>
+        function calcular() {
+            let a = document.querySelector("#valorProduto").value;
+            let b = document.querySelector("#valorCotacao").value;
+            document.querySelector("span").innerText = a * b;
+        }
+    </script>
+</body>
+</html>
