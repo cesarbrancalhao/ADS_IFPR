@@ -1,6 +1,6 @@
 <?php
 
-function fatorial($fat){
+function fatorial(int $fat){
     $num = 1;
     for($i = 1; $i <= $fat; $i++){
         $num *= $i;
