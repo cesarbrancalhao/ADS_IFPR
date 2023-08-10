@@ -1,12 +1,12 @@
 <?php
 
-function limparInput($input){
+function limparInput($input){ // sanitização do input
     $input = trim($input);
     $input = stripslashes($input);
     return htmlspecialchars($input);
 }
 
-function calcularProg($n1, $n2, $n3){
+function calcularProg($n1, $n2, $n3){ //formatação e cálculo da progressão
     for ($i = 0; $i < $n3; $i++) {
         if ($i === 0){
             echo "<div class='media'>Progressão: (".$n1;
@@ -19,14 +19,15 @@ function calcularProg($n1, $n2, $n3){
     }
 }
 $printValues = false;
-if ($_SERVER["REQUEST_METHOD"] == "GET") {
-    if (isset($_GET["n1"]) && isset($_GET["n2"]) && isset($_GET["n3"])) {
+if ($_SERVER["REQUEST_METHOD"] == "GET") { //verificação de método
+                                          
+    if (isset($_GET["n1"]) && isset($_GET["n2"]) && isset($_GET["n3"])) { //verificação de preenchimento
 
         $n1 = limparInput($_GET["n1"]);
         $n2 = limparInput($_GET["n2"]);
         $n3 = limparInput($_GET["n3"]);
 
-        if (is_numeric($n1) && is_numeric($n2) && is_numeric($n3)) {
+        if (is_numeric($n1) && is_numeric($n2) && is_numeric($n3)) { //verificação de input
             $printValues = true;
         }
     }
@@ -100,7 +101,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 <body>
 <div class="container" id="cont-up">
     <h2>Média aritmética simples</h2>
-    <form action="exercicio1_ava.php" method="GET">
+    <form action="exercicio1_ava.php" method="GET"> <!-- formulario opcional para teste -->
         <div class="formgrupo">
             <label for="n1">Início:</label>
             <input type="number" name="n1" id="n1" required>
@@ -117,7 +118,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     </form>
     <?php
     if ($printValues === true) {
-        calcularProg($n1,$n2,$n3);
+        calcularProg($n1,$n2,$n3); //função da progressão
     }
     ?>
 </div>
