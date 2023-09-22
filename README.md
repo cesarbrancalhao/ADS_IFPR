@@ -1,1 +1,1 @@
-### Systems Analysis &amp; Development AAS degree repo
+### Systems Analysis &amp; Development degree repository.
