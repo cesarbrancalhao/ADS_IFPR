@@ -5,7 +5,7 @@ class Connection
 
     private static $conn = null;
 
-    public static function getConnection()
+    public static function getConnection() // obter a conexão com o mysql
     {
         self::$conn = null;
         if (self::$conn === null) {
@@ -17,21 +17,21 @@ class Connection
 
             $host       = 'localhost';
             $database   = 'mysql';
-            $port       = 3306;
+            $port       = 3306; // port padrão do mysql
             $user       = 'root';
             $password   = '';
 
-            try {
+            try { // instanciamento da conexão PDO
 
                 self::$conn = new PDO("mysql:host=$host;dbname=$database;port=$port",
                     $user, $password, $options);
-                return self::$conn;
+                return self::$conn; // retorna a conexão PDO
 
-            } catch (PDOException $e) {
+            } catch (PDOException $e) { //retorna null e exibe uma mensagem em caso de falha de conexão
                 echo "Erro: " . $e->getMessage();
                 return null;
             }
         }
-        return self::$conn;
+        return self::$conn; // retorna a conexão PDO
     }
 }
