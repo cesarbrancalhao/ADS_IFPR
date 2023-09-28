@@ -19,12 +19,18 @@ class alunoDAO{
         $alunos = array();
         foreach ($result as $reg) {
             $aluno = new Aluno();
-            $aluno->setId($reg['id']);
+            $aluno->setEstrangeiro($reg['id']);
             $aluno->setNome($reg['nome']);
             $aluno->setIdade($reg['idade']);
             $aluno->setEstrangeiro($reg['estrangeiro']);
 
             $curso = new Curso();
+            $curso->setId($reg['id_curso']);
+            $curso->setNome($reg['nome_curso']);
+            $aluno->setCurso($curso);
+
+            array_push($alunos, $aluno);
         }
+        return $alunos;
     }
 }
