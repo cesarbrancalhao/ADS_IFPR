@@ -1,92 +1,85 @@
 <?php
 
-include_once("Curso.php");
+include_once(__DIR__ . "/Curso.php");
 
 class Aluno {
 
     private ?int $id;
-    private ?string $nome;
+    private ?string $nome; 
     private ?int $idade;
     private ?string $estrangeiro;
     private ?Curso $curso;
+    
+    public function __construct() {
+        $this->curso = null;        
+    }
 
-    /**
-     * @return int|null
-     */
-    public function getId(): ?int
+    public function getId()
     {
         return $this->id;
     }
 
-    /**
-     * @param int|null $id
-     */
-    public function setId(?int $id): void
+    public function setId($id)
     {
         $this->id = $id;
+
+        return $this;
     }
 
-    /**
-     * @return string|null
-     */
-    public function getNome(): ?string
+    public function getNome()
     {
         return $this->nome;
     }
 
-    /**
-     * @param string|null $nome
-     */
-    public function setNome(?string $nome): void
+    public function setNome($nome)
     {
         $this->nome = $nome;
+
+        return $this;
     }
 
-    /**
-     * @return int|null
-     */
-    public function getIdade(): ?int
+    public function getIdade()
     {
         return $this->idade;
     }
 
-    /**
-     * @param int|null $idade
-     */
-    public function setIdade(?int $idade): void
+    public function setIdade($idade)
     {
         $this->idade = $idade;
+
+        return $this;
     }
 
-    /**
-     * @return string|null
-     */
-    public function getEstrangeiro(): ?string
+    public function getEstrangeiro()
     {
         return $this->estrangeiro;
     }
 
-    /**
-     * @param string|null $estrangeiro
-     */
-    public function setEstrangeiro(?string $estrangeiro): void
-    {
-        $this->estrangeiro = $estrangeiro;
+    public function getEstrangeiroDesc() {
+        if($this->estrangeiro == 'S')
+            return "Sim";
+        elseif($this->estrangeiro == "N") 
+            return "Não";
+
+        return "";
     }
 
-    /**
-     * @return Curso|null
-     */
-    public function getCurso(): ?Curso
+    public function setEstrangeiro($estrangeiro)
+    {
+        $this->estrangeiro = $estrangeiro;
+
+        return $this;
+    }
+
+    public function getCurso()
     {
         return $this->curso;
     }
 
-    /**
-     * @param Curso|null $curso
-     */
-    public function setCurso(?Curso $curso): void
+    public function setCurso($curso)
     {
         $this->curso = $curso;
+
+        return $this;
     }
 }

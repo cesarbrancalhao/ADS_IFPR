@@ -5,45 +5,40 @@ class Curso {
     private ?string $nome;
     private ?string $turno;
 
+    public function __toString() {
+        return $this->nome;
+    }
+
     public function getId()
     {
         return $this->id;
     }
 
-    /**
-     * @return  self
-     */
-    public function setId(?int $id)
+    public function setId($id)
     {
         $this->id = $id;
 
         return $this;
     }
 
-    public function getNome(): ?string
+    public function getNome()
     {
         return $this->nome;
     }
 
-    /**
-     * @return  self
-     */
-    public function setNome(?string $nome)
+    public function setNome($nome)
     {
         $this->nome = $nome;
 
         return $this;
     }
 
-    public function getTurno(): ?string
+    public function getTurno()
     {
         return $this->turno;
     }
 
-    /**
-     * @return  self
-     */
-    public function setTurno(?string $turno)
+    public function setTurno($turno)
     {
         $this->turno = $turno;
 
