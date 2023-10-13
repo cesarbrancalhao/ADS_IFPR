@@ -10,7 +10,8 @@ class AlunoDAO {
 
         $sql = "SELECT a.*, c.nome AS nome_curso" . 
                " FROM alunos a" . 
-               " JOIN cursos c ON (c.id = a.id_curso)";
+               " JOIN cursos c ON (c.id = a.id_curso)" . 
+               " ORDER BY a.nome";
         $stm = $conn->prepare($sql);
         $stm->execute();
         $result = $stm->fetchAll();
@@ -45,5 +46,35 @@ class AlunoDAO {
             array_push($alunos, $aluno);
         }
         return $alunos;
+    }
+
+    public function findById(int $idAluno) {
+        $conn = Connection::getConnection();
+
+        $sql = "SELECT a.*, c.nome AS nome_curso" . 
+               " FROM alunos a" . 
+               " JOIN cursos c ON (c.id = a.id_curso)" .
+               " WHERE a.id = ?" .
+               " ORDER BY a.nome";
+
+        $stm = $conn->prepare($sql);
+        $stm->execute(array($idAluno));
+        $result = $stm->fetchAll();
+        
+        $alunos = $this->mapDBToObject($result);
+        
+        if($alunos) {
+            return $alunos[0];
+        } else {
+            return null; 
+        }
+    }
+
+    public function deleteById(int $idAluno){
+        $conn = Connection::getConnection();
+
+        $sql = "DELETE FROM alunos WHERE id = ?";
+        $stm = $conn->prepare($sql);
+        $stm->execute(array($idAluno));
     }
 }

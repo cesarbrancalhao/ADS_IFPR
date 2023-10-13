@@ -36,8 +36,17 @@ $alunos = $alunoCont->listar();
                 <td><?= $a->getIdade() ?></td>
                 <td><?= $a->getEstrangeiroDesc() ?></td>
                 <td><?= $a->getCurso() ?></td>
-                <td></td>
-                <td></td>
+                <td>
+                    <a href="alterar.php?id=<?= $a->getId() ?>">
+                        <img src="../../img/btn_editar.png" alt="Editar">
+                    </a>
+                </td>
+                <td>
+                    <a href="excluir.php?id=<?= $a->getId() ?>" 
+                    onclick="return confirm('Confirma a exclusão?');">
+                        <img src="../../img/btn_excluir.png" alt="Excluir">
+                    </a>
+                </td>
             </tr>
         <?php endforeach; ?>
     </tbody>
