@@ -1,0 +1,10 @@
+CREATE TABLE tbl_usuarios( Id int not null auto_increment, Nome varchar(150) not null, Login varchar(15) not null, Senha varchar(15) not null,
+Idade int not null, PRIMARY KEY (id));
+
+INSERT INTO tbl_usuarios (nome,login,senha,idade) values ('Marcos César Brancalhão','cesarbrancalhao','senha123',24),('Gustavo Scherer','guScherer','scherer2006',18),('Eduardo Szchaida','EduardoH','Edu@1344',20),('Yago Arrocha','yagod','yagoncio33',22),('Felipe Santili','felipesantili','santilas321',25),('Di Domenico','ddomenico','ddifpr@144',31);
+
+SELECT * FROM tbl_usuarios WHERE idade>30;
+
+SELECT login FROM tbl_usuarios WHERE idade=30;
+
+UPDATE tbl_usuarios SET idade=40 WHERE login='ddomenico';
