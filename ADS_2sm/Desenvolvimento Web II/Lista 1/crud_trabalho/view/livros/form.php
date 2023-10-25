@@ -8,7 +8,7 @@ $editoras = $editoraCont->listar();
 
 $autorCont = new AutorController();
 $autores = $autorCont->listar();
-
+$msgErros = "";
 ?>
 
 <?php
@@ -16,7 +16,7 @@ include_once(__DIR__ . "/../include/header.php");
 ?>
 
 <h3><?= ($livro && $livro->getId() > 0 ? 'Alterar' : 'Inserir') ?>
-    Aluno</h3>
+    Livro</h3>
 
 <form method="POST" action="">
 
@@ -60,23 +60,23 @@ include_once(__DIR__ . "/../include/header.php");
             <option value="">---Selecione---</option>
 
             <option value="A"
-                <?= ($livro && $livro->getStatus() == 'A' ? 'selected' : '') ?>
+                <?= ($livro && $livro->getGenero() == 'A' ? 'selected' : '') ?>
             >Ação</option>
 
             <option value="R"
-                <?= ($livro && $livro->getStatus() == 'R' ? 'selected' : '') ?>
+                <?= ($livro && $livro->getGenero() == 'R' ? 'selected' : '') ?>
             >Romance</option>
 
             <option value="D"
-                <?= ($livro && $livro->getStatus() == 'D' ? 'selected' : '') ?>
+                <?= ($livro && $livro->getGenero() == 'D' ? 'selected' : '') ?>
             >Drama</option>
 
             <option value="S"
-                <?= ($livro && $livro->getStatus() == 'S' ? 'selected' : '') ?>
+                <?= ($livro && $livro->getGenero() == 'S' ? 'selected' : '') ?>
             >Suspense</option>
 
             <option value="F"
-                <?= ($livro && $livro->getStatus() == 'F' ? 'selected' : '') ?>
+                <?= ($livro && $livro->getGenero() == 'F' ? 'selected' : '') ?>
             >Ficção</option>
 
         </select>

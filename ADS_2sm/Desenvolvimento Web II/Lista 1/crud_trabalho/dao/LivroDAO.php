@@ -12,7 +12,7 @@ class LivroDAO {
                " FROM livros l" .
                " JOIN editoras d ON (d.id = l.id_editora)" .
                " JOIN autores a ON (a.id = l.id_autor)" .
-               " ORDER BY l.titulo";
+               " ORDER BY l.id";
 
         $stm = $conn->prepare($sql);
         $stm->execute();
@@ -64,11 +64,11 @@ class LivroDAO {
     public function findById(int $idLivro) {
         $conn = Connection::getConnection();
 
-        $sql = "SELECT a.*, e.nome AS nome_editora, u.nome AS nome_autor" .
-            " FROM livros a" .
-            " JOIN editoras e ON (e.id = a.id_editora)" .
-            " JOIN autores u ON (u.id = a.id_autor)" .
-            " WHERE a.id = ?" .
+        $sql = "SELECT l.*, d.nome AS nome_editora, a.nome AS nome_autor" .
+            " FROM livros l" .
+            " JOIN editoras d ON (d.id = l.id_editora)" .
+            " JOIN autores a ON (a.id = l.id_autor)" .
+            " WHERE l.id = ?" .
             " ORDER BY a.nome";
 
         $stm = $conn->prepare($sql);

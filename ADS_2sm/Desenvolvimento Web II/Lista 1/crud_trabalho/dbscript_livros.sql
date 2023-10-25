@@ -42,4 +42,4 @@ ALTER TABLE livros ADD CONSTRAINT fk_autor FOREIGN KEY (id_autor) REFERENCES aut
 
 
 INSERT INTO livros (titulo, ano, paginas, status, genero, id_editora, id_autor)
-    VALUES ('Amor & Gelato', 2017, 320, 'Disponível', 'R', 4, 3);
+    VALUES ('Amor & Gelato', 2017, 320, 'L', 'R', 4, 3);
