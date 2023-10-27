@@ -1,5 +1,4 @@
 <?php
-//Controller para o modelo de Aluno
 
 include_once(__DIR__ . "/../dao/AlunoDAO.php");
 include_once(__DIR__ . "/../model/Aluno.php");
@@ -22,10 +21,20 @@ class AlunoController {
     public function inserir(Aluno $aluno) {
         $erros = $this->alunoService->validarDados($aluno);
         if ($erros) {
-            return $erros;   
+            return $erros;
         }
         
         $this->alunoDAO->insert($aluno);
+        return array();
+    }
+
+    public function alterar(Aluno $aluno) {
+        $erros = $this->alunoService->validarDados($aluno);
+        if ($erros) {
+            return $erros;
+        }
+        
+        $this->alunoDAO->update($aluno);
         return array();
     }
 

@@ -1,13 +1,14 @@
 <?php
+
 include_once(__DIR__ . "/../../controller/CursoController.php");
 
 $cursoCont = new CursoController();
 $cursos = $cursoCont->listar();
 ?>
 
-<?php 
+<?php
     include_once(__DIR__ . "/../include/header.php");
-?>    
+?>
 
 <h3><?php echo ($aluno && $aluno->getId() > 0 ? 'Alterar' : 'Inserir') ?> aluno</h3>
 
@@ -57,10 +58,11 @@ $cursos = $cursoCont->listar();
     <button type="submit">Gravar</button>
     <button type="reset">Limpar</button>
 
+    <input type="hidden" name="id_aluno" value="<?php echo ( $aluno ? $aluno->getId() : '') ?>">
     <input type="hidden" name="submetido" value="1">
 </form>
 
-<?php if ($erros): ?>
+<?php if ($msgErros): ?>
     <div style="color: red;">
         <?= $msgErros ?>
     </div>
@@ -68,6 +70,6 @@ $cursos = $cursoCont->listar();
 
 <a href="listar.php">Voltar</a>
 
-<?php 
+<?php
     include_once(__DIR__ . "/../include/footer.php");
 ?> 

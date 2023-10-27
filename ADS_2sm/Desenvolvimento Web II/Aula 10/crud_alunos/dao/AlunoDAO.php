@@ -18,15 +18,74 @@ class AlunoDAO {
         return $this->mapDBToObject($result);
     }
 
-    public function insert(Aluno $aluno){
+    public function findById(int $idAluno) {
+        $conn = Connection::getConnection();
+
+        $sql = "SELECT a.*, c.nome AS nome_curso" . 
+               " FROM alunos a" . 
+               " JOIN cursos c ON (c.id = a.id_curso)" . 
+               " WHERE a.id = ?" .
+               " ORDER BY a.nome";
+        $stm = $conn->prepare($sql);
+        $stm->execute(array($idAluno));
+        $result = $stm->fetchAll();
+        
+        $alunos = $this->mapDBToObject($result);
+        if($alunos)
+            return $alunos[0];
+        else
+            return null;
+    }
+
+    public function findByNome(string $nomeAluno) {
+        $conn = Connection::getConnection();
+
+        $sql = "SELECT a.*, c.nome AS nome_curso" .
+            " FROM alunos a" .
+            " JOIN cursos c ON (c.id = a.id_curso)" .
+            " WHERE a.nome = ?" .
+            " ORDER BY a.nome";
+        $stm = $conn->prepare($sql);
+        $stm->execute(array($nomeAluno));
+        $result = $stm->fetchAll();
+
+        $alunos = $this->mapDBToObject($result);
+        if($alunos)
+            return $alunos[0];
+        else
+            return null;
+    }
+
+    public function insert(Aluno $aluno) {
         $conn = Connection::getConnection();
 
         $sql = "INSERT INTO alunos (nome, idade, estrangeiro, id_curso)" .
-               " VALUES (?, ?, ?, ?)";
+                " VALUES (?, ?, ?, ?)" ;
         $stm = $conn->prepare($sql);
         $stm->execute(array($aluno->getNome(), $aluno->getIdade(),
-                            $aluno->getEstrangeiro(),
+                            $aluno->getEstrangeiro(), 
                             $aluno->getCurso()->getId()));
+    }
+
+    public function update(Aluno $aluno){
+        $conn = Connection::getConnection();
+
+        $sql = "UPDATE alunos SET nome = ?, idade = ?," .
+               " estrangeiro = ?, id_curso = ?" .
+               " WHERE id = ?";
+        $stm = $conn->prepare($sql);
+        $stm->execute(array($aluno->getNome(),$aluno->getIdade(),
+                            $aluno->getEstrangeiro(),
+                            $aluno->getCurso()->getId(),
+                            $aluno->getId()));
+    }
+
+    public function deleteById(int $idAluno) {
+        $conn = Connection::getConnection();
+
+        $sql = "DELETE FROM alunos WHERE id = ?";
+        $stm = $conn->prepare($sql);
+        $stm->execute(array($idAluno));
     }
 
     private function mapDBToObject(array $result) {
@@ -48,33 +107,4 @@ class AlunoDAO {
         return $alunos;
     }
 
-    public function findById(int $idAluno) {
-        $conn = Connection::getConnection();
-
-        $sql = "SELECT a.*, c.nome AS nome_curso" . 
-               " FROM alunos a" . 
-               " JOIN cursos c ON (c.id = a.id_curso)" .
-               " WHERE a.id = ?" .
-               " ORDER BY a.nome";
-
-        $stm = $conn->prepare($sql);
-        $stm->execute(array($idAluno));
-        $result = $stm->fetchAll();
-        
-        $alunos = $this->mapDBToObject($result);
-        
-        if($alunos) {
-            return $alunos[0];
-        } else {
-            return null; 
-        }
-    }
-
-    public function deleteById(int $idAluno){
-        $conn = Connection::getConnection();
-
-        $sql = "DELETE FROM alunos WHERE id = ?";
-        $stm = $conn->prepare($sql);
-        $stm->execute(array($idAluno));
-    }
 }
