@@ -8,7 +8,6 @@ $editoras = $editoraCont->listar();
 
 $autorCont = new AutorController();
 $autores = $autorCont->listar();
-$msgErros = "";
 ?>
 
 <?php
@@ -117,6 +116,8 @@ include_once(__DIR__ . "/../include/header.php");
     <button type="submit">Gravar</button>
     <button type="reset">Limpar</button>
 
+    <input type="hidden" name="id_livro"
+        value="<?= $livro ? $livro->getId() : '' ?>">
     <input type="hidden" name="submetido" value="1">
 </form>
 

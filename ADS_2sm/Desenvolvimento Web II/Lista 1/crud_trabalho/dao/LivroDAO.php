@@ -27,13 +27,15 @@ class LivroDAO {
             " id_editora, id_autor)" .
             " VALUES (?, ?, ?, ?, ?, ?, ?)";
         $stm = $conn->prepare($sql);
-        $stm->execute(array($livro->getTitulo(),
+        $stm->execute(array(
+            $livro->getTitulo(),
             $livro->getAno(),
             $livro->getPaginas(),
             $livro->getStatus(),
             $livro->getGenero(),
             $livro->getEditora()->getId(),
-            $livro->getAutor()->getId()));
+            $livro->getAutor()->getId()
+        ));
     }
 
     private function mapDBToObject(array $result) {
@@ -82,6 +84,46 @@ class LivroDAO {
         } else {
             return null;
         }
+    }
+
+    public function findByTitulo(string $tituloLivro) {
+        $conn = Connection::getConnection();
+
+        $sql = "SELECT l.*, d.nome AS nome_editora, a.nome AS nome_autor" .
+        " FROM livros l" .
+        " JOIN editoras d ON (d.id = l.id_editora)" .
+        " JOIN autores a ON (a.id = l.id_autor)" .
+        " WHERE l.titulo = ?" .
+        " ORDER BY a.nome";
+        $stm = $conn->prepare($sql);
+        $stm->execute(array($tituloLivro));
+        $result = $stm->fetchAll();
+        
+        $alunos = $this->mapDBToObject($result);
+        if($alunos)
+            return $alunos[0];
+        else
+            return null;
+    }
+
+    public function update(Livro $livro){
+        $conn = Connection::getConnection();
+
+        $sql = "UPDATE livros SET titulo = ?," . 
+            " ano = ?, paginas = ?, status = ?," .
+            " genero= ?, id_editora = ?, id_autor = ?" .
+            " WHERE id = ?";
+        $stm = $conn->prepare($sql);
+        $stm->execute(array(
+            $livro->getTitulo(),
+            $livro->getAno(),
+            $livro->getPaginas(),
+            $livro->getStatus(),
+            $livro->getGenero(),
+            $livro->getEditora()->getId(),
+            $livro->getAutor()->getId(),
+            $livro->getId()
+        ));
     }
 
     public function deleteById(int $idLivro){

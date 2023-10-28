@@ -4,11 +4,12 @@ include_once(__DIR__ . "/../../model/Livro.php");
 include_once(__DIR__ . "/../../model/Editora.php");
 include_once(__DIR__ . "/../../model/Autor.php");
 include_once(__DIR__ . "/../../controller/LivroController.php");
-
+ 
 $msgErros = "";
 $livro = null;
 
 if(isset($_POST['submetido'])){
+    
     $titulo = trim($_POST['titulo']);
     $ano = is_numeric($_POST['ano']) ? $_POST['ano'] : NULL;
     $paginas = is_numeric($_POST['paginas']) ? $_POST['paginas'] : NULL;

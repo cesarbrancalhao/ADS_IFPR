@@ -14,6 +14,7 @@ class Livro {
     private ?Autor $autor;
 
     public function __construct() {
+        $this->id = 0;
         $this->editora = null;
         $this->autor = null;
     }

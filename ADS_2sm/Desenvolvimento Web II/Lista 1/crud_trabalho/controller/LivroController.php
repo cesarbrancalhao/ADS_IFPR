@@ -27,6 +27,15 @@ class LivroController {
         return array();
     }
 
+    public function alterar(Livro $livro) {
+        $erros = $this->livroService->validarDados($livro);
+        if($erros)
+            return $erros;
+
+        $erros = $this->livroDAO->update($livro);
+        return $erros;
+    }
+
     public function buscarPorId(int $idLivro) {
         return $this->livroDAO->findById($idLivro);
     }
