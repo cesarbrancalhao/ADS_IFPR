@@ -4,7 +4,7 @@ include_once(__DIR__ . "/../../model/Livro.php");
 include_once(__DIR__ . "/../../model/Editora.php");
 include_once(__DIR__ . "/../../model/Autor.php");
 include_once(__DIR__ . "/../../controller/LivroController.php");
- 
+
 $msgErros = "";
 $livro = null;
 

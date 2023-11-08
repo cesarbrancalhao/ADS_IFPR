@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include_once(__DIR__ . "/../../controller/LivroController.php");
 
@@ -7,29 +7,25 @@ $livros = $livroCont->listar();
 
 ?>
 
-<?php 
+<?php
     include_once(__DIR__ . "/../include/header.php");
-?>    
+?>
 
-<h3>Lista de livros</h3>
+<h2 class="text-dark mt-5">Lista de livros</h2>
 
-<div>
-    <a href="inserir.php">Inserir</a>
-</div>
-
-<table border="1">
-    <thead>
+<table class="table table-striped mt-4">
+    <thead class="thead-dark">
         <tr>
-            <td>ID</td>
-            <td>Título</td>
-            <td>Ano</td>
-            <td>Paginas</td>
-            <td>Status</td>
-            <td>Genero</td>
-            <td>Editora</td>
-            <td>Autor</td>
-            <td></td>
-            <td></td>
+            <th>ID</th>
+            <th>Título</th>
+            <th>Ano</th>
+            <th>Paginas</th>
+            <th>Status</th>
+            <th>Genero</th>
+            <th>Editora</th>
+            <th>Autor</th>
+            <th></th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -60,6 +56,10 @@ $livros = $livroCont->listar();
 
 </table>
 
+<div>
+    <a href="inserir.php" class="btn btn-primary">Inserir</a>
+</div>
+
 <?php 
     include_once(__DIR__ . "/../include/footer.php");
-?>    
+?>
