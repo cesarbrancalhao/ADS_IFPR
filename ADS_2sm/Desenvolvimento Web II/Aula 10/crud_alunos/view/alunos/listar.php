@@ -16,16 +16,16 @@ $alunos = $alunoCont->listar();
     <a href="inserir.php">Inserir</a>
 </div>
 
-<table border="1">
+<table class="table table-striped">
     <thead>
         <tr>
-            <td>ID</td>
-            <td>Nome</td>
-            <td>Idade</td>
-            <td>Estrangeiro</td>
-            <td>Curso</td>
-            <td></td>
-            <td></td>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Estrangeiro</th>
+            <th>Curso</th>
+            <th></th>
+            <th></th>
         </tr>
     </thead>
 
