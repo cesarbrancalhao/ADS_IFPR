@@ -1,4 +1,7 @@
-<?php include_once(__DIR__ . "/view/include/header.php")?>
+<?php
+include_once(__DIR__ . "/view/include/header.php");
+
+?>
 
 <div class="card">
     <img class="card-image-top mx-auto" src="<?= BASE_URL . "/img/card_livros.png" ?> " style="max-width: 200px; height:auto;" />

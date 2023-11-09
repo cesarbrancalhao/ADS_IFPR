@@ -5,4 +5,4 @@ define("DB_NAME", "livros_crud");
 define("DB_USER", "root");
 define("DB_PASSWORD", "bancodedados");
 
-define("BASE_URL", "/WEBII/crud_trabalho");
+define("BASE_URL", "/crud_trabalho");

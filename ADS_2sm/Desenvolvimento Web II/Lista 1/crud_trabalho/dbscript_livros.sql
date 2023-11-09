@@ -45,3 +45,17 @@ INSERT INTO livros (titulo, ano, paginas, status, genero, id_editora, id_autor)
     VALUES ('Amor & Gelato', 2017, 320, 'L', 'R', 4, 3);
 INSERT INTO livros (titulo, ano, paginas, status, genero, id_editora, id_autor)
     VALUES ('Game Of Thrones: A Song of Ice and Fire', 1996, 632, 'N', 'F', 3, 2);
+
+/* login */
+CREATE TABLE usuarios (
+id int AUTO_INCREMENT,
+nome varchar(70) NOT NULL,
+login varchar(15) NOT NULL,
+senha varchar(15) NOT NULL,
+CONSTRAINT pk_usuarios PRIMARY KEY (id)
+);
+ALTER TABLE usuarios ADD CONSTRAINT uk_usuarios UNIQUE KEY (login);
+
+INSERT INTO usuarios (nome, login, senha) VALUES ('Sr. Administrador', 'admin', 'admin');
+INSERT INTO usuarios (nome, login, senha) VALUES ('Sr. Root', 'root', 'root');
+INSERT INTO usuarios (nome, login, senha) VALUES ('Cesar Brancalhao', 'cesarbrancalhao', 'senha');
