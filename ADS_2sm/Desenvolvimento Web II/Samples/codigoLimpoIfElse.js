@@ -21,6 +21,15 @@ function possoDirigir(pessoa){
 
 possoDirigir(eu);
 
+/*
+    Estruturas aninhadas ou conjuntos de if/else tornam
+    o código menos legível e mais complexos de serem
+    estruturados e/ou alterados.
+    Neste caso, podemos substituir as estruturas
+    aninhadas por condicionais simples ou separar
+    as estruturas em outras funções menores.
+*/
+
 // Função sem Else
 
 function possoDirigirClean(idade) {
