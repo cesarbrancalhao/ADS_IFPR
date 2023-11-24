@@ -1,15 +1,25 @@
 <?php 
-
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
+
+include_once(__DIR__ . "/../../controller/LoginController.php");
 
 $msgErro = "";
 $usuario = "";
 $senha = "";
 
 if(isset($_POST['submetido'])) {
-    $usuario = $_POST['usuario'];
-    $senha = $_POST['senha'];
+    $usuario = trim($_POST['usuario']);
+    $senha = trim($_POST['senha']);
+
+    $loginCont = new LoginController();
+    $erros = $loginCont->logar($usuario, $senha);
+    
+    if(! $erros) {
+        header("location: " . BASE_URL);
+        exit;
+    }
+    $msgErro = implode("<br>", $erros);
 }
 
 ?>
@@ -19,7 +29,6 @@ if(isset($_POST['submetido'])) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
     <title>CRUD Alunos</title>
@@ -65,6 +74,7 @@ if(isset($_POST['submetido'])) {
                 <?php endif; ?>
             </div>
        </div>
+
     </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -1,5 +1,9 @@
 <?php
     include_once(__DIR__ . "/../../util/config.php");
+    include_once(__DIR__ . "/../../controller/LoginController.php");
+
+    $loginCont = new LoginController();
+    $nome = $loginCont->getNomeUsuario();
 ?>
 
 <nav class="navbar navbar-expand-md navbar-light bg-info">
