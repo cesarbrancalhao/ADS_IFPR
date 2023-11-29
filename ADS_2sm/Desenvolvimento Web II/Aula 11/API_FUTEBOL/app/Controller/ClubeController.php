@@ -25,15 +25,18 @@ class ClubeController {
 	}
 
     public function listar(Request $request, Response $response, array $args): Response {
-		return $response
-				->withStatus(404); //NOT_FOUND
+		
+		$clubes = $this->clubeDAO->list();
+
+		$json = json_encode($clubes, JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE);
+
+		$response->getBody()->write($json);
+		return $response;
     }
 
 	public function buscarPorId(Request $request, Response $response, array $args): Response {
 		return $response
 				->withStatus(404); //NOT_FOUND
     }
-
-
 
 }
