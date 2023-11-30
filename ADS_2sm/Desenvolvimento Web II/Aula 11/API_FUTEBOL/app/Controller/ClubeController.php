@@ -31,12 +31,40 @@ class ClubeController {
 		$json = json_encode($clubes, JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE);
 
 		$response->getBody()->write($json);
-		return $response;
+		return $response
+				->withStatus(200)
+				->withHeader("Content-type", "application/json");
     }
 
 	public function buscarPorId(Request $request, Response $response, array $args): Response {
-		return $response
-				->withStatus(404); //NOT_FOUND
+
+		$clube = $this->clubeDAO->findById($args["id"]);
+
+		if ($clube) {
+			$json = json_encode($clube, JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE);
+
+			$response->getBody()->write($json);
+
+			return $response
+				->withStatus(202)
+				->withHeader("Content-type", "application/json");
+		}
+
+	return $response->withStatus(404);
+
     }
 
+	public function inserir(Request $request, Response $response, array $args): Response {
+
+		$jsonArrayAssoc = $request->getParsedBody();
+
+		$clube = $this->clubeMapper->mapFromJsonToObject($jsonArrayAssoc);
+		$clube = $this->clubeDAO->insert($clube);
+
+		$json = json_encode($clube, JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE);
+
+		$response->getBody()->write($json);
+
+		return $response->withStatus(201);
+	}
 }
