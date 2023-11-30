@@ -49,7 +49,9 @@ $app->get('/olaNome', function (Request $request, Response $response, $args) {
 //Rotas de clubes
 //TODO adicionar as rotas
 
-$app->get("/clubes", ClubeController::class . ":listar");
+    $app->get("/clubes", ClubeController::class . ":listar");
+    $app->get("/clubes/{id}", ClubeController::class . ":buscarPorId");
+    $app->post("/clubes", ClubeController::class . ":inserir");
 
 //--------Executa o framework slim--------
 $app->run();
