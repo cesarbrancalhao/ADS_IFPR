@@ -4,6 +4,8 @@ use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Factory\AppFactory;
 
 use App\Controller\LivroController;
+use App\Controller\AutorController;
+use App\Controller\EditoraController;
 
 require_once(__DIR__ . '/vendor/autoload.php');
 
@@ -20,34 +22,40 @@ $app->get('/', function (Request $request, Response $response, $args) {
 
 $app->get('/ola', function (Request $request, Response $response, $args) {
     $params = $request->getQueryParams();
-
     $nome = "Texon";
 
     if(isset($params['nome']))
-        $nome = $params['$nome'];
-
+        $nome = $params['nome'];
 
     $response->getBody()->write("Seja bem vindo " . $nome);
-
     return $response;
 });
 
-    $app->get("/livros", LivroController::class . ":listar");
-    $app->get("/livros/{id}", LivroController::class . ":buscarPorId");
-    $app->post("/livros", LivroController::class . ":inserir");
+$app->group('/livros', function ($app) {
+    $app->get('', LivroController::class . ':listarLivro');
+    $app->get('/{id}', LivroController::class . ':buscarLivroPorId');
+    $app->post('', LivroController::class . ':inserirLivro');
+    $app->put('/{id}', LivroController::class . ':editarLivro');
+    $app->delete('/{id}', LivroController::class . ':deletarLivro');
+});
+
+$app->group('/autores', function ($app) {
+    $app->get('', AutorController::class . ':listarAutor');
+    $app->get('/{id}', AutorController::class . ':buscarAutorPorId');
+    $app->post('', AutorController::class . ':inserirAutor');
+    $app->put('/{id}', AutorController::class . ':atualizarAutor');
+    $app->delete('/{id}', AutorController::class . ':deletarAutor');
+});
+
+$app->group('/editoras', function ($app) {
+    $app->get('', EditoraController::class . ':listarEditora');
+    $app->get('/{id}', EditoraController::class . ':buscarEditoraPorId');
+    $app->post('', EditoraController::class . ':inserirEditora');
+    $app->put('/{id}', EditoraController::class . ':atualizarEditora');
+    $app->delete('/{id}', EditoraController::class . ':deletarEditora');
+});
 
 $app->run();
 
-
-include_once(__DIR__ . "/view/include/header.php");
+//include_once(__DIR__ . "/view/include/header.php");
 ?>
-
-<!-- <div class="card">
-    <img class="card-image-top mx-auto" src="</? BASE_URL . "/img/card_livros.png" ?> " style="max-width: 200px; height:auto;" />
-    <div class="card-body text-center">
-        <h5 class="card-title">Livros</h5>
-        <a class="btn btn-primary" href="</?= BASE_URL . "/view/livros/listar.php"?>">Listagem de livros</a>
-    </div>
-</div> -->
-
-<?php include_once(__DIR__ . "/view/include/footer.php")?>

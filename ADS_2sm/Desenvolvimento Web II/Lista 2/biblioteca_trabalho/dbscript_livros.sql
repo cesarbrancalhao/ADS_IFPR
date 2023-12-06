@@ -1,4 +1,4 @@
-CREATE DATABASE livros_crud;
+CREATE DATABASE biblioteca;
 USE biblioteca;
 
 CREATE TABLE editoras (

@@ -7,6 +7,8 @@ use App\Model\Clube;
 class LivroService {
 
     public function validarDados(Livro $livro) {
+        $erros = [];
+        
         if(! $livro->getTitulo())
             array_push($erros, "Informe o título!");
 
@@ -34,6 +36,6 @@ class LivroService {
         if(! $livro->getAutor())
             array_push($erros, "Informe o(a) autor(a) do livro!");
 
-        return null /*$erros*/;
+        return $erros;
     }
 }

@@ -9,7 +9,7 @@ class Editora implements JsonSerializable {
     private ?string $nome;
     private ?string $pais;
 
-    public function __toString() {
+    public function __construct() {
         $this->id = 0;
         $this->nome = null;
         $this->pais = null;

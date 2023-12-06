@@ -1,5 +1,8 @@
 <?php
 
+namespace App\Model;
+
+use \JsonSerializable;
 use App\Model\Autor;
 use App\Model\Editora;
 
