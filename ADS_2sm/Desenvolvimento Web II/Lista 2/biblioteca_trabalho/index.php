@@ -16,7 +16,7 @@ $app->addBodyParsingMiddleware();
 $app->addErrorMiddleware(true, true, true);
 
 $app->get('/', function (Request $request, Response $response, $args) {
-    $response->getBody()->write("Olá mundo!");
+    $response->getBody()->write("");
     return $response;
 });
 
@@ -57,5 +57,5 @@ $app->group('/editoras', function ($app) {
 
 $app->run();
 
-//include_once(__DIR__ . "/view/include/header.php");
+include_once(__DIR__ . "\app\View\Include\header.php");
 ?>
