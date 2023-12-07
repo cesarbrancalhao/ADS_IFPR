@@ -57,10 +57,11 @@ class EditoraController {
         $jsonArrayAssoc = $request->getParsedBody();
         $editora = $this->editoraMapper->mapFromJsonToObject($jsonArrayAssoc);
 
-        $erros = $this->editoraService->validarDados($editora, $this->editoraDAO->list());
+        $erros = $this->editoraService->validarDados($editora);
 
         if (!empty($erros)) {
             $jsonErros = json_encode($erros, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+
             $response->getBody()->write($jsonErros);
             return $response->withStatus(400);
         }
@@ -84,7 +85,7 @@ class EditoraController {
             return $response->withStatus(404);
         }
 
-        $erros = $this->editoraService->validarDados($editora, $this->editoraDAO->list());
+        $erros = $this->editoraService->validarDados($editora);
 
         if (!empty($erros)) {
             $jsonErros = json_encode($erros, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);

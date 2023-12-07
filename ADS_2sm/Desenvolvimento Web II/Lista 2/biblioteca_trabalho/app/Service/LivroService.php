@@ -2,7 +2,7 @@
 
 namespace App\Service;
 
-use App\Model\Clube;
+use App\Model\Livro;
 
 class LivroService {
 

@@ -57,7 +57,7 @@ class AutorController {
         $jsonArrayAssoc = $request->getParsedBody();
         $autor = $this->autorMapper->mapFromJsonToObject($jsonArrayAssoc);
 
-        $erros = $this->autorService->validarDados($autor, $this->autorDAO->list());
+        $erros = $this->autorService->validarDados($autor);
 
         if (!empty($erros)) {
             $jsonErros = json_encode($erros, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
@@ -84,10 +84,11 @@ class AutorController {
             return $response->withStatus(404);
         }
 
-        $erros = $this->autorService->validarDados($autor, $this->autorDAO->list());
+        $erros = $this->autorService->validarDados($autor);
 
         if (!empty($erros)) {
             $jsonErros = json_encode($erros, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+            
             $response->getBody()->write($jsonErros);
             return $response->withStatus(400);
         }

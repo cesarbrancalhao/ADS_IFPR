@@ -6,7 +6,7 @@ use App\Model\Editora;
 
 class EditoraService {
 
-    public function validarDados(Editora $editora, array $editoras) {
+    public function validarDados(Editora $editora) {
         $erros = [];
 
         if (!$editora->getNome()) {
@@ -15,13 +15,6 @@ class EditoraService {
 
         if (!$editora->getPais()) {
             array_push($erros, "Informe o país da editora!");
-        }
-
-        $checkNomes = array_map('strtolower', array_column($editoras, 'nome'));
-        $nomeSubmit = strtolower($editora->getNome());
-
-        if (in_array($nomeSubmit, $checkNomes)) {
-            array_push($erros, "Nome já existe!");
         }
 
         return $erros;

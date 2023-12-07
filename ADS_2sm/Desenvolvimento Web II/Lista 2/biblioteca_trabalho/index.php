@@ -44,7 +44,7 @@ $app->group('/autores', function ($app) {
     $app->get('/{id}', AutorController::class . ':buscarAutorPorId');
     $app->post('', AutorController::class . ':inserirAutor');
     $app->put('/{id}', AutorController::class . ':atualizarAutor');
-    $app->delete('/{id}', AutorController::class . ':deletarAutor');
+    $app->delete('/{id}z', AutorController::class . ':deletarAutor');
 });
 
 $app->group('/editoras', function ($app) {
@@ -56,6 +56,4 @@ $app->group('/editoras', function ($app) {
 });
 
 $app->run();
-
-include_once(__DIR__ . "\app\View\Include\header.php");
 ?>

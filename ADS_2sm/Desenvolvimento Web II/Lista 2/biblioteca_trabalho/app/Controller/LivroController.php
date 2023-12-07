@@ -60,9 +60,19 @@ class LivroController {
 		$jsonArrayAssoc = $request->getParsedBody();
 
 		$livro = $this->livroMapper->mapFromJsonToObject($jsonArrayAssoc);
+
+        $erros = $this->livroService->validarDados($livro);
+
+        if ($erros) {
+            $jsonErro = MensagemErro::getJSONErro($erros, "", 400);
+            $response->getBody()->write($jsonErro);
+            return $response;
+        }
+
 		$livro = $this->livroDAO->insert($livro);
 
 		$json = json_encode($livro, JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE);
+        
 
 		$response->getBody()->write($json);
 
