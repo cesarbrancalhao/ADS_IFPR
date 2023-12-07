@@ -44,7 +44,7 @@ $app->group('/autores', function ($app) {
     $app->get('/{id}', AutorController::class . ':buscarAutorPorId');
     $app->post('', AutorController::class . ':inserirAutor');
     $app->put('/{id}', AutorController::class . ':atualizarAutor');
-    $app->delete('/{id}z', AutorController::class . ':deletarAutor');
+    $app->delete('/{id}', AutorController::class . ':deletarAutor');
 });
 
 $app->group('/editoras', function ($app) {

@@ -46,6 +46,24 @@ class AutorDAO {
             return $arrayObj[0];
     }
 
+    public function findByName(string $nome) {
+        $sql = 'SELECT * FROM autores WHERE nome = :nome';
+    
+        $stmt = $this->conn->prepare($sql);
+        $stmt->bindValue("nome", $nome);
+        $stmt->execute();
+        $result = $stmt->fetchAll();
+    
+        $arrayObj = $this->autorMapper->mapFromDatabaseArrayToObjectArray($result);
+    
+        if (count($arrayObj) == 0)
+            return null;
+        elseif (count($arrayObj) > 1)
+            new Exception("Mais de um registro encontrado para o nome " . $nome);
+        else
+            return $arrayObj[0];
+    }
+
     public function insert(Autor $autor) {
         $sql = 'INSERT INTO autores (nome, pais) VALUES (:nome, :pais)';
 

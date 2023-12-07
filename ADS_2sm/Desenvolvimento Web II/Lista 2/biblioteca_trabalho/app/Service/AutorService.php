@@ -3,8 +3,11 @@
 namespace App\Service;
 
 use App\Model\Autor;
+use App\Dao\AutorDAO;
 
 class AutorService {
+
+    private $autorDAO;
 
     public function validarDados(Autor $autor) {
         $erros = [];
@@ -16,6 +19,13 @@ class AutorService {
         if (!$autor->getPais()) {
             array_push($erros, "Informe o país do autor!");
         }
+
+        $this->autorDAO = new AutorDAO();
+
+        $checkAutorNome = $this->autorDAO->findByName($autor->getNome());
+        
+        if ($checkAutorNome && $checkAutorNome->getId() != $autor->getId())
+            array_push($erros, "Já existe um autor com esse nome!");
 
         return $erros;
     }

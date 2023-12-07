@@ -46,6 +46,24 @@ class EditoraDAO {
             return $arrayObj[0];
     }
 
+    public function findByName(string $nome) {
+        $sql = 'SELECT * FROM editoras WHERE nome = :nome';
+    
+        $stmt = $this->conn->prepare($sql);
+        $stmt->bindValue("nome", $nome);
+        $stmt->execute();
+        $result = $stmt->fetchAll();
+    
+        $arrayObj = $this->editoraMapper->mapFromDatabaseArrayToObjectArray($result);
+    
+        if (count($arrayObj) == 0)
+            return null;
+        elseif (count($arrayObj) > 1)
+            new Exception("Mais de um registro encontrado para o nome " . $nome);
+        else
+            return $arrayObj[0];
+    }
+
     public function insert(Editora $editora) {
         $sql = 'INSERT INTO editoras (nome, pais) VALUES (:nome, :pais)';
 
