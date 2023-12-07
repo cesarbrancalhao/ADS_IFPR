@@ -87,6 +87,7 @@ async function excluirClube(idClube) {
     var stts = resp.status;
     
     if(stts == 200) {
+        buscarClubesAwait();
         alert("Clube deletado com sucesso.");
         return;
     }
