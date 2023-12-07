@@ -27,9 +27,12 @@ async function buscarClubesAwait() {
   };
 
   var resp = await fetch(url, opcoes);
-  var json = await resp.text;
 
-  console.log(json);
+// var json = await resp.text;
+// var arrayClubes = JSON.parse(json);
+
+  var arrayClubes = await resp.json();
+  listarClubesTabela(arrayClubes);
 }
 
 /* LISTAR TABELA */
@@ -73,7 +76,27 @@ function listarClubesTabela(clubes) {
 
 /* EXCLUIR */
 async function excluirClube(idClube) {
+    var rota = url + "/" + idClube;
+
+    const options = {
+        method: 'DELETE'
+    };
+
+    var resp = await fetch(url, options);
+
+    var stts = resp.status;
     
+    if(stts == 200) {
+        alert("Clube deletado com sucesso.");
+        return;
+    }
+    if(stts == 404) {
+        alert("Clube não encontrado.");
+        return;
+    }
+    
+    var json = await resp.text();
+    alert ("Erro: " + json);
 }
 
 /* INSERIR */
