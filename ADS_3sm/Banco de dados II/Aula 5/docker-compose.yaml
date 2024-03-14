@@ -19,3 +19,4 @@ services:
 # docker cp pagila-data.sql <container_name>:/tmp/pagila_data.sql
 # docker compose exec db psql -U postgres -d pagila -c "\i /tmp/pagila_schema.sql"
 # docker compose exec db psql -U postgres -d pagila -c "\i /tmp/pagila_data.sql"
+# docker compose exec db psql -U postgres -d pagila
