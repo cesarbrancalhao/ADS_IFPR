@@ -130,10 +130,10 @@ ORDER BY film_num DESC;
 SELECT
 	cat.name,
 	SUM(payment.amount) as category_amount
-FROM payment
-JOIN rental AS ren ON ren.rental_id = payment.rental_id
-JOIN inventory AS inv ON inv.inventory_id = ren.inventory_id
-JOIN film_category AS fc ON fc.film_id = inv.film_id
-JOIN category AS cat ON cat.category_id = fc.category_id
+FROM category AS cat
+INNER JOIN film_category AS fc ON cat.category_id = fc.category_id
+INNER JOIN inventory AS inv ON fc.film_id = inv.film_id
+INNER JOIN rental AS ren ON inv.inventory_id = ren.inventory_id
+INNER JOIN payment ON ren.rental_id = payment.rental_id
 GROUP BY cat.name
 ORDER BY category_amount DESC;
