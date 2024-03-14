@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+ db:
+    image: postgres:14-alpine
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=nest
+    volumes:
+      - ./data:/var/lib/postgresql/data
+
+# docker compose up -d
+# docker compose exec db psql -U postgres -W
+  # #CREATE DATABASE pagila;
+  # #\q
+# docker cp pagila-schema.sql <container_name>:/tmp/pagila_schema.sql
+# docker cp pagila-data.sql <container_name>:/tmp/pagila_data.sql
+# docker compose exec db psql -U postgres -d pagila -c "\i /tmp/pagila_schema.sql"
+# docker compose exec db psql -U postgres -d pagila -c "\i /tmp/pagila_data.sql"
