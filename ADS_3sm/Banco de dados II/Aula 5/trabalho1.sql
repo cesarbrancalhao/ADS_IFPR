@@ -12,7 +12,7 @@ Faça consultas para os problemas abaixo:
 
 /* 1.  Apresente a lista dos 10 clientes que mais gastaram em locações. */
 SELECT 
-	initcap(first_name || ' ' || lASt_name) AS full_name,
+	initcap(first_name || ' ' || last_name) AS full_name,
 	amount
 FROM payment
 INNER JOIN customer USING(customer_id)
