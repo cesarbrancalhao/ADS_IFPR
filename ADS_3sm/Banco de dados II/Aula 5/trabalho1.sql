@@ -137,3 +137,104 @@ INNER JOIN rental AS ren ON inv.inventory_id = ren.inventory_id
 INNER JOIN payment ON ren.rental_id = payment.rental_id
 GROUP BY cat.name
 ORDER BY category_amount DESC;
+
+/*
+Modele uma base de dados seguindo as seguintes instruções:
+1. Defina um problema que terá a base de dados modelada.
+	Sistema de gerenciamento de um parque de diversões que possa gerenciar informações sobre visitantes, atrações, 
+	funcionários, ingressos e eventos especiais.
+
+2. Descreva 3 atividades principais para a modelagem.
+	Identificação de Entidades: Identificar as entidades principais do sistema, como visitantes, atrações, funcionários, 
+	ingressos e eventos.
+	Definição de Relacionamentos: Definir como as entidades estão relacionadas entre si, por exemplo, um visitante pode 
+	comprar um ingresso para uma atração, e um funcionário pode gerenciar uma atração.
+	Definição de Atributos: Definir e registrar os atributos de cada entidade, como nome e idade dos visitantes, ou preços 
+	e datas dos eventos.
+
+3. Faça a modelagem da base de dados utilizando um limite de 12 tabelas.
+4. Anexe junto ao documento a imagem do modelo ER.
+*/
+
+/* 3. Faça a modelagem da base de dados utilizando um limite de 12 tabelas. */
+
+CREATE TABLE visitante (
+ id SERIAL PRIMARY KEY,
+ nome VARCHAR(100) NOT NULL,
+ idade INTEGER NOT NULL,
+ identidade VARCHAR(25) UNIQUE NOT NULL
+);
+
+CREATE TABLE atracao (
+ id SERIAL PRIMARY KEY,
+ nome VARCHAR(100) NOT NULL,
+ tipo VARCHAR(50) NOT NULL,
+ duracao INTEGER NOT NULL,
+ capacidade INTEGER NOT NULL
+);
+
+CREATE TABLE funcionario (
+ id SERIAL PRIMARY KEY,
+ nome VARCHAR(100) NOT NULL,
+ cargo VARCHAR(50) NOT NULL,
+ data_contratacao DATE NOT NULL
+);
+
+CREATE TABLE ingresso (
+ id SERIAL PRIMARY KEY,
+ visitante_id INTEGER REFERENCES 
+visitante(id),
+ atracao_id INTEGER REFERENCES atracao(id),
+ data_compra DATE NOT NULL,
+ preco DECIMAL(5,2) NOT NULL
+);
+
+CREATE TABLE evento (
+ id SERIAL PRIMARY KEY,
+ nome VARCHAR(100) NOT NULL,
+ data_inicio DATE NOT NULL,
+ data_fim DATE NOT NULL,
+ local VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE atracao_evento (
+ atracao_id INTEGER REFERENCES atracao(id),
+ evento_id INTEGER REFERENCES evento(id),
+ PRIMARY KEY (atracao_id, evento_id)
+);
+
+CREATE TABLE funcionario_evento (
+ funcionario_id INTEGER REFERENCES funcionario(id),
+ evento_id INTEGER REFERENCES evento(id),
+ PRIMARY KEY (funcionario_id, evento_id)
+);
+
+CREATE TABLE visitante_evento (
+ visitante_id INTEGER REFERENCES visitante(id),
+ evento_id INTEGER REFERENCES evento(id),
+ PRIMARY KEY (visitante_id, evento_id)
+);
+
+CREATE TABLE atracao_avaliacao (
+ atracao_id INTEGER REFERENCES atracao(id),
+ nota DECIMAL(3,1) NOT NULL,
+ comentario TEXT
+);
+
+CREATE TABLE atracao_horario (
+ atracao_id INTEGER REFERENCES atracao(id),
+ horario TIME NOT NULL,
+ PRIMARY KEY (atracao_id, horario)
+);
+
+CREATE TABLE atracao_tipo (
+ atracao_id INTEGER REFERENCES atracao(id),
+ tipo VARCHAR(50) NOT NULL,
+ PRIMARY KEY (atracao_id, tipo)
+);
+
+CREATE TABLE atracao_capacidade (
+ atracao_id INTEGER REFERENCES atracao(id),
+ capacidade INTEGER NOT NULL,
+ PRIMARY KEY (atracao_id, capacidade)
+);
