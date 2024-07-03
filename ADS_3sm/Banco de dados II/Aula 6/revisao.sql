@@ -21,15 +21,53 @@ GROUP BY
 ----
 
 SELECT
-    city, count(customer_id) AS quantClientes
+    title,
+    COUNT(title) AS title_count
 FROM
-    city
-INNER JOIN
-    address USING(city_id)
-INNER JOIN
-    customer USING(address_id)
+    (
+        SELECT
+            film_id,
+            title,
+            release_year,
+            first_name || ' ' || last_name AS actor
+        FROM
+            film
+        INNER JOIN
+            film_actor USING (film_id)
+        INNER JOIN 
+            actor USING (actor_id)
+        WHERE
+            title LIKE 'AM%'
+    ) AS subquery
 GROUP BY
-    city.city_id
+    title
 ORDER BY
-    quantClientes DESC LIMIT 3;
+    title;
+----
+
+SELECT *
+FROM
+    film
+WHERE
+    film_id IN
+    (
+        SELECT DISTINCT
+            film_id
+        FROM
+            (
+                SELECT
+                    film_id,
+                    title,
+                    release_year,
+                    first_name || ' ' || last_name AS actor
+                FROM
+                    film
+                INNER JOIN
+                    film_actor USING (film_id)
+                INNER JOIN 
+                    actor USING (actor_id)
+                WHERE 
+                    title LIKE 'AM%'
+            ) AS subquery
+    );
 ----
