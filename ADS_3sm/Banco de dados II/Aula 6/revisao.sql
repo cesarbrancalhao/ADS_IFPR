@@ -71,3 +71,9 @@ WHERE
             ) AS subquery
     );
 ----
+
+-- checking views on postgres
+SELECT * FROM actor_info WHERE actor_id = 1;
+-- actor_info is a view
+SELECT * FROM film_list;
+----
