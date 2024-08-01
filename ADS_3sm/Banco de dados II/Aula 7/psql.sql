@@ -78,8 +78,6 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-SELECT data_formatada('20240723');
-
 CREATE OR REPLACE FUNCTION mes(month_param INTEGER)
 RETURNS TEXT AS $$
 BEGIN
@@ -108,4 +106,5 @@ CREATE TABLE teste(
 
 INSERT INTO teste(data) VALUES('20240723');
 SELECT * FROM teste;
-----
+
+SELECT id, data_formatada(data) FROM teste; -- Data formatada.
