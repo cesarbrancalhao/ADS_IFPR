@@ -1,0 +1,2 @@
+cd ADS_3sm/Banco\ de\ dados\ II/Docker/
+docker compose up -d

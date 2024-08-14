@@ -1,3 +1,4 @@
+# Setup geral do docker
 services:
  db:
     image: postgres:latest
@@ -5,6 +6,6 @@ services:
       - 5432:5432
     environment:
       - POSTGRES_PASSWORD=root
-      - POSTGRES_DB=pagila
+      - POSTGRES_DB=circo
     volumes:
       - ./data:/var/lib/postgresql/data
