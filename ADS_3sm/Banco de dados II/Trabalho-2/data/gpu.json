@@ -1,0 +1,464 @@
+[
+    {
+        "name": "GeForce RTX 4090",
+        "tdp": 450,
+        "vram": 24,
+        "3dmark": 35966,
+        "price": 15825
+    },
+    {
+        "name": "Radeon RX 7900 XTX",
+        "tdp": 355,
+        "vram": 24,
+        "3dmark": 29246,
+        "price": 8890
+    },
+    {
+        "name": "GeForce RTX 4080 SUPER",
+        "tdp": 320,
+        "vram": 16,
+        "3dmark": 28531,
+        "price": 9214
+    },
+    {
+        "name": "GeForce RTX 4080",
+        "tdp": 320,
+        "vram": 16,
+        "3dmark": 28063,
+        "price": 9534
+    },
+    {
+        "name": "Radeon RX 7900 XT",
+        "tdp": 315,
+        "vram": 20,
+        "3dmark": 25617,
+        "price": 6531
+    },
+    {
+        "name": "GeForce RTX 4070 Ti SUPER",
+        "tdp": 285,
+        "vram": 16,
+        "3dmark": 24426,
+        "price": 7430
+    },
+    {
+        "name": "GeForce RTX 4070 Ti",
+        "tdp": 285,
+        "vram": 12,
+        "3dmark": 22706,
+        "price": 7100
+    },
+    {
+        "name": "GeForce RTX 3090 Ti",
+        "tdp": 450,
+        "vram": 24,
+        "3dmark": 21741,
+        "price": 14970
+    },
+    {
+        "name": "Radeon RX 7900 GRE",
+        "tdp": 260,
+        "vram": 16,
+        "3dmark": 21644,
+        "price": 4974
+    },
+    {
+        "name": "GeForce RTX 4070 SUPER",
+        "tdp": 220,
+        "vram": 12,
+        "3dmark": 21214,
+        "price": 5308
+    },
+    {
+        "name": "Radeon RX 6900 XT",
+        "tdp": 300,
+        "vram": 16,
+        "3dmark": 20621,
+        "price": 3451
+    },
+    {
+        "name": "GeForce RTX 3090",
+        "tdp": 350,
+        "vram": 24,
+        "3dmark": 19901,
+        "price": 7951
+    },
+    {
+        "name": "Radeon RX 7800 XT",
+        "tdp": 263,
+        "vram": 16,
+        "3dmark": 19839,
+        "price": 4349
+    },
+    {
+        "name": "GeForce RTX 3080 Ti",
+        "tdp": 350,
+        "vram": 12,
+        "3dmark": 19592,
+        "price": 6150
+    },
+    {
+        "name": "Radeon RX 6800 XT",
+        "tdp": 300,
+        "vram": 16,
+        "3dmark": 19187,
+        "price": 4434
+    },
+    {
+        "name": "GeForce RTX 4070",
+        "tdp": 200,
+        "vram": 12,
+        "3dmark": 17846,
+        "price": 4747
+    },
+    {
+        "name": "GeForce RTX 3080",
+        "tdp": 320,
+        "vram": 10,
+        "3dmark": 17656,
+        "price": 7015
+    },
+    {
+        "name": "Radeon RX 7700 XT",
+        "tdp": 245,
+        "vram": 12,
+        "3dmark": 17245,
+        "price": 3380
+    },
+    {
+        "name": "Radeon RX 6800",
+        "tdp": 250,
+        "vram": 16,
+        "3dmark": 15972,
+        "price": 3194
+    },
+    {
+        "name": "GeForce RTX 3070 Ti",
+        "tdp": 290,
+        "vram": 8,
+        "3dmark": 14831,
+        "price": 3645
+    },
+    {
+        "name": "GeForce RTX 2080 Ti",
+        "tdp": 250,
+        "vram": 11,
+        "3dmark": 14628,
+        "price": 11064
+    },
+    {
+        "name": "GeForce RTX 3070",
+        "tdp": 220,
+        "vram": 8,
+        "3dmark": 13663,
+        "price": 3545
+    },
+    {
+        "name": "Radeon RX 6750 XT",
+        "tdp": 250,
+        "vram": 12,
+        "3dmark": 13595,
+        "price": 2597
+    },
+    {
+        "name": "GeForce RTX 4060 Ti",
+        "tdp": 160,
+        "vram": 8,
+        "3dmark": 13462,
+        "price": 3163
+    },
+    {
+        "name": "Radeon RX 6700 XT",
+        "tdp": 230,
+        "vram": 12,
+        "3dmark": 12808,
+        "price": 2629
+    },
+    {
+        "name": "GeForce RTX 3060 Ti",
+        "tdp": 200,
+        "vram": 8,
+        "3dmark": 11744,
+        "price": 2463
+    },
+    {
+        "name": "Radeon RX 7600 XT",
+        "tdp": 190,
+        "vram": 16,
+        "3dmark": 11379,
+        "price": 2610
+    },
+    {
+        "name": "Radeon RX 7600",
+        "tdp": 165,
+        "vram": 8,
+        "3dmark": 10817,
+        "price": 2032
+    },
+    {
+        "name": "GeForce RTX 4060",
+        "tdp": 115,
+        "vram": 8,
+        "3dmark": 10630,
+        "price": 2252
+    },
+    {
+        "name": "GeForce RTX 2070 SUPER",
+        "tdp": 215,
+        "vram": 8,
+        "3dmark": 10182,
+        "price": 4322
+    },
+    {
+        "name": "Radeon RX 6650 XT",
+        "tdp": 176,
+        "vram": 8,
+        "3dmark": 10027,
+        "price": 1665
+    },
+    {
+        "name": "Radeon RX 6600 XT",
+        "tdp": 160,
+        "vram": 8,
+        "3dmark": 9707,
+        "price": 1891
+    },
+    {
+        "name": "GeForce RTX 2060 SUPER",
+        "tdp": 175,
+        "vram": 8,
+        "3dmark": 8781,
+        "price": 3206
+    },
+    {
+        "name": "GeForce RTX 3060",
+        "tdp": 170,
+        "vram": 12,
+        "3dmark": 8739,
+        "price": 1562
+    },
+    {
+        "name": "Radeon RX 6600",
+        "tdp": 132,
+        "vram": 8,
+        "3dmark": 8158,
+        "price": 1543
+    },
+    {
+        "name": "GeForce RTX 2060",
+        "tdp": 160,
+        "vram": 6,
+        "3dmark": 7601,
+        "price": 3481
+    },
+    {
+        "name": "GeForce RTX 3050",
+        "tdp": 130,
+        "vram": 8,
+        "3dmark": 6205,
+        "price": 1523
+    },
+    {
+        "name": "GeForce GTX 1660 SUPER",
+        "tdp": 125,
+        "vram": 6,
+        "3dmark": 6078,
+        "price": 2022
+    },
+    {
+        "name": "GeForce GTX 980 Ti",
+        "tdp": 250,
+        "vram": 6,
+        "3dmark": 5792,
+        "price": 4364
+    },
+    {
+        "name": "GeForce GTX 1660",
+        "tdp": 120,
+        "vram": 6,
+        "3dmark": 5454,
+        "price": 2992
+    },
+    {
+        "name": "Radeon RX 6500 XT",
+        "tdp": 107,
+        "vram": 4,
+        "3dmark": 4973,
+        "price": 1170
+    },
+    {
+        "name": "Radeon RX 5500",
+        "tdp": 150,
+        "vram": 4,
+        "3dmark": 4781,
+        "price": 4803
+    },
+    {
+        "name": "GeForce GTX 1650 SUPER",
+        "tdp": 100,
+        "vram": 4,
+        "3dmark": 4702,
+        "price": 1632
+    },
+    {
+        "name": "Radeon RX 580",
+        "tdp": 185,
+        "vram": 8,
+        "3dmark": 4346,
+        "price": 949
+    },
+    {
+        "name": "GeForce GTX 1060",
+        "tdp": 120,
+        "vram": 6,
+        "3dmark": 4215,
+        "price": 2458
+    },
+    {
+        "name": "Radeon RX 6400",
+        "tdp": 53,
+        "vram": 4,
+        "3dmark": 3622,
+        "price": 1109
+    },
+    {
+        "name": "GeForce GTX 1650",
+        "tdp": 75,
+        "vram": 4,
+        "3dmark": 3552,
+        "price": 1031
+    },
+    {
+        "name": "GeForce GTX 780 Ti",
+        "tdp": 250,
+        "vram": 3,
+        "3dmark": 3373,
+        "price": 3803
+    },
+    {
+        "name": "Radeon R9 380",
+        "tdp": 190,
+        "vram": 4,
+        "3dmark": 2754,
+        "price": 1687
+    },
+    {
+        "name": "Radeon R9 280X",
+        "tdp": 250,
+        "vram": 3,
+        "3dmark": 2390,
+        "price": 1831
+    },
+    {
+        "name": "GeForce GTX 1050 Ti",
+        "tdp": 75,
+        "vram": 4,
+        "3dmark": 2356,
+        "price": 1324
+    },
+    {
+        "name": "GeForce GTX 960",
+        "tdp": 120,
+        "vram": 4,
+        "3dmark": 2303,
+        "price": 920
+    },
+    {
+        "name": "Radeon R9 280",
+        "tdp": 250,
+        "vram": 3,
+        "3dmark": 2076,
+        "price": 1795
+    },
+    {
+        "name": "GeForce GTX 950",
+        "tdp": 90,
+        "vram": 2,
+        "3dmark": 1909,
+        "price": 806
+    },
+    {
+        "name": "GeForce GTX 1050",
+        "tdp": 75,
+        "vram": 2,
+        "3dmark": 1861,
+        "price": 1722
+    },
+    {
+        "name": "Radeon RX 560",
+        "tdp": 80,
+        "vram": 4,
+        "3dmark": 1860,
+        "price": 1455
+    },
+    {
+        "name": "Radeon RX 460",
+        "tdp": 75,
+        "vram": 4,
+        "3dmark": 1760,
+        "price": 1453
+    },
+    {
+        "name": "Radeon Pro WX 4100",
+        "tdp": 50,
+        "vram": 4,
+        "3dmark": 1541,
+        "price": 904
+    },
+    {
+        "name": "Radeon R7 260X",
+        "tdp": 115,
+        "vram": 2,
+        "3dmark": 1469,
+        "price": 1506
+    },
+    {
+        "name": "Radeon R9 370",
+        "tdp": 150,
+        "vram": 4,
+        "3dmark": 1456,
+        "price": 1489
+    },
+    {
+        "name": "Radeon R7 360",
+        "tdp": 100,
+        "vram": 2,
+        "3dmark": 1368,
+        "price": 952
+    },
+    {
+        "name": "Radeon HD 7850",
+        "tdp": 130,
+        "vram": 2,
+        "3dmark": 1337,
+        "price": 1567
+    },
+    {
+        "name": "GeForce GTX 750 Ti",
+        "tdp": 60,
+        "vram": 4,
+        "3dmark": 1278,
+        "price": 1292
+    },
+    {
+        "name": "Radeon RX 550",
+        "tdp": 50,
+        "vram": 4,
+        "3dmark": 1195,
+        "price": 480
+    },
+    {
+        "name": "GeForce GTX 650 Ti BOOST",
+        "tdp": 134,
+        "vram": 2,
+        "3dmark": 1111,
+        "price": 838
+    },
+    {
+        "name": "GeForce GTX 750",
+        "tdp": 55,
+        "vram": 2,
+        "3dmark": 1062,
+        "price": 1008
+    }
+]

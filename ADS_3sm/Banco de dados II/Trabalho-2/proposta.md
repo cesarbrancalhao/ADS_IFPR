@@ -1,14 +1,20 @@
-Proposta: Atleticard.
+Proposta: Coeus
 
-Sistema de tracking de desempenho atlético.
-O sistema deve armazenar dados e avaliar o desempenho recente de atletas afim de selecionar os melhores competidores disponíveis para participar de competições e torneios teóricos.
-Os dados armazenados incluem características físicas dos atletas, bem como suas colocações em competições e quaisquer outros dados relevantes para o esporte.
-Dado o objetivo e tempo disponível da atividade, o escopo do sistema se limitará a esportes individuais, os atletas não serão avaliados por trabalho em equipe.
-Os dados são coletados de testes, treinos, outros torneios, competições ou amistosos, sendo diferentes para cada esporte e para cada método de avaliação.
-O sistema terá as funções de:
+Sistema de auxílio para montagem de computador desktop.
+Dados:
+- O sistema deve armazenar dados sobre peças de computador e avaliar o desempenho, preço, compatibilidade e consumo de energia para definir a melhor combinação para desktop disponível.
+- Os dados utilizados para o cálculo incluem CPU (Processador), GPU (Placa de vídeo), Placa Mãe, RAM (Memória), HDD/SSD (Armazenamento), PSU (Fonte de energia) e Cooler (Resfriador de CPU).
+    - Dado o objetivo e tempo disponível da atividade, o escopo do sistema se limitará a CPUs das marcas Intel e AMD e GPUs das marcas NVIDIA e AMD.
+    - Itens para mobile, laptops, servidores e mineração serão excluídos do dataset pois possuem métodos de avaliação inconstantes e resultam em dados inconsistentes.
+    - Serão gerados dados genáricos para Placas-mães, RAMs, SSDs ,PSUs e Coolers, pois os mesmos contém de dezenas a milhares de itens de diferentes marcas para os mesmos modelos, funções e peças.
+- Os preços dos itens no dataset base foram coletados em 19/08/2024 do site Amazon e convertidos para a cotação do dólar de 22/08/2024 (5.48) + ([impostos](./data/data.js)).
+- Estimativas como o cálculo de bottleneck (gargalo) e o consumo de energia das peças serão feitas a partir de uma [formula especulativa](./data/data.js) a partir de observações de resultados em aplicativos de análise de perfomance.
 
-- Avaliar a frequência com que esses atletas ganham ou perdem e a média de pontos que fazem em cada parâmetro de avaliação.
-- Analisar a tendência (curva de desempenho) desse atleta em jogos recentes e no geral.
-- Buscar atletas dentro de intervalos definidos pelo usuário, como os 10 atletas com maior número de vitórias entre 18 e 21 anos.
-- Analisar potencial de atletas através da curva de desempenho em relação à frequência.
-- Estimar probabilidade de vitória dos próximos jogos utilizando uma análise de histórico de comportamento.
+Funções:
+- Analisar e encontrar a melhor combinação possível dentro de um orçamento.
+- Determinar a melhor combinação dada uma GPU ou CPU (calculando bottleneck).
+- Calcular e criar um ranking dos melhores custos-benefícios de GPU ou CPU.
+- Buscar e listar itens ideais dentro de intervalos definidos pelo usuário, como as 10 GPUs com maior VRAM e preço abaixo de 500.
+- Determinar o consumo de energia médio dado um número de horas médio de uso diário e o tipo de atividade mais exercida pelo computador.
+
+- [Tables](./tables.sql)

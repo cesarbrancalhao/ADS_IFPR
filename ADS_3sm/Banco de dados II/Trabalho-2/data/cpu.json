@@ -1,0 +1,6167 @@
+[
+    {
+        "name": "Intel Core i9-14900KS",
+        "cores": 24,
+        "totalbench": 63061,
+        "threadbench": 4879,
+        "tdp": 150,
+        "socket": "Intel_Socket",
+        "price": 643
+    },
+    {
+        "name": "AMD Ryzen 9 7950X",
+        "cores": 16,
+        "totalbench": 62772,
+        "threadbench": 4279,
+        "tdp": 170,
+        "socket": "AMD_Socket",
+        "price": 449
+    },
+    {
+        "name": "AMD Ryzen 9 7950X3D",
+        "cores": 16,
+        "totalbench": 62417,
+        "threadbench": 4142,
+        "tdp": 120,
+        "socket": "AMD_Socket",
+        "price": 449
+    },
+    {
+        "name": "Intel Core i9-13900KS",
+        "cores": 24,
+        "totalbench": 61726,
+        "threadbench": 4753,
+        "tdp": 150,
+        "socket": "Intel_Socket",
+        "price": 599
+    },
+    {
+        "name": "Intel Core i9-14900K",
+        "cores": 24,
+        "totalbench": 60515,
+        "threadbench": 4749,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 545
+    },
+    {
+        "name": "Intel Core i9-14900KF",
+        "cores": 24,
+        "totalbench": 59821,
+        "threadbench": 4717,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 536
+    },
+    {
+        "name": "Intel Core i9-13900K",
+        "cores": 24,
+        "totalbench": 59184,
+        "threadbench": 4627,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 469
+    },
+    {
+        "name": "Intel Core i9-13900KF",
+        "cores": 24,
+        "totalbench": 58546,
+        "threadbench": 4618,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 501
+    },
+    {
+        "name": "AMD Ryzen 9 9900X",
+        "cores": 12,
+        "totalbench": 53863,
+        "threadbench": 4652,
+        "tdp": 120,
+        "socket": "AMD_Socket",
+        "price": 499
+    },
+    {
+        "name": "Intel Core i7-14700K",
+        "cores": 20,
+        "totalbench": 53411,
+        "threadbench": 4473,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 397
+    },
+    {
+        "name": "Intel Core i7-14700KF",
+        "cores": 20,
+        "totalbench": 53275,
+        "threadbench": 4478,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 392
+    },
+    {
+        "name": "AMD Ryzen 9 7900X",
+        "cores": 12,
+        "totalbench": 51806,
+        "threadbench": 4262,
+        "tdp": 170,
+        "socket": "AMD_Socket",
+        "price": 319
+    },
+    {
+        "name": "Intel Core i9-13900F",
+        "cores": 24,
+        "totalbench": 51307,
+        "threadbench": 4435,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 475
+    },
+    {
+        "name": "AMD Ryzen 9 7900X3D",
+        "cores": 12,
+        "totalbench": 50348,
+        "threadbench": 4123,
+        "tdp": 120,
+        "socket": "AMD_Socket",
+        "price": 349
+    },
+    {
+        "name": "AMD Ryzen 9 7900",
+        "cores": 12,
+        "totalbench": 48836,
+        "threadbench": 4150,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 369
+    },
+    {
+        "name": "Intel Core i9-14900",
+        "cores": 24,
+        "totalbench": 47778,
+        "threadbench": 4537,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 578
+    },
+    {
+        "name": "Intel Core i9-14900F",
+        "cores": 24,
+        "totalbench": 47527,
+        "threadbench": 4551,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 528
+    },
+    {
+        "name": "Intel Core i9-13900",
+        "cores": 24,
+        "totalbench": 47357,
+        "threadbench": 4344,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 578
+    },
+    {
+        "name": "Intel Core i7-13700K",
+        "cores": 16,
+        "totalbench": 46482,
+        "threadbench": 4360,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 335
+    },
+    {
+        "name": "Intel Core i7-13790F",
+        "cores": 16,
+        "totalbench": 46309,
+        "threadbench": 4159,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 459
+    },
+    {
+        "name": "Intel Core i7-13700KF",
+        "cores": 16,
+        "totalbench": 46242,
+        "threadbench": 4351,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 299
+    },
+    {
+        "name": "AMD Ryzen 9 5950X",
+        "cores": 16,
+        "totalbench": 45638,
+        "threadbench": 3469,
+        "tdp": 105,
+        "socket": "AMD_Socket",
+        "price": 358
+    },
+    {
+        "name": "AMD Ryzen 9 5900XT",
+        "cores": 16,
+        "totalbench": 45340,
+        "threadbench": 3301,
+        "tdp": 105,
+        "socket": "AMD_Socket",
+        "price": 349
+    },
+    {
+        "name": "Intel Core i9-14900T",
+        "cores": 24,
+        "totalbench": 44248,
+        "threadbench": 4192,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 549
+    },
+    {
+        "name": "Intel Core i7-14700F",
+        "cores": 20,
+        "totalbench": 44214,
+        "threadbench": 4325,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 362
+    },
+    {
+        "name": "Intel Core i9-13900T",
+        "cores": 24,
+        "totalbench": 44059,
+        "threadbench": 4209,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 549
+    },
+    {
+        "name": "Intel Core i9-12900KS",
+        "cores": 16,
+        "totalbench": 44012,
+        "threadbench": 4345,
+        "tdp": 150,
+        "socket": "Intel_Socket",
+        "price": 389
+    },
+    {
+        "name": "Intel Core i7-14700",
+        "cores": 20,
+        "totalbench": 43842,
+        "threadbench": 4210,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 394
+    },
+    {
+        "name": "Intel Core i9-12900K",
+        "cores": 16,
+        "totalbench": 41489,
+        "threadbench": 4165,
+        "tdp": 241,
+        "socket": "Intel_Socket",
+        "price": 308
+    },
+    {
+        "name": "Intel Core i9-12900KF",
+        "cores": 16,
+        "totalbench": 41135,
+        "threadbench": 4163,
+        "tdp": 241,
+        "socket": "Intel_Socket",
+        "price": 279
+    },
+    {
+        "name": "Intel Core i5-14600KF",
+        "cores": 14,
+        "totalbench": 39399,
+        "threadbench": 4295,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 304
+    },
+    {
+        "name": "Intel Core i5-14600K",
+        "cores": 14,
+        "totalbench": 39234,
+        "threadbench": 4283,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 299
+    },
+    {
+        "name": "AMD Ryzen 9 5900X",
+        "cores": 12,
+        "totalbench": 39145,
+        "threadbench": 3470,
+        "tdp": 105,
+        "socket": "AMD_Socket",
+        "price": 261
+    },
+    {
+        "name": "Intel Core i7-13700F",
+        "cores": 16,
+        "totalbench": 38892,
+        "threadbench": 4125,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 359
+    },
+    {
+        "name": "AMD Ryzen 9 3950X",
+        "cores": 16,
+        "totalbench": 38769,
+        "threadbench": 2705,
+        "tdp": 105,
+        "socket": "AMD_Socket",
+        "price": 485
+    },
+    {
+        "name": "Intel Core i7-14700T",
+        "cores": 20,
+        "totalbench": 38482,
+        "threadbench": 4060,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 384
+    },
+    {
+        "name": "Intel Core i5-13600K",
+        "cores": 14,
+        "totalbench": 37983,
+        "threadbench": 4139,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 228
+    },
+    {
+        "name": "Intel Core i5-13600KF",
+        "cores": 14,
+        "totalbench": 37833,
+        "threadbench": 4133,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 240
+    },
+    {
+        "name": "Intel Core i7-13700",
+        "cores": 16,
+        "totalbench": 37118,
+        "threadbench": 4136,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 319
+    },
+    {
+        "name": "Intel Core i9-12900F",
+        "cores": 16,
+        "totalbench": 36752,
+        "threadbench": 4071,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 348
+    },
+    {
+        "name": "AMD Ryzen 7 7700X",
+        "cores": 8,
+        "totalbench": 35911,
+        "threadbench": 4201,
+        "tdp": 105,
+        "socket": "AMD_Socket",
+        "price": 219
+    },
+    {
+        "name": "Intel Core i5-14600",
+        "cores": 14,
+        "totalbench": 35047,
+        "threadbench": 4073,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 255
+    },
+    {
+        "name": "Intel Core i7-12700K",
+        "cores": 12,
+        "totalbench": 34612,
+        "threadbench": 4031,
+        "tdp": 190,
+        "socket": "Intel_Socket",
+        "price": 409
+    },
+    {
+        "name": "AMD Ryzen 7 7700",
+        "cores": 8,
+        "totalbench": 34546,
+        "threadbench": 4058,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 280
+    },
+    {
+        "name": "Intel Core i7-12700KF",
+        "cores": 12,
+        "totalbench": 34388,
+        "threadbench": 4014,
+        "tdp": 190,
+        "socket": "Intel_Socket",
+        "price": 194
+    },
+    {
+        "name": "Intel Core i9-12900",
+        "cores": 16,
+        "totalbench": 34297,
+        "threadbench": 4048,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 259
+    },
+    {
+        "name": "AMD Ryzen 7 7800X3D",
+        "cores": 8,
+        "totalbench": 34238,
+        "threadbench": 3748,
+        "tdp": 120,
+        "socket": "AMD_Socket",
+        "price": 318
+    },
+    {
+        "name": "Intel Core i9-10980XE",
+        "cores": 18,
+        "totalbench": 32784,
+        "threadbench": 2652,
+        "tdp": 165,
+        "socket": "Intel_Socket",
+        "price": 850
+    },
+    {
+        "name": "AMD Ryzen 9 3900XT",
+        "cores": 12,
+        "totalbench": 32682,
+        "threadbench": 2745,
+        "tdp": 105,
+        "socket": "AMD_Socket",
+        "price": 325
+    },
+    {
+        "name": "Intel Core i5-14500",
+        "cores": 14,
+        "totalbench": 32669,
+        "threadbench": 4007,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 239
+    },
+    {
+        "name": "AMD Ryzen 9 3900X",
+        "cores": 12,
+        "totalbench": 32636,
+        "threadbench": 2706,
+        "tdp": 105,
+        "socket": "AMD_Socket",
+        "price": 209
+    },
+    {
+        "name": "Intel Core i5-13600",
+        "cores": 14,
+        "totalbench": 32148,
+        "threadbench": 4044,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 255
+    },
+    {
+        "name": "Intel Core i9-9980XE",
+        "cores": 18,
+        "totalbench": 32067,
+        "threadbench": 2564,
+        "tdp": 165,
+        "socket": "Intel_Socket",
+        "price": 1050
+    },
+    {
+        "name": "Intel Core i5-13500",
+        "cores": 14,
+        "totalbench": 31981,
+        "threadbench": 3887,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 243
+    },
+    {
+        "name": "AMD Ryzen 7 8700G",
+        "cores": 8,
+        "totalbench": 31707,
+        "threadbench": 3928,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 297
+    },
+    {
+        "name": "AMD Ryzen 9 3900",
+        "cores": 12,
+        "totalbench": 30801,
+        "threadbench": 2622,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 504
+    },
+    {
+        "name": "Intel Core i7-12700",
+        "cores": 12,
+        "totalbench": 30776,
+        "threadbench": 3912,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 264
+    },
+    {
+        "name": "Intel Core i7-12700F",
+        "cores": 12,
+        "totalbench": 30661,
+        "threadbench": 3873,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 248
+    },
+    {
+        "name": "AMD Ryzen 5 9600X",
+        "cores": 6,
+        "totalbench": 30510,
+        "threadbench": 4512,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 279
+    },
+    {
+        "name": "AMD Ryzen 7 8700F",
+        "cores": 8,
+        "totalbench": 30508,
+        "threadbench": 3880,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 261
+    },
+    {
+        "name": "Intel Core i9-9960X",
+        "cores": 16,
+        "totalbench": 30360,
+        "threadbench": 2608,
+        "tdp": 165,
+        "socket": "Intel_Socket",
+        "price": 499
+    },
+    {
+        "name": "Intel Core i9-9990XE",
+        "cores": 14,
+        "totalbench": 30162,
+        "threadbench": 2970,
+        "tdp": 255,
+        "socket": "Intel_Socket",
+        "price": 2163
+    },
+    {
+        "name": "Intel Core i9-7980XE",
+        "cores": 18,
+        "totalbench": 30117,
+        "threadbench": 2476,
+        "tdp": 165,
+        "socket": "Intel_Socket",
+        "price": 956
+    },
+    {
+        "name": "Intel Core i9-12900T",
+        "cores": 16,
+        "totalbench": 30056,
+        "threadbench": 3819,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 489
+    },
+    {
+        "name": "Intel Core i5-14600T",
+        "cores": 14,
+        "totalbench": 29449,
+        "threadbench": 4153,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 255
+    },
+    {
+        "name": "Intel Core i9-7960X",
+        "cores": 16,
+        "totalbench": 28833,
+        "threadbench": 2497,
+        "tdp": 165,
+        "socket": "Intel_Socket",
+        "price": 400
+    },
+    {
+        "name": "AMD Ryzen 5 7600X",
+        "cores": 6,
+        "totalbench": 28479,
+        "threadbench": 4147,
+        "tdp": 105,
+        "socket": "AMD_Socket",
+        "price": 192
+    },
+    {
+        "name": "AMD Ryzen 7 5800X3D",
+        "cores": 8,
+        "totalbench": 28280,
+        "threadbench": 3230,
+        "tdp": 105,
+        "socket": "AMD_Socket",
+        "price": 329
+    },
+    {
+        "name": "Intel Core i9-9940X",
+        "cores": 14,
+        "totalbench": 27983,
+        "threadbench": 2630,
+        "tdp": 165,
+        "socket": "Intel_Socket",
+        "price": 959
+    },
+    {
+        "name": "Intel Core i9-10940X",
+        "cores": 14,
+        "totalbench": 27907,
+        "threadbench": 2666,
+        "tdp": 165,
+        "socket": "Intel_Socket",
+        "price": 720
+    },
+    {
+        "name": "AMD Ryzen 7 5800X",
+        "cores": 8,
+        "totalbench": 27866,
+        "threadbench": 3445,
+        "tdp": 105,
+        "socket": "AMD_Socket",
+        "price": 171
+    },
+    {
+        "name": "Intel Core i5-12600K",
+        "cores": 10,
+        "totalbench": 27712,
+        "threadbench": 3948,
+        "tdp": 150,
+        "socket": "Intel_Socket",
+        "price": 175
+    },
+    {
+        "name": "Intel Core i5-12600KF",
+        "cores": 10,
+        "totalbench": 27606,
+        "threadbench": 3927,
+        "tdp": 150,
+        "socket": "Intel_Socket",
+        "price": 146
+    },
+    {
+        "name": "Intel Core i5-13490F",
+        "cores": 10,
+        "totalbench": 27496,
+        "threadbench": 3894,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 199
+    },
+    {
+        "name": "Intel Core i7-13700T",
+        "cores": 16,
+        "totalbench": 27185,
+        "threadbench": 3882,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 384
+    },
+    {
+        "name": "Intel Core i5-13600T",
+        "cores": 14,
+        "totalbench": 27166,
+        "threadbench": 3731,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 255
+    },
+    {
+        "name": "AMD Ryzen 5 7600",
+        "cores": 6,
+        "totalbench": 27112,
+        "threadbench": 3912,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 182
+    },
+    {
+        "name": "AMD Ryzen 7 5700X",
+        "cores": 8,
+        "totalbench": 26674,
+        "threadbench": 3383,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 154
+    },
+    {
+        "name": "AMD Ryzen 7 5700X3D",
+        "cores": 8,
+        "totalbench": 26338,
+        "threadbench": 2981,
+        "tdp": 105,
+        "socket": "AMD_Socket",
+        "price": 204
+    },
+    {
+        "name": "Intel Core i9-10920X",
+        "cores": 12,
+        "totalbench": 26238,
+        "threadbench": 2724,
+        "tdp": 165,
+        "socket": "Intel_Socket",
+        "price": 659
+    },
+    {
+        "name": "Intel Core i9-7940X",
+        "cores": 14,
+        "totalbench": 26025,
+        "threadbench": 2488,
+        "tdp": 165,
+        "socket": "Intel_Socket",
+        "price": 317
+    },
+    {
+        "name": "Intel Core i5-14400",
+        "cores": 10,
+        "totalbench": 25815,
+        "threadbench": 3785,
+        "tdp": 148,
+        "socket": "Intel_Socket",
+        "price": 219
+    },
+    {
+        "name": "Intel Core i5-14400T",
+        "cores": 10,
+        "totalbench": 25774,
+        "threadbench": 3741,
+        "tdp": 82,
+        "socket": "Intel_Socket",
+        "price": 221
+    },
+    {
+        "name": "Intel Core i5-14400F",
+        "cores": 10,
+        "totalbench": 25667,
+        "threadbench": 3695,
+        "tdp": 148,
+        "socket": "Intel_Socket",
+        "price": 199
+    },
+    {
+        "name": "AMD Ryzen 5 8600G",
+        "cores": 6,
+        "totalbench": 25287,
+        "threadbench": 3865,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 181
+    },
+    {
+        "name": "Intel Core i9-11900K",
+        "cores": 8,
+        "totalbench": 25271,
+        "threadbench": 3517,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 249
+    },
+    {
+        "name": "Intel Core i5-13400F",
+        "cores": 10,
+        "totalbench": 25207,
+        "threadbench": 3651,
+        "tdp": 148,
+        "socket": "Intel_Socket",
+        "price": 186
+    },
+    {
+        "name": "Intel Core i9-9920X",
+        "cores": 12,
+        "totalbench": 25163,
+        "threadbench": 2639,
+        "tdp": 165,
+        "socket": "Intel_Socket",
+        "price": 575
+    },
+    {
+        "name": "Intel Core i9-11900KF",
+        "cores": 8,
+        "totalbench": 25071,
+        "threadbench": 3541,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 223
+    },
+    {
+        "name": "Intel Core i7-11700K",
+        "cores": 8,
+        "totalbench": 24620,
+        "threadbench": 3406,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 209
+    },
+    {
+        "name": "AMD Ryzen 7 5700G",
+        "cores": 8,
+        "totalbench": 24553,
+        "threadbench": 3283,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 158
+    },
+    {
+        "name": "AMD Ryzen 5 8400F",
+        "cores": 6,
+        "totalbench": 24359,
+        "threadbench": 3668,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 157
+    },
+    {
+        "name": "Intel Core i7-11700KF",
+        "cores": 8,
+        "totalbench": 23965,
+        "threadbench": 3383,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 229
+    },
+    {
+        "name": "Intel Core i5-14500T",
+        "cores": 14,
+        "totalbench": 23809,
+        "threadbench": 3721,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 232
+    },
+    {
+        "name": "Intel Core i9-7920X",
+        "cores": 12,
+        "totalbench": 23680,
+        "threadbench": 2508,
+        "tdp": 140,
+        "socket": "Intel_Socket",
+        "price": 299
+    },
+    {
+        "name": "AMD Ryzen 7 3800XT",
+        "cores": 8,
+        "totalbench": 23622,
+        "threadbench": 2802,
+        "tdp": 105,
+        "socket": "AMD_Socket",
+        "price": 559
+    },
+    {
+        "name": "Intel Core i5-13500T",
+        "cores": 14,
+        "totalbench": 23282,
+        "threadbench": 3639,
+        "tdp": 92,
+        "socket": "Intel_Socket",
+        "price": 232
+    },
+    {
+        "name": "AMD Ryzen 7 3800X",
+        "cores": 8,
+        "totalbench": 23157,
+        "threadbench": 2718,
+        "tdp": 105,
+        "socket": "AMD_Socket",
+        "price": 158
+    },
+    {
+        "name": "Intel Core i5-13400",
+        "cores": 10,
+        "totalbench": 23120,
+        "threadbench": 3439,
+        "tdp": 154,
+        "socket": "Intel_Socket",
+        "price": 179
+    },
+    {
+        "name": "Intel Core i9-11900",
+        "cores": 8,
+        "totalbench": 22932,
+        "threadbench": 3426,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 265
+    },
+    {
+        "name": "AMD Ryzen 7 PRO 3700",
+        "cores": 8,
+        "totalbench": 22902,
+        "threadbench": 2685,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 329
+    },
+    {
+        "name": "Intel Core i9-11900KB",
+        "cores": 8,
+        "totalbench": 22894,
+        "threadbench": 3303,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 539
+    },
+    {
+        "name": "Intel Core i9-10900K",
+        "cores": 10,
+        "totalbench": 22837,
+        "threadbench": 3132,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 379
+    },
+    {
+        "name": "Intel Core i9-10900KF",
+        "cores": 10,
+        "totalbench": 22566,
+        "threadbench": 3119,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 249
+    },
+    {
+        "name": "AMD Ryzen 7 3700X",
+        "cores": 8,
+        "totalbench": 22555,
+        "threadbench": 2660,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 97
+    },
+    {
+        "name": "Intel Core i9-10900X",
+        "cores": 10,
+        "totalbench": 22472,
+        "threadbench": 2681,
+        "tdp": 165,
+        "socket": "Intel_Socket",
+        "price": 605
+    },
+    {
+        "name": "Intel Core i9-10850K",
+        "cores": 10,
+        "totalbench": 22418,
+        "threadbench": 3079,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 260
+    },
+    {
+        "name": "Intel Core i9-11900F",
+        "cores": 8,
+        "totalbench": 22337,
+        "threadbench": 3409,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 210
+    },
+    {
+        "name": "AMD Ryzen 5 5600X",
+        "cores": 6,
+        "totalbench": 21891,
+        "threadbench": 3360,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 119
+    },
+    {
+        "name": "Intel Core i9-9900X",
+        "cores": 10,
+        "totalbench": 21823,
+        "threadbench": 2561,
+        "tdp": 165,
+        "socket": "Intel_Socket",
+        "price": 556
+    },
+    {
+        "name": "AMD Ryzen 5 8500G",
+        "cores": 6,
+        "totalbench": 21643,
+        "threadbench": 3907,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 158
+    },
+    {
+        "name": "AMD Ryzen 5 5600",
+        "cores": 6,
+        "totalbench": 21571,
+        "threadbench": 3258,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 99
+    },
+    {
+        "name": "Intel Core i7-12700T",
+        "cores": 12,
+        "totalbench": 21561,
+        "threadbench": 3629,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 339
+    },
+    {
+        "name": "Intel Core i5-12600",
+        "cores": 6,
+        "totalbench": 21264,
+        "threadbench": 3812,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 271
+    },
+    {
+        "name": "Intel Core i5-13400T",
+        "cores": 10,
+        "totalbench": 21105,
+        "threadbench": 3503,
+        "tdp": 82,
+        "socket": "Intel_Socket",
+        "price": 221
+    },
+    {
+        "name": "Intel Core i9-7900X",
+        "cores": 10,
+        "totalbench": 21099,
+        "threadbench": 2559,
+        "tdp": 140,
+        "socket": "Intel_Socket",
+        "price": 325
+    },
+    {
+        "name": "Intel Core i7-11700F",
+        "cores": 8,
+        "totalbench": 21016,
+        "threadbench": 3286,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 145
+    },
+    {
+        "name": "AMD Ryzen 7 PRO 4750G",
+        "cores": 8,
+        "totalbench": 20467,
+        "threadbench": 2714,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 345
+    },
+    {
+        "name": "Intel Core i5-12490F",
+        "cores": 6,
+        "totalbench": 20418,
+        "threadbench": 3720,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 119
+    },
+    {
+        "name": "AMD Ryzen 5 5500GT",
+        "cores": 6,
+        "totalbench": 20287,
+        "threadbench": 3217,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 125
+    },
+    {
+        "name": "AMD Ryzen 5 5600GT",
+        "cores": 6,
+        "totalbench": 20173,
+        "threadbench": 3348,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 137
+    },
+    {
+        "name": "AMD Ryzen 7 4700G",
+        "cores": 8,
+        "totalbench": 20149,
+        "threadbench": 2742,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 235
+    },
+    {
+        "name": "Intel Core i9-9820X",
+        "cores": 10,
+        "totalbench": 20114,
+        "threadbench": 2456,
+        "tdp": 165,
+        "socket": "Intel_Socket",
+        "price": 450
+    },
+    {
+        "name": "Intel Core i9-10900F",
+        "cores": 10,
+        "totalbench": 19978,
+        "threadbench": 3030,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 217
+    },
+    {
+        "name": "Intel Core i5-12500",
+        "cores": 6,
+        "totalbench": 19888,
+        "threadbench": 3689,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 202
+    },
+    {
+        "name": "AMD Ryzen 5 5600G",
+        "cores": 6,
+        "totalbench": 19888,
+        "threadbench": 3191,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 142
+    },
+    {
+        "name": "Intel Core i9-10900",
+        "cores": 10,
+        "totalbench": 19837,
+        "threadbench": 3030,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 399
+    },
+    {
+        "name": "Intel Core i7-11700",
+        "cores": 8,
+        "totalbench": 19755,
+        "threadbench": 3118,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 189
+    },
+    {
+        "name": "Intel Core i5-11600KF",
+        "cores": 6,
+        "totalbench": 19633,
+        "threadbench": 3342,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 116
+    },
+    {
+        "name": "Intel Core i5-11600K",
+        "cores": 6,
+        "totalbench": 19603,
+        "threadbench": 3350,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 138
+    },
+    {
+        "name": "Intel Core i5-12400F",
+        "cores": 6,
+        "totalbench": 19537,
+        "threadbench": 3503,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 89
+    },
+    {
+        "name": "Intel Core i9-9900KS",
+        "cores": 8,
+        "totalbench": 19495,
+        "threadbench": 3037,
+        "tdp": 127,
+        "socket": "Intel_Socket",
+        "price": 399
+    },
+    {
+        "name": "AMD Ryzen 5 5500",
+        "cores": 6,
+        "totalbench": 19423,
+        "threadbench": 3059,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 87
+    },
+    {
+        "name": "Intel Core i5-12400",
+        "cores": 6,
+        "totalbench": 19387,
+        "threadbench": 3524,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 192
+    },
+    {
+        "name": "Intel Core i9-11900T",
+        "cores": 8,
+        "totalbench": 18968,
+        "threadbench": 3326,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 439
+    },
+    {
+        "name": "Intel Core i7-10700K",
+        "cores": 8,
+        "totalbench": 18801,
+        "threadbench": 3052,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 249
+    },
+    {
+        "name": "AMD Ryzen 5 3600XT",
+        "cores": 6,
+        "totalbench": 18646,
+        "threadbench": 2760,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 369
+    },
+    {
+        "name": "Intel Core i7-10700KF",
+        "cores": 8,
+        "totalbench": 18603,
+        "threadbench": 3042,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 195
+    },
+    {
+        "name": "Intel Core i9-9900KF",
+        "cores": 8,
+        "totalbench": 18290,
+        "threadbench": 2930,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 299
+    },
+    {
+        "name": "Intel Core i9-9900K",
+        "cores": 8,
+        "totalbench": 18282,
+        "threadbench": 2930,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 316
+    },
+    {
+        "name": "AMD Ryzen 5 3600X",
+        "cores": 6,
+        "totalbench": 18199,
+        "threadbench": 2652,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 79
+    },
+    {
+        "name": "Intel Core i7-9800X",
+        "cores": 8,
+        "totalbench": 18070,
+        "threadbench": 2569,
+        "tdp": 165,
+        "socket": "Intel_Socket",
+        "price": 149
+    },
+    {
+        "name": "Intel Core i5-11600",
+        "cores": 6,
+        "totalbench": 18070,
+        "threadbench": 3289,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 127
+    },
+    {
+        "name": "AMD Ryzen 5 3600",
+        "cores": 6,
+        "totalbench": 17752,
+        "threadbench": 2567,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 80
+    },
+    {
+        "name": "AMD Ryzen 7 2700X",
+        "cores": 8,
+        "totalbench": 17524,
+        "threadbench": 2421,
+        "tdp": 105,
+        "socket": "AMD_Socket",
+        "price": 190
+    },
+    {
+        "name": "Intel Core i7-6950X",
+        "cores": 10,
+        "totalbench": 17392,
+        "threadbench": 2337,
+        "tdp": 140,
+        "socket": "Intel_Socket",
+        "price": 219
+    },
+    {
+        "name": "Intel Core i5-11500",
+        "cores": 6,
+        "totalbench": 17376,
+        "threadbench": 3137,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 169
+    },
+    {
+        "name": "Intel Core i7-7820X",
+        "cores": 8,
+        "totalbench": 17134,
+        "threadbench": 2522,
+        "tdp": 140,
+        "socket": "Intel_Socket",
+        "price": 89
+    },
+    {
+        "name": "Intel Core i5-11400F",
+        "cores": 6,
+        "totalbench": 17042,
+        "threadbench": 2999,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 94
+    },
+    {
+        "name": "Intel Core i5-11400",
+        "cores": 6,
+        "totalbench": 17028,
+        "threadbench": 3030,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 109
+    },
+    {
+        "name": "Intel Core i5-12500T",
+        "cores": 6,
+        "totalbench": 16591,
+        "threadbench": 3519,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 202
+    },
+    {
+        "name": "Intel Core i9-9900",
+        "cores": 8,
+        "totalbench": 16506,
+        "threadbench": 2833,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 399
+    },
+    {
+        "name": "Intel Core i7-10700F",
+        "cores": 8,
+        "totalbench": 16430,
+        "threadbench": 2879,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 208
+    },
+    {
+        "name": "Intel Core i7-10700",
+        "cores": 8,
+        "totalbench": 16429,
+        "threadbench": 2906,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 244
+    },
+    {
+        "name": "AMD Ryzen 7 1800X",
+        "cores": 8,
+        "totalbench": 16376,
+        "threadbench": 2198,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 89
+    },
+    {
+        "name": "AMD Ryzen 5 PRO 4650G",
+        "cores": 6,
+        "totalbench": 16176,
+        "threadbench": 2655,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 102
+    },
+    {
+        "name": "Intel Core i5-12400T",
+        "cores": 6,
+        "totalbench": 16175,
+        "threadbench": 3374,
+        "tdp": 74,
+        "socket": "Intel_Socket",
+        "price": 149
+    },
+    {
+        "name": "AMD Ryzen 5 4500",
+        "cores": 6,
+        "totalbench": 16137,
+        "threadbench": 2597,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 73
+    },
+    {
+        "name": "AMD Ryzen 5 4600G",
+        "cores": 6,
+        "totalbench": 16066,
+        "threadbench": 2658,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 89
+    },
+    {
+        "name": "AMD Ryzen 7 2700",
+        "cores": 8,
+        "totalbench": 15705,
+        "threadbench": 2179,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 85
+    },
+    {
+        "name": "AMD Ryzen 7 1700X",
+        "cores": 8,
+        "totalbench": 15670,
+        "threadbench": 2101,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 195
+    },
+    {
+        "name": "Intel Core i3-14100F",
+        "cores": 4,
+        "totalbench": 15375,
+        "threadbench": 3763,
+        "tdp": 110,
+        "socket": "Intel_Socket",
+        "price": 89
+    },
+    {
+        "name": "Intel Core i7-11700T",
+        "cores": 8,
+        "totalbench": 15341,
+        "threadbench": 2910,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 323
+    },
+    {
+        "name": "Intel Core i3-14100",
+        "cores": 4,
+        "totalbench": 15016,
+        "threadbench": 3732,
+        "tdp": 60,
+        "socket": "Intel_Socket",
+        "price": 134
+    },
+    {
+        "name": "Intel Core i9-10900T",
+        "cores": 10,
+        "totalbench": 14822,
+        "threadbench": 2469,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 349
+    },
+    {
+        "name": "AMD Ryzen 7 1700",
+        "cores": 8,
+        "totalbench": 14821,
+        "threadbench": 2001,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 69
+    },
+    {
+        "name": "Intel Core i3-12300",
+        "cores": 4,
+        "totalbench": 14695,
+        "threadbench": 3630,
+        "tdp": 60,
+        "socket": "Intel_Socket",
+        "price": 143
+    },
+    {
+        "name": "Intel Core i5-11600T",
+        "cores": 6,
+        "totalbench": 14679,
+        "threadbench": 2870,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 213
+    },
+    {
+        "name": "Intel Core i3-13100F",
+        "cores": 4,
+        "totalbench": 14627,
+        "threadbench": 3606,
+        "tdp": 58,
+        "socket": "Intel_Socket",
+        "price": 120
+    },
+    {
+        "name": "Intel Core i7-6900K",
+        "cores": 8,
+        "totalbench": 14476,
+        "threadbench": 2336,
+        "tdp": 140,
+        "socket": "Intel_Socket",
+        "price": 120
+    },
+    {
+        "name": "Intel Core i7-9700K",
+        "cores": 8,
+        "totalbench": 14462,
+        "threadbench": 2876,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 229
+    },
+    {
+        "name": "Intel Core i5-10600K",
+        "cores": 6,
+        "totalbench": 14311,
+        "threadbench": 2922,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 122
+    },
+    {
+        "name": "Intel Core i7-8086K",
+        "cores": 6,
+        "totalbench": 14287,
+        "threadbench": 2852,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 229
+    },
+    {
+        "name": "Intel Core i7-9700KF",
+        "cores": 8,
+        "totalbench": 14266,
+        "threadbench": 2876,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 169
+    },
+    {
+        "name": "Intel Core i5-10600KF",
+        "cores": 6,
+        "totalbench": 14230,
+        "threadbench": 2918,
+        "tdp": 125,
+        "socket": "Intel_Socket",
+        "price": 109
+    },
+    {
+        "name": "Intel Core i3-12100F",
+        "cores": 4,
+        "totalbench": 14123,
+        "threadbench": 3463,
+        "tdp": 58,
+        "socket": "Intel_Socket",
+        "price": 79
+    },
+    {
+        "name": "AMD Ryzen 5 2600X",
+        "cores": 6,
+        "totalbench": 13910,
+        "threadbench": 2384,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 79
+    },
+    {
+        "name": "Intel Core i5-11400T",
+        "cores": 6,
+        "totalbench": 13684,
+        "threadbench": 2569,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 182
+    },
+    {
+        "name": "Intel Core i5-10600",
+        "cores": 6,
+        "totalbench": 13684,
+        "threadbench": 2932,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 130
+    },
+    {
+        "name": "Intel Core i7-8700K",
+        "cores": 6,
+        "totalbench": 13634,
+        "threadbench": 2729,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 164
+    },
+    {
+        "name": "Intel Core i3-14100T",
+        "cores": 4,
+        "totalbench": 13587,
+        "threadbench": 3463,
+        "tdp": 69,
+        "socket": "Intel_Socket",
+        "price": 134
+    },
+    {
+        "name": "Intel Core i3-12100",
+        "cores": 4,
+        "totalbench": 13582,
+        "threadbench": 3435,
+        "tdp": 60,
+        "socket": "Intel_Socket",
+        "price": 122
+    },
+    {
+        "name": "Intel Core i3-12300T",
+        "cores": 4,
+        "totalbench": 13558,
+        "threadbench": 3404,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 157
+    },
+    {
+        "name": "Intel Core i3-13100",
+        "cores": 4,
+        "totalbench": 13423,
+        "threadbench": 3377,
+        "tdp": 60,
+        "socket": "Intel_Socket",
+        "price": 120
+    },
+    {
+        "name": "Intel Core i9-9900T",
+        "cores": 8,
+        "totalbench": 13312,
+        "threadbench": 2457,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 439
+    },
+    {
+        "name": "Intel Core i7-9700F",
+        "cores": 8,
+        "totalbench": 13254,
+        "threadbench": 2754,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 239
+    },
+    {
+        "name": "AMD Ryzen 5 2600",
+        "cores": 6,
+        "totalbench": 13195,
+        "threadbench": 2245,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 59
+    },
+    {
+        "name": "Intel Core i5-10500",
+        "cores": 6,
+        "totalbench": 13180,
+        "threadbench": 2805,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 203
+    },
+    {
+        "name": "Intel Core i7-9700",
+        "cores": 8,
+        "totalbench": 13178,
+        "threadbench": 2746,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 170
+    },
+    {
+        "name": "AMD Ryzen 5 3500X",
+        "cores": 6,
+        "totalbench": 13177,
+        "threadbench": 2505,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 66
+    },
+    {
+        "name": "AMD Ryzen 5 1600X",
+        "cores": 6,
+        "totalbench": 13062,
+        "threadbench": 2198,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 68
+    },
+    {
+        "name": "Intel Core i3-13100T",
+        "cores": 4,
+        "totalbench": 13058,
+        "threadbench": 3407,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 134
+    },
+    {
+        "name": "Intel Core i5-11500T",
+        "cores": 6,
+        "totalbench": 13054,
+        "threadbench": 2556,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 192
+    },
+    {
+        "name": "Intel Core i7-7800X",
+        "cores": 6,
+        "totalbench": 12882,
+        "threadbench": 2394,
+        "tdp": 140,
+        "socket": "Intel_Socket",
+        "price": 219
+    },
+    {
+        "name": "Intel Core i7-8700",
+        "cores": 6,
+        "totalbench": 12848,
+        "threadbench": 2642,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 124
+    },
+    {
+        "name": "Intel Core i7-10700T",
+        "cores": 8,
+        "totalbench": 12839,
+        "threadbench": 2586,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 264
+    },
+    {
+        "name": "AMD Ryzen 5 3500",
+        "cores": 6,
+        "totalbench": 12791,
+        "threadbench": 2501,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 109
+    },
+    {
+        "name": "Intel Core i7-5960X",
+        "cores": 8,
+        "totalbench": 12744,
+        "threadbench": 1987,
+        "tdp": 140,
+        "socket": "Intel_Socket",
+        "price": 209
+    },
+    {
+        "name": "Intel Core i3-12100T",
+        "cores": 4,
+        "totalbench": 12650,
+        "threadbench": 3291,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 122
+    },
+    {
+        "name": "AMD Ryzen 3 3300X",
+        "cores": 4,
+        "totalbench": 12632,
+        "threadbench": 2672,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 79
+    },
+    {
+        "name": "Intel Core i7-9700E",
+        "cores": 8,
+        "totalbench": 12600,
+        "threadbench": 2559,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 323
+    },
+    {
+        "name": "AMD Ryzen 5 1600",
+        "cores": 6,
+        "totalbench": 12281,
+        "threadbench": 2066,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 122
+    },
+    {
+        "name": "Intel Core i5-10400F",
+        "cores": 6,
+        "totalbench": 12197,
+        "threadbench": 2546,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 89
+    },
+    {
+        "name": "Intel Core i5-10400",
+        "cores": 6,
+        "totalbench": 12134,
+        "threadbench": 2571,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 123
+    },
+    {
+        "name": "AMD Ryzen 3 3100",
+        "cores": 4,
+        "totalbench": 11604,
+        "threadbench": 2420,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 71
+    },
+    {
+        "name": "Intel Core i7-6850K",
+        "cores": 6,
+        "totalbench": 11475,
+        "threadbench": 2405,
+        "tdp": 140,
+        "socket": "Intel_Socket",
+        "price": 115
+    },
+    {
+        "name": "Intel Core i5-10600T",
+        "cores": 6,
+        "totalbench": 11341,
+        "threadbench": 2438,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 213
+    },
+    {
+        "name": "AMD Ryzen 3 4100",
+        "cores": 4,
+        "totalbench": 11077,
+        "threadbench": 2529,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 66
+    },
+    {
+        "name": "AMD Ryzen 3 4300G",
+        "cores": 4,
+        "totalbench": 10920,
+        "threadbench": 2556,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 104
+    },
+    {
+        "name": "Intel Core i7-9700T",
+        "cores": 8,
+        "totalbench": 10782,
+        "threadbench": 2435,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 323
+    },
+    {
+        "name": "Intel Core i7-6800K",
+        "cores": 6,
+        "totalbench": 10766,
+        "threadbench": 2270,
+        "tdp": 140,
+        "socket": "Intel_Socket",
+        "price": 79
+    },
+    {
+        "name": "Intel Core i5-9600KF",
+        "cores": 6,
+        "totalbench": 10692,
+        "threadbench": 2741,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 159
+    },
+    {
+        "name": "Intel Core i5-9600K",
+        "cores": 6,
+        "totalbench": 10675,
+        "threadbench": 2740,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 135
+    },
+    {
+        "name": "Intel Core i5-9600",
+        "cores": 6,
+        "totalbench": 10417,
+        "threadbench": 2740,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 160
+    },
+    {
+        "name": "Intel Core i7-5930K",
+        "cores": 6,
+        "totalbench": 10326,
+        "threadbench": 2051,
+        "tdp": 140,
+        "socket": "Intel_Socket",
+        "price": 222
+    },
+    {
+        "name": "Intel Core i3-10325",
+        "cores": 4,
+        "totalbench": 10268,
+        "threadbench": 2863,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 190
+    },
+    {
+        "name": "Intel Core i5-8600K",
+        "cores": 6,
+        "totalbench": 10200,
+        "threadbench": 2592,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 99
+    },
+    {
+        "name": "Intel Core i7-8700T",
+        "cores": 6,
+        "totalbench": 10168,
+        "threadbench": 2300,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 298
+    },
+    {
+        "name": "Intel Core i7-4960X",
+        "cores": 6,
+        "totalbench": 10099,
+        "threadbench": 2084,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 1250
+    },
+    {
+        "name": "Intel Core i5-10500T",
+        "cores": 6,
+        "totalbench": 10057,
+        "threadbench": 2290,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 99
+    },
+    {
+        "name": "Intel Core i5-9500F",
+        "cores": 6,
+        "totalbench": 10028,
+        "threadbench": 2601,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 112
+    },
+    {
+        "name": "Intel Core i3-10320",
+        "cores": 4,
+        "totalbench": 10011,
+        "threadbench": 2839,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 139
+    },
+    {
+        "name": "Intel Core i5-8600",
+        "cores": 6,
+        "totalbench": 9956,
+        "threadbench": 2579,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 105
+    },
+    {
+        "name": "Intel Core i7-5820K",
+        "cores": 6,
+        "totalbench": 9840,
+        "threadbench": 1994,
+        "tdp": 140,
+        "socket": "Intel_Socket",
+        "price": 139
+    },
+    {
+        "name": "Intel Core i5-9500",
+        "cores": 6,
+        "totalbench": 9805,
+        "threadbench": 2574,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 123
+    },
+    {
+        "name": "Intel Core i5-10400T",
+        "cores": 6,
+        "totalbench": 9766,
+        "threadbench": 2154,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 182
+    },
+    {
+        "name": "Intel Core i7-7700K",
+        "cores": 4,
+        "totalbench": 9652,
+        "threadbench": 2720,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 109
+    },
+    {
+        "name": "Intel Core i7-7740X",
+        "cores": 4,
+        "totalbench": 9635,
+        "threadbench": 2688,
+        "tdp": 112,
+        "socket": "Intel_Socket",
+        "price": 128
+    },
+    {
+        "name": "Intel Core i5-9600T",
+        "cores": 6,
+        "totalbench": 9600,
+        "threadbench": 2422,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 213
+    },
+    {
+        "name": "Intel Core i5-8500",
+        "cores": 6,
+        "totalbench": 9549,
+        "threadbench": 2455,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 99
+    },
+    {
+        "name": "Intel Core i7-4930K",
+        "cores": 6,
+        "totalbench": 9403,
+        "threadbench": 1961,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 59
+    },
+    {
+        "name": "Intel Core i5-9400",
+        "cores": 6,
+        "totalbench": 9370,
+        "threadbench": 2437,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 127
+    },
+    {
+        "name": "Intel Core i5-8600T",
+        "cores": 6,
+        "totalbench": 9339,
+        "threadbench": 2281,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 199
+    },
+    {
+        "name": "Intel Core i3-10300",
+        "cores": 4,
+        "totalbench": 9316,
+        "threadbench": 2696,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 159
+    },
+    {
+        "name": "Intel Core i3-10305",
+        "cores": 4,
+        "totalbench": 9291,
+        "threadbench": 2815,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 233
+    },
+    {
+        "name": "AMD Ryzen 5 3400G",
+        "cores": 4,
+        "totalbench": 9264,
+        "threadbench": 2334,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 97
+    },
+    {
+        "name": "Intel Core i5-8400",
+        "cores": 6,
+        "totalbench": 9232,
+        "threadbench": 2382,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 90
+    },
+    {
+        "name": "AMD Ryzen 5 1500X",
+        "cores": 4,
+        "totalbench": 9099,
+        "threadbench": 2113,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 45
+    },
+    {
+        "name": "Intel Core i3-10105F",
+        "cores": 4,
+        "totalbench": 8993,
+        "threadbench": 2655,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 72
+    },
+    {
+        "name": "Intel Core i7-6700K",
+        "cores": 4,
+        "totalbench": 8928,
+        "threadbench": 2504,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 109
+    },
+    {
+        "name": "AMD Ryzen 5 3400GE",
+        "cores": 4,
+        "totalbench": 8907,
+        "threadbench": 2295,
+        "tdp": 35,
+        "socket": "AMD_Socket",
+        "price": 355
+    },
+    {
+        "name": "Intel Core i3-10100F",
+        "cores": 4,
+        "totalbench": 8766,
+        "threadbench": 2592,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 71
+    },
+    {
+        "name": "AMD Ryzen 5 2400G",
+        "cores": 4,
+        "totalbench": 8729,
+        "threadbench": 2148,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 74
+    },
+    {
+        "name": "Intel Core i3-10100",
+        "cores": 4,
+        "totalbench": 8653,
+        "threadbench": 2616,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 79
+    },
+    {
+        "name": "Intel Core i7-7700",
+        "cores": 4,
+        "totalbench": 8645,
+        "threadbench": 2454,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 107
+    },
+    {
+        "name": "Intel Core i3-10105",
+        "cores": 4,
+        "totalbench": 8568,
+        "threadbench": 2679,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 86
+    },
+    {
+        "name": "Intel Core i7-3970X",
+        "cores": 6,
+        "totalbench": 8541,
+        "threadbench": 1850,
+        "tdp": 150,
+        "socket": "Intel_Socket",
+        "price": 244
+    },
+    {
+        "name": "Intel Core i7-3960X",
+        "cores": 6,
+        "totalbench": 8446,
+        "threadbench": 1800,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 274
+    },
+    {
+        "name": "Intel Core i5-9400T",
+        "cores": 6,
+        "totalbench": 8367,
+        "threadbench": 2116,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 182
+    },
+    {
+        "name": "Intel Core i5-9500T",
+        "cores": 6,
+        "totalbench": 8211,
+        "threadbench": 2167,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 192
+    },
+    {
+        "name": "Intel Core i7-3930K",
+        "cores": 6,
+        "totalbench": 8203,
+        "threadbench": 1747,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 49
+    },
+    {
+        "name": "Intel Core i3-10305T",
+        "cores": 4,
+        "totalbench": 8136,
+        "threadbench": 2457,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 143
+    },
+    {
+        "name": "Intel Core i7-6700",
+        "cores": 4,
+        "totalbench": 8084,
+        "threadbench": 2291,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 77
+    },
+    {
+        "name": "Intel Core i7-4790K",
+        "cores": 4,
+        "totalbench": 8070,
+        "threadbench": 2466,
+        "tdp": 88,
+        "socket": "Intel_Socket",
+        "price": 99
+    },
+    {
+        "name": "Intel Core i3-10105T",
+        "cores": 4,
+        "totalbench": 7992,
+        "threadbench": 2353,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 89
+    },
+    {
+        "name": "Intel Core i3-10300T",
+        "cores": 4,
+        "totalbench": 7975,
+        "threadbench": 2337,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 99
+    },
+    {
+        "name": "AMD Ryzen 5 1400",
+        "cores": 4,
+        "totalbench": 7752,
+        "threadbench": 1895,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 110
+    },
+    {
+        "name": "Intel Core i5-8500T",
+        "cores": 6,
+        "totalbench": 7724,
+        "threadbench": 2013,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 229
+    },
+    {
+        "name": "Intel Core i3-9350K",
+        "cores": 4,
+        "totalbench": 7700,
+        "threadbench": 2783,
+        "tdp": 91,
+        "socket": "Intel_Socket",
+        "price": 119
+    },
+    {
+        "name": "Intel Core i7-5775C",
+        "cores": 4,
+        "totalbench": 7670,
+        "threadbench": 2267,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 174
+    },
+    {
+        "name": "Intel Core i7-7700T",
+        "cores": 4,
+        "totalbench": 7613,
+        "threadbench": 2151,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 150
+    },
+    {
+        "name": "AMD Ryzen 3 2300X",
+        "cores": 4,
+        "totalbench": 7563,
+        "threadbench": 2357,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 178
+    },
+    {
+        "name": "Intel Core i3-9350KF",
+        "cores": 4,
+        "totalbench": 7549,
+        "threadbench": 2668,
+        "tdp": 91,
+        "socket": "Intel_Socket",
+        "price": 148
+    },
+    {
+        "name": "Intel Core i5-8400T",
+        "cores": 6,
+        "totalbench": 7423,
+        "threadbench": 1917,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 139
+    },
+    {
+        "name": "Intel Core i3-9320",
+        "cores": 4,
+        "totalbench": 7358,
+        "threadbench": 2711,
+        "tdp": 62,
+        "socket": "Intel_Socket",
+        "price": 215
+    },
+    {
+        "name": "Intel Core i7-4790",
+        "cores": 4,
+        "totalbench": 7268,
+        "threadbench": 2233,
+        "tdp": 84,
+        "socket": "Intel_Socket",
+        "price": 59
+    },
+    {
+        "name": "Intel Core i7-6700T",
+        "cores": 4,
+        "totalbench": 7220,
+        "threadbench": 2073,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 99
+    },
+    {
+        "name": "Intel 300",
+        "cores": 2,
+        "totalbench": 7160,
+        "threadbench": 3235,
+        "tdp": 46,
+        "socket": "Intel_Socket",
+        "price": 82
+    },
+    {
+        "name": "Intel Core i7-4771",
+        "cores": 4,
+        "totalbench": 7145,
+        "threadbench": 2195,
+        "tdp": 84,
+        "socket": "Intel_Socket",
+        "price": 129
+    },
+    {
+        "name": "Intel Core i3-9300",
+        "cores": 4,
+        "totalbench": 7137,
+        "threadbench": 2561,
+        "tdp": 62,
+        "socket": "Intel_Socket",
+        "price": 238
+    },
+    {
+        "name": "AMD Ryzen 3 3200G",
+        "cores": 4,
+        "totalbench": 7132,
+        "threadbench": 2207,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 84
+    },
+    {
+        "name": "Intel Core i7-4770K",
+        "cores": 4,
+        "totalbench": 7129,
+        "threadbench": 2162,
+        "tdp": 84,
+        "socket": "Intel_Socket",
+        "price": 135
+    },
+    {
+        "name": "Intel Core i7-990X",
+        "cores": 6,
+        "totalbench": 7110,
+        "threadbench": 1579,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 178
+    },
+    {
+        "name": "Intel Core i7-4770",
+        "cores": 4,
+        "totalbench": 7059,
+        "threadbench": 2170,
+        "tdp": 84,
+        "socket": "Intel_Socket",
+        "price": 60
+    },
+    {
+        "name": "Intel Core i7-4790S",
+        "cores": 4,
+        "totalbench": 7015,
+        "threadbench": 2208,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 124
+    },
+    {
+        "name": "AMD Ryzen 3 1300X",
+        "cores": 4,
+        "totalbench": 6970,
+        "threadbench": 2125,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 62
+    },
+    {
+        "name": "Intel Core i7-980",
+        "cores": 6,
+        "totalbench": 6926,
+        "threadbench": 1539,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 290
+    },
+    {
+        "name": "Intel Core i3-8350K",
+        "cores": 4,
+        "totalbench": 6866,
+        "threadbench": 2476,
+        "tdp": 91,
+        "socket": "Intel_Socket",
+        "price": 159
+    },
+    {
+        "name": "Intel Core i5-7640X",
+        "cores": 4,
+        "totalbench": 6844,
+        "threadbench": 2532,
+        "tdp": 112,
+        "socket": "Intel_Socket",
+        "price": 365
+    },
+    {
+        "name": "Intel Core i7-980X",
+        "cores": 6,
+        "totalbench": 6808,
+        "threadbench": 1528,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 57
+    },
+    {
+        "name": "Intel Core i5-7600K",
+        "cores": 4,
+        "totalbench": 6804,
+        "threadbench": 2548,
+        "tdp": 91,
+        "socket": "Intel_Socket",
+        "price": 97
+    },
+    {
+        "name": "AMD FX-9590 Eight-Core",
+        "cores": 4,
+        "totalbench": 6785,
+        "threadbench": 1812,
+        "tdp": 220,
+        "socket": "AMD_Socket",
+        "price": 298
+    },
+    {
+        "name": "AMD Ryzen 3 2200G",
+        "cores": 4,
+        "totalbench": 6761,
+        "threadbench": 2050,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 94
+    },
+    {
+        "name": "Intel Core i7-4770S",
+        "cores": 4,
+        "totalbench": 6746,
+        "threadbench": 2122,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 87
+    },
+    {
+        "name": "Intel Core i3-9100F",
+        "cores": 4,
+        "totalbench": 6738,
+        "threadbench": 2499,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 49
+    },
+    {
+        "name": "Intel Pentium Gold G7400",
+        "cores": 2,
+        "totalbench": 6727,
+        "threadbench": 2997,
+        "tdp": 46,
+        "socket": "Intel_Socket",
+        "price": 87
+    },
+    {
+        "name": "Intel Core i3-9100",
+        "cores": 4,
+        "totalbench": 6622,
+        "threadbench": 2483,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 90
+    },
+    {
+        "name": "Intel Core i7-970",
+        "cores": 6,
+        "totalbench": 6553,
+        "threadbench": 1467,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 523
+    },
+    {
+        "name": "Intel Core i5-7600",
+        "cores": 4,
+        "totalbench": 6544,
+        "threadbench": 2462,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 89
+    },
+    {
+        "name": "Intel Core i7-4820K",
+        "cores": 4,
+        "totalbench": 6493,
+        "threadbench": 1958,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 80
+    },
+    {
+        "name": "Intel Core i7-3770K",
+        "cores": 4,
+        "totalbench": 6465,
+        "threadbench": 2072,
+        "tdp": 77,
+        "socket": "Intel_Socket",
+        "price": 64
+    },
+    {
+        "name": "Intel Core i7-3770",
+        "cores": 4,
+        "totalbench": 6411,
+        "threadbench": 2073,
+        "tdp": 77,
+        "socket": "Intel_Socket",
+        "price": 49
+    },
+    {
+        "name": "Intel Core i7-4790T",
+        "cores": 4,
+        "totalbench": 6346,
+        "threadbench": 2094,
+        "tdp": 45,
+        "socket": "Intel_Socket",
+        "price": 249
+    },
+    {
+        "name": "Intel Core i5-6600K",
+        "cores": 4,
+        "totalbench": 6326,
+        "threadbench": 2328,
+        "tdp": 91,
+        "socket": "Intel_Socket",
+        "price": 70
+    },
+    {
+        "name": "Intel Core i3-8300",
+        "cores": 4,
+        "totalbench": 6297,
+        "threadbench": 2262,
+        "tdp": 62,
+        "socket": "Intel_Socket",
+        "price": 119
+    },
+    {
+        "name": "AMD Ryzen 3 1200",
+        "cores": 4,
+        "totalbench": 6284,
+        "threadbench": 1931,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 95
+    },
+    {
+        "name": "AMD FX-8370 Eight-Core",
+        "cores": 4,
+        "totalbench": 6185,
+        "threadbench": 1626,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 187
+    },
+    {
+        "name": "Intel Core i7-3770S",
+        "cores": 4,
+        "totalbench": 6184,
+        "threadbench": 2042,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 60
+    },
+    {
+        "name": "AMD FX-9370 Eight-Core",
+        "cores": 4,
+        "totalbench": 6167,
+        "threadbench": 1691,
+        "tdp": 220,
+        "socket": "AMD_Socket",
+        "price": 191
+    },
+    {
+        "name": "Intel Core i3-9300T",
+        "cores": 4,
+        "totalbench": 6164,
+        "threadbench": 2302,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 143
+    },
+    {
+        "name": "Intel Core i3-8100",
+        "cores": 4,
+        "totalbench": 6109,
+        "threadbench": 2217,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 49
+    },
+    {
+        "name": "AMD FX-8350 Eight-Core",
+        "cores": 4,
+        "totalbench": 6062,
+        "threadbench": 1581,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 89
+    },
+    {
+        "name": "Intel Core i5-6600",
+        "cores": 4,
+        "totalbench": 6045,
+        "threadbench": 2258,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 49
+    },
+    {
+        "name": "Intel Core i5-7500",
+        "cores": 4,
+        "totalbench": 6034,
+        "threadbench": 2264,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 62
+    },
+    {
+        "name": "Intel Core i7-4770T",
+        "cores": 4,
+        "totalbench": 5973,
+        "threadbench": 1931,
+        "tdp": 45,
+        "socket": "Intel_Socket",
+        "price": 74
+    },
+    {
+        "name": "Intel Core i5-7600T",
+        "cores": 4,
+        "totalbench": 5919,
+        "threadbench": 2162,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 147
+    },
+    {
+        "name": "Intel Core i7-3820",
+        "cores": 4,
+        "totalbench": 5760,
+        "threadbench": 1745,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 34
+    },
+    {
+        "name": "Intel Core i3-8300T",
+        "cores": 4,
+        "totalbench": 5749,
+        "threadbench": 1987,
+        "tdp": 25,
+        "socket": "Intel_Socket",
+        "price": 158
+    },
+    {
+        "name": "Intel Pentium Gold G7400T",
+        "cores": 2,
+        "totalbench": 5737,
+        "threadbench": 2549,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 64
+    },
+    {
+        "name": "Intel Core i7-2700K",
+        "cores": 4,
+        "totalbench": 5725,
+        "threadbench": 1818,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 89
+    },
+    {
+        "name": "Intel Core i5-4690K",
+        "cores": 4,
+        "totalbench": 5683,
+        "threadbench": 2192,
+        "tdp": 88,
+        "socket": "Intel_Socket",
+        "price": 50
+    },
+    {
+        "name": "Intel Core i5-6600T",
+        "cores": 4,
+        "totalbench": 5639,
+        "threadbench": 2071,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 113
+    },
+    {
+        "name": "Intel Core i5-6500",
+        "cores": 4,
+        "totalbench": 5624,
+        "threadbench": 2108,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 39
+    },
+    {
+        "name": "Intel Core i5-5675C",
+        "cores": 4,
+        "totalbench": 5579,
+        "threadbench": 2232,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 90
+    },
+    {
+        "name": "Intel Core i5-4690",
+        "cores": 4,
+        "totalbench": 5571,
+        "threadbench": 2193,
+        "tdp": 84,
+        "socket": "Intel_Socket",
+        "price": 58
+    },
+    {
+        "name": "Intel Core i5-4670K",
+        "cores": 4,
+        "totalbench": 5566,
+        "threadbench": 2146,
+        "tdp": 84,
+        "socket": "Intel_Socket",
+        "price": 52
+    },
+    {
+        "name": "Intel Core i5-4690S",
+        "cores": 4,
+        "totalbench": 5515,
+        "threadbench": 2200,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 59
+    },
+    {
+        "name": "Intel Core i7-2600K",
+        "cores": 4,
+        "totalbench": 5489,
+        "threadbench": 1745,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 49
+    },
+    {
+        "name": "Intel Core i5-4670",
+        "cores": 4,
+        "totalbench": 5488,
+        "threadbench": 2136,
+        "tdp": 84,
+        "socket": "Intel_Socket",
+        "price": 39
+    },
+    {
+        "name": "Intel Core i5-7400",
+        "cores": 4,
+        "totalbench": 5473,
+        "threadbench": 2084,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 57
+    },
+    {
+        "name": "Intel Core i3-9100T",
+        "cores": 4,
+        "totalbench": 5458,
+        "threadbench": 2067,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 122
+    },
+    {
+        "name": "Intel Core i7-3770T",
+        "cores": 4,
+        "totalbench": 5444,
+        "threadbench": 1830,
+        "tdp": 45,
+        "socket": "Intel_Socket",
+        "price": 156
+    },
+    {
+        "name": "AMD FX-8320 Eight-Core",
+        "cores": 4,
+        "totalbench": 5443,
+        "threadbench": 1467,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 49
+    },
+    {
+        "name": "Intel Core i5-6402P",
+        "cores": 4,
+        "totalbench": 5369,
+        "threadbench": 2003,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 74
+    },
+    {
+        "name": "Intel Core i5-4590",
+        "cores": 4,
+        "totalbench": 5365,
+        "threadbench": 2084,
+        "tdp": 84,
+        "socket": "Intel_Socket",
+        "price": 18
+    },
+    {
+        "name": "Intel Core i7-2600",
+        "cores": 4,
+        "totalbench": 5348,
+        "threadbench": 1741,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 89
+    },
+    {
+        "name": "AMD FX-8370E Eight-Core",
+        "cores": 4,
+        "totalbench": 5306,
+        "threadbench": 1463,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 25
+    },
+    {
+        "name": "AMD FX-8300 Eight-Core",
+        "cores": 4,
+        "totalbench": 5303,
+        "threadbench": 1493,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 41
+    },
+    {
+        "name": "Intel Core i3-8100T",
+        "cores": 4,
+        "totalbench": 5276,
+        "threadbench": 1881,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 204
+    },
+    {
+        "name": "AMD FX-8150 Eight-Core",
+        "cores": 4,
+        "totalbench": 5238,
+        "threadbench": 1429,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 42
+    },
+    {
+        "name": "Intel Core i5-4670R",
+        "cores": 4,
+        "totalbench": 5233,
+        "threadbench": 2164,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 276
+    },
+    {
+        "name": "Intel Core i5-7500T",
+        "cores": 4,
+        "totalbench": 5226,
+        "threadbench": 1920,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 64
+    },
+    {
+        "name": "Intel Core i5-4570",
+        "cores": 4,
+        "totalbench": 5220,
+        "threadbench": 2032,
+        "tdp": 84,
+        "socket": "Intel_Socket",
+        "price": 55
+    },
+    {
+        "name": "Intel Core i5-6400",
+        "cores": 4,
+        "totalbench": 5165,
+        "threadbench": 1956,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 69
+    },
+    {
+        "name": "AMD FX-8310 Eight-Core",
+        "cores": 4,
+        "totalbench": 5149,
+        "threadbench": 1416,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 164
+    },
+    {
+        "name": "Intel Core i5-4670S",
+        "cores": 4,
+        "totalbench": 5148,
+        "threadbench": 2089,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 213
+    },
+    {
+        "name": "Intel Core i5-4590S",
+        "cores": 4,
+        "totalbench": 5132,
+        "threadbench": 2046,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 13
+    },
+    {
+        "name": "Intel Core i7-4765T",
+        "cores": 4,
+        "totalbench": 5123,
+        "threadbench": 1627,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 498
+    },
+    {
+        "name": "AMD FX-8320E Eight-Core",
+        "cores": 4,
+        "totalbench": 5087,
+        "threadbench": 1433,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 89
+    },
+    {
+        "name": "Intel Core i5-4570S",
+        "cores": 4,
+        "totalbench": 5016,
+        "threadbench": 2004,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 198
+    },
+    {
+        "name": "Intel Core i3-7350K",
+        "cores": 2,
+        "totalbench": 4965,
+        "threadbench": 2575,
+        "tdp": 60,
+        "socket": "Intel_Socket",
+        "price": 45
+    },
+    {
+        "name": "Intel Core i5-3570K",
+        "cores": 4,
+        "totalbench": 4953,
+        "threadbench": 2048,
+        "tdp": 77,
+        "socket": "Intel_Socket",
+        "price": 99
+    },
+    {
+        "name": "Intel Core i5-3570",
+        "cores": 4,
+        "totalbench": 4929,
+        "threadbench": 2046,
+        "tdp": 77,
+        "socket": "Intel_Socket",
+        "price": 69
+    },
+    {
+        "name": "Intel Core i5-4460",
+        "cores": 4,
+        "totalbench": 4888,
+        "threadbench": 1905,
+        "tdp": 84,
+        "socket": "Intel_Socket",
+        "price": 55
+    },
+    {
+        "name": "AMD FX-8140 Eight-Core",
+        "cores": 4,
+        "totalbench": 4860,
+        "threadbench": 1273,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 148
+    },
+    {
+        "name": "Intel Core i3-7320",
+        "cores": 2,
+        "totalbench": 4844,
+        "threadbench": 2504,
+        "tdp": 51,
+        "socket": "Intel_Socket",
+        "price": 106
+    },
+    {
+        "name": "Intel Core i5-3550",
+        "cores": 4,
+        "totalbench": 4810,
+        "threadbench": 1997,
+        "tdp": 77,
+        "socket": "Intel_Socket",
+        "price": 335
+    },
+    {
+        "name": "Intel Core i5-6500T",
+        "cores": 4,
+        "totalbench": 4791,
+        "threadbench": 1792,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 221
+    },
+    {
+        "name": "Intel Core i5-4440",
+        "cores": 4,
+        "totalbench": 4786,
+        "threadbench": 1858,
+        "tdp": 84,
+        "socket": "Intel_Socket",
+        "price": 88
+    },
+    {
+        "name": "Intel Core i5-6500TE",
+        "cores": 4,
+        "totalbench": 4772,
+        "threadbench": 1837,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 489
+    },
+    {
+        "name": "Intel Core i5-7400T",
+        "cores": 4,
+        "totalbench": 4734,
+        "threadbench": 1766,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 75
+    },
+    {
+        "name": "Intel Core i5-3470",
+        "cores": 4,
+        "totalbench": 4675,
+        "threadbench": 1940,
+        "tdp": 77,
+        "socket": "Intel_Socket",
+        "price": 34
+    },
+    {
+        "name": "Intel Core i5-4430",
+        "cores": 4,
+        "totalbench": 4659,
+        "threadbench": 1799,
+        "tdp": 84,
+        "socket": "Intel_Socket",
+        "price": 69
+    },
+    {
+        "name": "AMD FX-8120 Eight-Core",
+        "cores": 4,
+        "totalbench": 4643,
+        "threadbench": 1336,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 78
+    },
+    {
+        "name": "Intel Core i7-2600S",
+        "cores": 4,
+        "totalbench": 4628,
+        "threadbench": 1733,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 119
+    },
+    {
+        "name": "Intel Core i5-3570S",
+        "cores": 4,
+        "totalbench": 4625,
+        "threadbench": 1990,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 59
+    },
+    {
+        "name": "Intel Core i5-4460S",
+        "cores": 4,
+        "totalbench": 4579,
+        "threadbench": 1845,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 159
+    },
+    {
+        "name": "Intel Celeron G6900",
+        "cores": 2,
+        "totalbench": 4550,
+        "threadbench": 2728,
+        "tdp": 46,
+        "socket": "Intel_Socket",
+        "price": 39
+    },
+    {
+        "name": "AMD FX-6350 Six-Core",
+        "cores": 3,
+        "totalbench": 4546,
+        "threadbench": 1559,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 55
+    },
+    {
+        "name": "AMD Athlon 240GE",
+        "cores": 2,
+        "totalbench": 4534,
+        "threadbench": 1968,
+        "tdp": 35,
+        "socket": "AMD_Socket",
+        "price": 98
+    },
+    {
+        "name": "Intel Core i3-7300",
+        "cores": 2,
+        "totalbench": 4526,
+        "threadbench": 2410,
+        "tdp": 51,
+        "socket": "Intel_Socket",
+        "price": 93
+    },
+    {
+        "name": "Intel Pentium Gold G6605",
+        "cores": 2,
+        "totalbench": 4509,
+        "threadbench": 2619,
+        "tdp": 58,
+        "socket": "Intel_Socket",
+        "price": 179
+    },
+    {
+        "name": "Intel Core i5-3450",
+        "cores": 4,
+        "totalbench": 4499,
+        "threadbench": 1871,
+        "tdp": 77,
+        "socket": "Intel_Socket",
+        "price": 95
+    },
+    {
+        "name": "AMD Athlon 3000G",
+        "cores": 2,
+        "totalbench": 4487,
+        "threadbench": 1985,
+        "tdp": 35,
+        "socket": "AMD_Socket",
+        "price": 89
+    },
+    {
+        "name": "Intel Core i3-6320",
+        "cores": 2,
+        "totalbench": 4473,
+        "threadbench": 2308,
+        "tdp": 51,
+        "socket": "Intel_Socket",
+        "price": 96
+    },
+    {
+        "name": "Intel Core i5-4670T",
+        "cores": 4,
+        "totalbench": 4441,
+        "threadbench": 1771,
+        "tdp": 45,
+        "socket": "Intel_Socket",
+        "price": 259
+    },
+    {
+        "name": "Intel Core i3-7101E",
+        "cores": 2,
+        "totalbench": 4430,
+        "threadbench": 2407,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 117
+    },
+    {
+        "name": "Intel Core i5-3550S",
+        "cores": 4,
+        "totalbench": 4422,
+        "threadbench": 1961,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 149
+    },
+    {
+        "name": "Intel Core i5-4440S",
+        "cores": 4,
+        "totalbench": 4391,
+        "threadbench": 1804,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 123
+    },
+    {
+        "name": "Intel Core i5-3470S",
+        "cores": 4,
+        "totalbench": 4387,
+        "threadbench": 1890,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 72
+    },
+    {
+        "name": "Intel Core i5-3450S",
+        "cores": 4,
+        "totalbench": 4375,
+        "threadbench": 1873,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 89
+    },
+    {
+        "name": "Intel Pentium Gold G6505",
+        "cores": 2,
+        "totalbench": 4371,
+        "threadbench": 2649,
+        "tdp": 58,
+        "socket": "Intel_Socket",
+        "price": 75
+    },
+    {
+        "name": "Intel Core i3-6300",
+        "cores": 2,
+        "totalbench": 4343,
+        "threadbench": 2280,
+        "tdp": 51,
+        "socket": "Intel_Socket",
+        "price": 74
+    },
+    {
+        "name": "Intel Core i5-4430S",
+        "cores": 4,
+        "totalbench": 4329,
+        "threadbench": 1766,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 189
+    },
+    {
+        "name": "Intel Core i3-7100",
+        "cores": 2,
+        "totalbench": 4326,
+        "threadbench": 2303,
+        "tdp": 51,
+        "socket": "Intel_Socket",
+        "price": 54
+    },
+    {
+        "name": "Intel Core i5-3350P",
+        "cores": 4,
+        "totalbench": 4287,
+        "threadbench": 1794,
+        "tdp": 69,
+        "socket": "Intel_Socket",
+        "price": 60
+    },
+    {
+        "name": "Intel Core i5-6400T",
+        "cores": 4,
+        "totalbench": 4282,
+        "threadbench": 1639,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 159
+    },
+    {
+        "name": "Intel Pentium Gold G6600",
+        "cores": 2,
+        "totalbench": 4273,
+        "threadbench": 2507,
+        "tdp": 58,
+        "socket": "Intel_Socket",
+        "price": 239
+    },
+    {
+        "name": "Intel Pentium Gold G5620",
+        "cores": 2,
+        "totalbench": 4272,
+        "threadbench": 2461,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 120
+    },
+    {
+        "name": "Intel Core i5-3475S",
+        "cores": 4,
+        "totalbench": 4264,
+        "threadbench": 1832,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 249
+    },
+    {
+        "name": "Intel Pentium Gold G6405",
+        "cores": 2,
+        "totalbench": 4251,
+        "threadbench": 2524,
+        "tdp": 58,
+        "socket": "Intel_Socket",
+        "price": 78
+    },
+    {
+        "name": "Intel Core i5-3340",
+        "cores": 4,
+        "totalbench": 4227,
+        "threadbench": 1769,
+        "tdp": 77,
+        "socket": "Intel_Socket",
+        "price": 129
+    },
+    {
+        "name": "Intel Core i3-7300T",
+        "cores": 2,
+        "totalbench": 4211,
+        "threadbench": 2136,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 128
+    },
+    {
+        "name": "AMD FX-6300 Six-Core",
+        "cores": 3,
+        "totalbench": 4209,
+        "threadbench": 1489,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 23
+    },
+    {
+        "name": "Intel Core i5-2450P",
+        "cores": 4,
+        "totalbench": 4203,
+        "threadbench": 1679,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 129
+    },
+    {
+        "name": "Intel Core i3-6100",
+        "cores": 2,
+        "totalbench": 4141,
+        "threadbench": 2189,
+        "tdp": 51,
+        "socket": "Intel_Socket",
+        "price": 85
+    },
+    {
+        "name": "Intel Pentium Gold G6500",
+        "cores": 2,
+        "totalbench": 4140,
+        "threadbench": 2488,
+        "tdp": 58,
+        "socket": "Intel_Socket",
+        "price": 70
+    },
+    {
+        "name": "Intel Core i5-2550K",
+        "cores": 4,
+        "totalbench": 4134,
+        "threadbench": 1755,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 69
+    },
+    {
+        "name": "Intel Pentium Gold G6400",
+        "cores": 2,
+        "totalbench": 4124,
+        "threadbench": 2467,
+        "tdp": 58,
+        "socket": "Intel_Socket",
+        "price": 94
+    },
+    {
+        "name": "Intel Pentium Gold G5600F",
+        "cores": 2,
+        "totalbench": 4124,
+        "threadbench": 2255,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 39
+    },
+    {
+        "name": "Intel Core i5-2500",
+        "cores": 4,
+        "totalbench": 4119,
+        "threadbench": 1705,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 29
+    },
+    {
+        "name": "Intel Core i5-2500K",
+        "cores": 4,
+        "totalbench": 4117,
+        "threadbench": 1698,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 29
+    },
+    {
+        "name": "AMD Athlon 200GE",
+        "cores": 2,
+        "totalbench": 4115,
+        "threadbench": 1803,
+        "tdp": 35,
+        "socket": "AMD_Socket",
+        "price": 123
+    },
+    {
+        "name": "Intel Core i5-3330",
+        "cores": 4,
+        "totalbench": 4100,
+        "threadbench": 1721,
+        "tdp": 77,
+        "socket": "Intel_Socket",
+        "price": 106
+    },
+    {
+        "name": "AMD FX-6200 Six-Core",
+        "cores": 3,
+        "totalbench": 4100,
+        "threadbench": 1407,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 279
+    },
+    {
+        "name": "Intel Core i5-4590T",
+        "cores": 4,
+        "totalbench": 4074,
+        "threadbench": 1655,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 78
+    },
+    {
+        "name": "AMD FX-8100 Eight-Core",
+        "cores": 4,
+        "totalbench": 4046,
+        "threadbench": 1137,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 98
+    },
+    {
+        "name": "Intel Core i3-6098P",
+        "cores": 2,
+        "totalbench": 4017,
+        "threadbench": 2113,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 59
+    },
+    {
+        "name": "Intel Celeron G6900T",
+        "cores": 2,
+        "totalbench": 4003,
+        "threadbench": 2343,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 42
+    },
+    {
+        "name": "Intel Core i3-6300T",
+        "cores": 2,
+        "totalbench": 4002,
+        "threadbench": 2018,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 130
+    },
+    {
+        "name": "Intel Core i3-7101TE",
+        "cores": 2,
+        "totalbench": 3957,
+        "threadbench": 2020,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 117
+    },
+    {
+        "name": "Intel Core i5-3340S",
+        "cores": 4,
+        "totalbench": 3928,
+        "threadbench": 1752,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 100
+    },
+    {
+        "name": "AMD FX-6120 Six-Core",
+        "cores": 3,
+        "totalbench": 3887,
+        "threadbench": 1409,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 58
+    },
+    {
+        "name": "Intel Core i5-3330S",
+        "cores": 4,
+        "totalbench": 3882,
+        "threadbench": 1706,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 199
+    },
+    {
+        "name": "Intel Pentium Gold G6500T",
+        "cores": 2,
+        "totalbench": 3874,
+        "threadbench": 2238,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 75
+    },
+    {
+        "name": "Intel Core i5-2400",
+        "cores": 4,
+        "totalbench": 3868,
+        "threadbench": 1580,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 71
+    },
+    {
+        "name": "Intel Core i3-4370",
+        "cores": 2,
+        "totalbench": 3857,
+        "threadbench": 2156,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 41
+    },
+    {
+        "name": "AMD Phenom II X6 1100T",
+        "cores": 6,
+        "totalbench": 3856,
+        "threadbench": 1499,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 109
+    },
+    {
+        "name": "Intel Pentium Gold G5600",
+        "cores": 2,
+        "totalbench": 3825,
+        "threadbench": 2276,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 318
+    },
+    {
+        "name": "Intel Pentium Gold G5500",
+        "cores": 2,
+        "totalbench": 3823,
+        "threadbench": 2247,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 99
+    },
+    {
+        "name": "Intel Core i5-2380P",
+        "cores": 4,
+        "totalbench": 3797,
+        "threadbench": 1607,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 82
+    },
+    {
+        "name": "AMD Athlon X4 845",
+        "cores": 2,
+        "totalbench": 3797,
+        "threadbench": 1680,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 35
+    },
+    {
+        "name": "AMD Phenom II X6 1090T",
+        "cores": 6,
+        "totalbench": 3759,
+        "threadbench": 1455,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 53
+    },
+    {
+        "name": "Intel Core i3-7100T",
+        "cores": 2,
+        "totalbench": 3756,
+        "threadbench": 1944,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 145
+    },
+    {
+        "name": "Intel Pentium G4620",
+        "cores": 2,
+        "totalbench": 3754,
+        "threadbench": 2249,
+        "tdp": 51,
+        "socket": "Intel_Socket",
+        "price": 139
+    },
+    {
+        "name": "Intel Pentium Gold G5400",
+        "cores": 2,
+        "totalbench": 3736,
+        "threadbench": 2200,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 82
+    },
+    {
+        "name": "Intel Pentium Gold G5420",
+        "cores": 2,
+        "totalbench": 3717,
+        "threadbench": 2245,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 79
+    },
+    {
+        "name": "AMD PRO A12-9800",
+        "cores": 4,
+        "totalbench": 3705,
+        "threadbench": 1686,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 169
+    },
+    {
+        "name": "Intel Pentium Gold G6505T",
+        "cores": 2,
+        "totalbench": 3698,
+        "threadbench": 2271,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 90
+    },
+    {
+        "name": "AMD FX-6100 Six-Core",
+        "cores": 3,
+        "totalbench": 3683,
+        "threadbench": 1316,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 44
+    },
+    {
+        "name": "Intel Core i5-2320",
+        "cores": 4,
+        "totalbench": 3662,
+        "threadbench": 1519,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 135
+    },
+    {
+        "name": "Intel Core i3-6100T",
+        "cores": 2,
+        "totalbench": 3659,
+        "threadbench": 1869,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 42
+    },
+    {
+        "name": "AMD Athlon X4 880K",
+        "cores": 2,
+        "totalbench": 3659,
+        "threadbench": 1633,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 94
+    },
+    {
+        "name": "AMD PRO A10-9700",
+        "cores": 2,
+        "totalbench": 3652,
+        "threadbench": 1644,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 169
+    },
+    {
+        "name": "Intel Core i5-2310",
+        "cores": 4,
+        "totalbench": 3650,
+        "threadbench": 1490,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 47
+    },
+    {
+        "name": "Intel Core i3-4360",
+        "cores": 2,
+        "totalbench": 3636,
+        "threadbench": 2088,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 68
+    },
+    {
+        "name": "Intel Pentium G4600",
+        "cores": 2,
+        "totalbench": 3609,
+        "threadbench": 2169,
+        "tdp": 51,
+        "socket": "Intel_Socket",
+        "price": 89
+    },
+    {
+        "name": "AMD A12-9800",
+        "cores": 2,
+        "totalbench": 3597,
+        "threadbench": 1668,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 95
+    },
+    {
+        "name": "AMD Athlon X4 950",
+        "cores": 4,
+        "totalbench": 3591,
+        "threadbench": 1640,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 29
+    },
+    {
+        "name": "Intel Core i3-4170",
+        "cores": 2,
+        "totalbench": 3583,
+        "threadbench": 2054,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 75
+    },
+    {
+        "name": "AMD A10-9700",
+        "cores": 4,
+        "totalbench": 3548,
+        "threadbench": 1616,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 119
+    },
+    {
+        "name": "Intel Core i3-4330",
+        "cores": 2,
+        "totalbench": 3542,
+        "threadbench": 1973,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 92
+    },
+    {
+        "name": "Intel Pentium Gold G6400T",
+        "cores": 2,
+        "totalbench": 3541,
+        "threadbench": 2101,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 64
+    },
+    {
+        "name": "Intel Pentium G4560",
+        "cores": 2,
+        "totalbench": 3533,
+        "threadbench": 2094,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 68
+    },
+    {
+        "name": "Intel Core i3-4350",
+        "cores": 2,
+        "totalbench": 3527,
+        "threadbench": 1961,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 112
+    },
+    {
+        "name": "Intel Core i3-4160",
+        "cores": 2,
+        "totalbench": 3518,
+        "threadbench": 1997,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 46
+    },
+    {
+        "name": "Intel Core i7-975",
+        "cores": 4,
+        "totalbench": 3493,
+        "threadbench": 1499,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 458
+    },
+    {
+        "name": "AMD A10-7890K",
+        "cores": 2,
+        "totalbench": 3484,
+        "threadbench": 1560,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 136
+    },
+    {
+        "name": "AMD A12-9800E",
+        "cores": 4,
+        "totalbench": 3471,
+        "threadbench": 1617,
+        "tdp": 35,
+        "socket": "AMD_Socket",
+        "price": 670
+    },
+    {
+        "name": "Intel Core i3-4340",
+        "cores": 2,
+        "totalbench": 3460,
+        "threadbench": 1979,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 180
+    },
+    {
+        "name": "AMD A10 PRO-7850B APU",
+        "cores": 2,
+        "totalbench": 3453,
+        "threadbench": 1572,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 148
+    },
+    {
+        "name": "Intel Pentium Gold G5420T",
+        "cores": 2,
+        "totalbench": 3452,
+        "threadbench": 1956,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 64
+    },
+    {
+        "name": "AMD A10-7870K",
+        "cores": 2,
+        "totalbench": 3436,
+        "threadbench": 1503,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 517
+    },
+    {
+        "name": "AMD Athlon X4 860K",
+        "cores": 2,
+        "totalbench": 3428,
+        "threadbench": 1527,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 69
+    },
+    {
+        "name": "Intel Core i5-2300",
+        "cores": 4,
+        "totalbench": 3426,
+        "threadbench": 1428,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 21
+    },
+    {
+        "name": "Intel Core i7-965",
+        "cores": 4,
+        "totalbench": 3424,
+        "threadbench": 1475,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 1128
+    },
+    {
+        "name": "AMD Phenom II X6 1075T",
+        "cores": 6,
+        "totalbench": 3423,
+        "threadbench": 1379,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 65
+    },
+    {
+        "name": "AMD Athlon X4 870K",
+        "cores": 2,
+        "totalbench": 3410,
+        "threadbench": 1558,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 34
+    },
+    {
+        "name": "Intel Core i3-4150",
+        "cores": 2,
+        "totalbench": 3399,
+        "threadbench": 1940,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 41
+    },
+    {
+        "name": "AMD A10-7850K APU",
+        "cores": 2,
+        "totalbench": 3398,
+        "threadbench": 1499,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 69
+    },
+    {
+        "name": "Intel Core i5-2500S",
+        "cores": 4,
+        "totalbench": 3391,
+        "threadbench": 1644,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 55
+    },
+    {
+        "name": "AMD Phenom II X6 1065T",
+        "cores": 6,
+        "totalbench": 3387,
+        "threadbench": 1362,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 66
+    },
+    {
+        "name": "Intel Core i3-4370T",
+        "cores": 2,
+        "totalbench": 3361,
+        "threadbench": 1911,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 138
+    },
+    {
+        "name": "Intel Pentium Gold G6405T",
+        "cores": 2,
+        "totalbench": 3341,
+        "threadbench": 1936,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 64
+    },
+    {
+        "name": "Intel Core i7-960",
+        "cores": 4,
+        "totalbench": 3340,
+        "threadbench": 1458,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 49
+    },
+    {
+        "name": "AMD PRO A8-9600",
+        "cores": 2,
+        "totalbench": 3322,
+        "threadbench": 1513,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 119
+    },
+    {
+        "name": "Intel Core i7-880",
+        "cores": 4,
+        "totalbench": 3319,
+        "threadbench": 1442,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 69
+    },
+    {
+        "name": "AMD Athlon X4 840",
+        "cores": 2,
+        "totalbench": 3319,
+        "threadbench": 1488,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 124
+    },
+    {
+        "name": "AMD Phenom II X6 1055T",
+        "cores": 6,
+        "totalbench": 3318,
+        "threadbench": 1328,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 34
+    },
+    {
+        "name": "Intel Core i3-4130",
+        "cores": 2,
+        "totalbench": 3312,
+        "threadbench": 1882,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 41
+    },
+    {
+        "name": "Intel Pentium Gold G5500T",
+        "cores": 2,
+        "totalbench": 3311,
+        "threadbench": 1951,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 75
+    },
+    {
+        "name": "AMD A8-9600",
+        "cores": 4,
+        "totalbench": 3304,
+        "threadbench": 1487,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 112
+    },
+    {
+        "name": "AMD A10-7860K",
+        "cores": 2,
+        "totalbench": 3281,
+        "threadbench": 1498,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 53
+    },
+    {
+        "name": "Intel Core i5-4400E",
+        "cores": 2,
+        "totalbench": 3251,
+        "threadbench": 1804,
+        "tdp": 37,
+        "socket": "Intel_Socket",
+        "price": 266
+    },
+    {
+        "name": "Intel Core i5-4570T",
+        "cores": 2,
+        "totalbench": 3224,
+        "threadbench": 1915,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 70
+    },
+    {
+        "name": "AMD A8-7600 APU",
+        "cores": 2,
+        "totalbench": 3219,
+        "threadbench": 1447,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 29
+    },
+    {
+        "name": "Intel Core i3-4170T",
+        "cores": 2,
+        "totalbench": 3218,
+        "threadbench": 1824,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 199
+    },
+    {
+        "name": "Intel Core i7-950",
+        "cores": 4,
+        "totalbench": 3212,
+        "threadbench": 1379,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 100
+    },
+    {
+        "name": "AMD A10-9700E",
+        "cores": 4,
+        "totalbench": 3211,
+        "threadbench": 1493,
+        "tdp": 35,
+        "socket": "AMD_Socket",
+        "price": 89
+    },
+    {
+        "name": "AMD A10-7800 APU",
+        "cores": 2,
+        "totalbench": 3208,
+        "threadbench": 1463,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 49
+    },
+    {
+        "name": "AMD A10-6800K APU",
+        "cores": 2,
+        "totalbench": 3208,
+        "threadbench": 1605,
+        "tdp": 100,
+        "socket": "AMD_Socket",
+        "price": 47
+    },
+    {
+        "name": "AMD A10-7700K APU",
+        "cores": 2,
+        "totalbench": 3201,
+        "threadbench": 1434,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 128
+    },
+    {
+        "name": "AMD A8-7670K",
+        "cores": 4,
+        "totalbench": 3192,
+        "threadbench": 1485,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 79
+    },
+    {
+        "name": "AMD Phenom II X6 1045T",
+        "cores": 6,
+        "totalbench": 3189,
+        "threadbench": 1279,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 47
+    },
+    {
+        "name": "AMD PRO A12-9800E",
+        "cores": 4,
+        "totalbench": 3171,
+        "threadbench": 1518,
+        "tdp": 35,
+        "socket": "AMD_Socket",
+        "price": 169
+    },
+    {
+        "name": "Intel Core i5-2400S",
+        "cores": 4,
+        "totalbench": 3158,
+        "threadbench": 1473,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 70
+    },
+    {
+        "name": "Intel Core i5-2405S",
+        "cores": 4,
+        "totalbench": 3157,
+        "threadbench": 1434,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 216
+    },
+    {
+        "name": "AMD A8-7650K",
+        "cores": 2,
+        "totalbench": 3129,
+        "threadbench": 1403,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 37
+    },
+    {
+        "name": "Intel Core i7-870",
+        "cores": 4,
+        "totalbench": 3127,
+        "threadbench": 1384,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 39
+    },
+    {
+        "name": "Intel Core i3-4160T",
+        "cores": 2,
+        "totalbench": 3115,
+        "threadbench": 1753,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 59
+    },
+    {
+        "name": "AMD A10-6700 APU",
+        "cores": 4,
+        "totalbench": 3110,
+        "threadbench": 1606,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 108
+    },
+    {
+        "name": "AMD A10-6800B APU",
+        "cores": 2,
+        "totalbench": 3106,
+        "threadbench": 1654,
+        "tdp": 100,
+        "socket": "AMD_Socket",
+        "price": 128
+    },
+    {
+        "name": "Intel Pentium Silver J5005",
+        "cores": 4,
+        "totalbench": 3102,
+        "threadbench": 1206,
+        "tdp": 10,
+        "socket": "Intel_Socket",
+        "price": 521
+    },
+    {
+        "name": "AMD FX-4330",
+        "cores": 2,
+        "totalbench": 3098,
+        "threadbench": 1559,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 733
+    },
+    {
+        "name": "Intel Core i7-875K",
+        "cores": 4,
+        "totalbench": 3090,
+        "threadbench": 1352,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 200
+    },
+    {
+        "name": "Intel Core i5-4570TE",
+        "cores": 2,
+        "totalbench": 3074,
+        "threadbench": 1622,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 341
+    },
+    {
+        "name": "AMD A10-6790K APU",
+        "cores": 2,
+        "totalbench": 3071,
+        "threadbench": 1551,
+        "tdp": 100,
+        "socket": "AMD_Socket",
+        "price": 42
+    },
+    {
+        "name": "Intel Pentium G4600T",
+        "cores": 2,
+        "totalbench": 3062,
+        "threadbench": 1775,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 117
+    },
+    {
+        "name": "AMD A10-5800B APU",
+        "cores": 2,
+        "totalbench": 3034,
+        "threadbench": 1579,
+        "tdp": 100,
+        "socket": "AMD_Socket",
+        "price": 44
+    },
+    {
+        "name": "AMD A8-6600K APU",
+        "cores": 2,
+        "totalbench": 3007,
+        "threadbench": 1538,
+        "tdp": 100,
+        "socket": "AMD_Socket",
+        "price": 88
+    },
+    {
+        "name": "Intel Core i5-3470T",
+        "cores": 2,
+        "totalbench": 3001,
+        "threadbench": 1837,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 269
+    },
+    {
+        "name": "AMD Phenom II X6 1035T",
+        "cores": 6,
+        "totalbench": 3000,
+        "threadbench": 1226,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 108
+    },
+    {
+        "name": "Intel Core i7-860",
+        "cores": 4,
+        "totalbench": 2992,
+        "threadbench": 1329,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 48
+    },
+    {
+        "name": "AMD PRO A10-9700E",
+        "cores": 2,
+        "totalbench": 2985,
+        "threadbench": 1418,
+        "tdp": 35,
+        "socket": "AMD_Socket",
+        "price": 139
+    },
+    {
+        "name": "Intel Pentium G4560T",
+        "cores": 2,
+        "totalbench": 2974,
+        "threadbench": 1708,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 79
+    },
+    {
+        "name": "Intel Core i7-930",
+        "cores": 4,
+        "totalbench": 2965,
+        "threadbench": 1271,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 15
+    },
+    {
+        "name": "AMD A10-5800K APU",
+        "cores": 2,
+        "totalbench": 2965,
+        "threadbench": 1494,
+        "tdp": 100,
+        "socket": "AMD_Socket",
+        "price": 20
+    },
+    {
+        "name": "Intel Core i7-940",
+        "cores": 4,
+        "totalbench": 2947,
+        "threadbench": 1310,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 348
+    },
+    {
+        "name": "Intel Core i5-2500T",
+        "cores": 4,
+        "totalbench": 2929,
+        "threadbench": 1485,
+        "tdp": 45,
+        "socket": "Intel_Socket",
+        "price": 89
+    },
+    {
+        "name": "Intel Celeron J4105",
+        "cores": 4,
+        "totalbench": 2907,
+        "threadbench": 1093,
+        "tdp": 10,
+        "socket": "Intel_Socket",
+        "price": 107
+    },
+    {
+        "name": "AMD Athlon X4 830",
+        "cores": 2,
+        "totalbench": 2901,
+        "threadbench": 1292,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 202
+    },
+    {
+        "name": "Intel Core i3-4130T",
+        "cores": 2,
+        "totalbench": 2885,
+        "threadbench": 1623,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 19
+    },
+    {
+        "name": "AMD A8-6500B APU",
+        "cores": 2,
+        "totalbench": 2875,
+        "threadbench": 1499,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 49
+    },
+    {
+        "name": "AMD A8-5600K APU",
+        "cores": 4,
+        "totalbench": 2854,
+        "threadbench": 1430,
+        "tdp": 100,
+        "socket": "AMD_Socket",
+        "price": 69
+    },
+    {
+        "name": "Intel Celeron G5925",
+        "cores": 2,
+        "totalbench": 2849,
+        "threadbench": 2229,
+        "tdp": 58,
+        "socket": "Intel_Socket",
+        "price": 60
+    },
+    {
+        "name": "AMD Phenom II X4 980",
+        "cores": 4,
+        "totalbench": 2839,
+        "threadbench": 1511,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 130
+    },
+    {
+        "name": "Intel Core i7-920",
+        "cores": 4,
+        "totalbench": 2838,
+        "threadbench": 1216,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 90
+    },
+    {
+        "name": "Intel Core i3-4150T",
+        "cores": 2,
+        "totalbench": 2835,
+        "threadbench": 1575,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 417
+    },
+    {
+        "name": "AMD A8-6500 APU",
+        "cores": 2,
+        "totalbench": 2822,
+        "threadbench": 1473,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 27
+    },
+    {
+        "name": "Intel Celeron G5905",
+        "cores": 2,
+        "totalbench": 2803,
+        "threadbench": 2178,
+        "tdp": 58,
+        "socket": "Intel_Socket",
+        "price": 38
+    },
+    {
+        "name": "Intel Core2 Extreme X9775",
+        "cores": 4,
+        "totalbench": 2780,
+        "threadbench": 1451,
+        "tdp": 150,
+        "socket": "Intel_Socket",
+        "price": 1805
+    },
+    {
+        "name": "Intel Pentium G4500",
+        "cores": 2,
+        "totalbench": 2768,
+        "threadbench": 2148,
+        "tdp": 51,
+        "socket": "Intel_Socket",
+        "price": 96
+    },
+    {
+        "name": "AMD A10-5700 APU",
+        "cores": 2,
+        "totalbench": 2740,
+        "threadbench": 1430,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 68
+    },
+    {
+        "name": "AMD Phenom II X4 970",
+        "cores": 4,
+        "totalbench": 2739,
+        "threadbench": 1417,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 42
+    },
+    {
+        "name": "Intel Celeron G4950",
+        "cores": 2,
+        "totalbench": 2714,
+        "threadbench": 2041,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 63
+    },
+    {
+        "name": "Intel Pentium G4520",
+        "cores": 2,
+        "totalbench": 2707,
+        "threadbench": 2008,
+        "tdp": 51,
+        "socket": "Intel_Socket",
+        "price": 285
+    },
+    {
+        "name": "Intel Core2 Extreme X9770",
+        "cores": 4,
+        "totalbench": 2689,
+        "threadbench": 1395,
+        "tdp": 136,
+        "socket": "Intel_Socket",
+        "price": 1608
+    },
+    {
+        "name": "Intel Celeron G5900",
+        "cores": 2,
+        "totalbench": 2643,
+        "threadbench": 2107,
+        "tdp": 58,
+        "socket": "Intel_Socket",
+        "price": 48
+    },
+    {
+        "name": "Intel Core i5-760",
+        "cores": 4,
+        "totalbench": 2634,
+        "threadbench": 1293,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 100
+    },
+    {
+        "name": "AMD Phenom II X4 965",
+        "cores": 4,
+        "totalbench": 2631,
+        "threadbench": 1363,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 64
+    },
+    {
+        "name": "Intel Core i5-680",
+        "cores": 2,
+        "totalbench": 2618,
+        "threadbench": 1580,
+        "tdp": 73,
+        "socket": "Intel_Socket",
+        "price": 310
+    },
+    {
+        "name": "AMD A8-5500B APU",
+        "cores": 2,
+        "totalbench": 2616,
+        "threadbench": 1327,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 49
+    },
+    {
+        "name": "AMD A8-5500 APU",
+        "cores": 2,
+        "totalbench": 2607,
+        "threadbench": 1335,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 58
+    },
+    {
+        "name": "Intel Celeron G4930",
+        "cores": 2,
+        "totalbench": 2591,
+        "threadbench": 1987,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 49
+    },
+    {
+        "name": "Intel Pentium G4400",
+        "cores": 2,
+        "totalbench": 2582,
+        "threadbench": 2005,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 89
+    },
+    {
+        "name": "Intel Celeron G5920",
+        "cores": 2,
+        "totalbench": 2577,
+        "threadbench": 2123,
+        "tdp": 58,
+        "socket": "Intel_Socket",
+        "price": 79
+    },
+    {
+        "name": "AMD Phenom II X4 B97",
+        "cores": 4,
+        "totalbench": 2539,
+        "threadbench": 1320,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 79
+    },
+    {
+        "name": "Intel Core i5-750",
+        "cores": 4,
+        "totalbench": 2536,
+        "threadbench": 1232,
+        "tdp": 95,
+        "socket": "Intel_Socket",
+        "price": 60
+    },
+    {
+        "name": "AMD Phenom II X4 975",
+        "cores": 4,
+        "totalbench": 2536,
+        "threadbench": 1350,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 69
+    },
+    {
+        "name": "Intel Core i5-670",
+        "cores": 2,
+        "totalbench": 2533,
+        "threadbench": 1530,
+        "tdp": 73,
+        "socket": "Intel_Socket",
+        "price": 292
+    },
+    {
+        "name": "AMD Phenom II X4 955",
+        "cores": 4,
+        "totalbench": 2506,
+        "threadbench": 1292,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 59
+    },
+    {
+        "name": "Intel Celeron G4920",
+        "cores": 2,
+        "totalbench": 2500,
+        "threadbench": 1960,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 40
+    },
+    {
+        "name": "Intel Core i5-2390T",
+        "cores": 2,
+        "totalbench": 2493,
+        "threadbench": 1516,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 99
+    },
+    {
+        "name": "Intel Core i5-661",
+        "cores": 2,
+        "totalbench": 2469,
+        "threadbench": 1446,
+        "tdp": 87,
+        "socket": "Intel_Socket",
+        "price": 80
+    },
+    {
+        "name": "Intel Core i3-3250",
+        "cores": 2,
+        "totalbench": 2442,
+        "threadbench": 1837,
+        "tdp": 55,
+        "socket": "Intel_Socket",
+        "price": 49
+    },
+    {
+        "name": "Intel Pentium G3470",
+        "cores": 2,
+        "totalbench": 2428,
+        "threadbench": 2089,
+        "tdp": 53,
+        "socket": "Intel_Socket",
+        "price": 314
+    },
+    {
+        "name": "AMD Athlon II X4 650",
+        "cores": 4,
+        "totalbench": 2426,
+        "threadbench": 1305,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 166
+    },
+    {
+        "name": "Intel Core2 Extreme X9650",
+        "cores": 4,
+        "totalbench": 2410,
+        "threadbench": 1262,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 859
+    },
+    {
+        "name": "AMD Phenom II X4 B95",
+        "cores": 4,
+        "totalbench": 2401,
+        "threadbench": 1242,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 62
+    },
+    {
+        "name": "AMD Phenom II X4 850",
+        "cores": 4,
+        "totalbench": 2400,
+        "threadbench": 1230,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 64
+    },
+    {
+        "name": "AMD Phenom II X4 840",
+        "cores": 4,
+        "totalbench": 2399,
+        "threadbench": 1297,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 30
+    },
+    {
+        "name": "Intel Celeron G4900",
+        "cores": 2,
+        "totalbench": 2388,
+        "threadbench": 1834,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 29
+    },
+    {
+        "name": "Intel Core i5-660",
+        "cores": 2,
+        "totalbench": 2386,
+        "threadbench": 1421,
+        "tdp": 73,
+        "socket": "Intel_Socket",
+        "price": 249
+    },
+    {
+        "name": "AMD Phenom II X4 945",
+        "cores": 4,
+        "totalbench": 2384,
+        "threadbench": 1233,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 44
+    },
+    {
+        "name": "Intel Core i3-3245",
+        "cores": 2,
+        "totalbench": 2379,
+        "threadbench": 1791,
+        "tdp": 55,
+        "socket": "Intel_Socket",
+        "price": 60
+    },
+    {
+        "name": "AMD A8-3850 APU",
+        "cores": 4,
+        "totalbench": 2361,
+        "threadbench": 1212,
+        "tdp": 100,
+        "socket": "AMD_Socket",
+        "price": 68
+    },
+    {
+        "name": "Intel Celeron G3920",
+        "cores": 2,
+        "totalbench": 2358,
+        "threadbench": 1781,
+        "tdp": 51,
+        "socket": "Intel_Socket",
+        "price": 1083
+    },
+    {
+        "name": "AMD Phenom II X4 960T",
+        "cores": 4,
+        "totalbench": 2353,
+        "threadbench": 1299,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 52
+    },
+    {
+        "name": "Intel Pentium G4400T",
+        "cores": 2,
+        "totalbench": 2345,
+        "threadbench": 1757,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 148
+    },
+    {
+        "name": "AMD Phenom II X4 940",
+        "cores": 4,
+        "totalbench": 2345,
+        "threadbench": 1212,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 211
+    },
+    {
+        "name": "AMD Athlon II X4 645",
+        "cores": 4,
+        "totalbench": 2340,
+        "threadbench": 1255,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 64
+    },
+    {
+        "name": "AMD Phenom II X4 840T",
+        "cores": 4,
+        "totalbench": 2330,
+        "threadbench": 1264,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 58
+    },
+    {
+        "name": "Intel Celeron G3950",
+        "cores": 2,
+        "totalbench": 2322,
+        "threadbench": 1851,
+        "tdp": 51,
+        "socket": "Intel_Socket",
+        "price": 143
+    },
+    {
+        "name": "Intel Core i3-3240",
+        "cores": 2,
+        "totalbench": 2320,
+        "threadbench": 1786,
+        "tdp": 55,
+        "socket": "Intel_Socket",
+        "price": 14
+    },
+    {
+        "name": "AMD A8-3870K APU",
+        "cores": 4,
+        "totalbench": 2319,
+        "threadbench": 1210,
+        "tdp": 100,
+        "socket": "AMD_Socket",
+        "price": 68
+    },
+    {
+        "name": "Intel Core2 Extreme Q6850",
+        "cores": 4,
+        "totalbench": 2304,
+        "threadbench": 1231,
+        "tdp": 130,
+        "socket": "Intel_Socket",
+        "price": 1495
+    },
+    {
+        "name": "AMD A10-6700T APU",
+        "cores": 2,
+        "totalbench": 2299,
+        "threadbench": 1290,
+        "tdp": 45,
+        "socket": "AMD_Socket",
+        "price": 88
+    },
+    {
+        "name": "Intel Celeron G4930T",
+        "cores": 2,
+        "totalbench": 2297,
+        "threadbench": 1769,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 42
+    },
+    {
+        "name": "Intel Core i7-860S",
+        "cores": 4,
+        "totalbench": 2280,
+        "threadbench": 1093,
+        "tdp": 82,
+        "socket": "Intel_Socket",
+        "price": 100
+    },
+    {
+        "name": "AMD Phenom II X4 925",
+        "cores": 4,
+        "totalbench": 2270,
+        "threadbench": 1152,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 20
+    },
+    {
+        "name": "Intel Core i3-3220",
+        "cores": 2,
+        "totalbench": 2264,
+        "threadbench": 1728,
+        "tdp": 55,
+        "socket": "Intel_Socket",
+        "price": 65
+    },
+    {
+        "name": "Intel Celeron J3455",
+        "cores": 4,
+        "totalbench": 2256,
+        "threadbench": 812,
+        "tdp": 10,
+        "socket": "Intel_Socket",
+        "price": 349
+    },
+    {
+        "name": "Intel Core i5-650",
+        "cores": 2,
+        "totalbench": 2247,
+        "threadbench": 1368,
+        "tdp": 73,
+        "socket": "Intel_Socket",
+        "price": 21
+    },
+    {
+        "name": "Intel Celeron G3930",
+        "cores": 2,
+        "totalbench": 2247,
+        "threadbench": 1780,
+        "tdp": 51,
+        "socket": "Intel_Socket",
+        "price": 57
+    },
+    {
+        "name": "AMD Athlon II X4 640",
+        "cores": 4,
+        "totalbench": 2244,
+        "threadbench": 1212,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 11
+    },
+    {
+        "name": "Intel Celeron G4900T",
+        "cores": 2,
+        "totalbench": 2239,
+        "threadbench": 1737,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 59
+    },
+    {
+        "name": "AMD Athlon II X4 635",
+        "cores": 4,
+        "totalbench": 2237,
+        "threadbench": 1168,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 58
+    },
+    {
+        "name": "Intel Pentium G3460",
+        "cores": 2,
+        "totalbench": 2231,
+        "threadbench": 1986,
+        "tdp": 53,
+        "socket": "Intel_Socket",
+        "price": 125
+    },
+    {
+        "name": "Intel Core i3-3225",
+        "cores": 2,
+        "totalbench": 2229,
+        "threadbench": 1693,
+        "tdp": 55,
+        "socket": "Intel_Socket",
+        "price": 167
+    },
+    {
+        "name": "Intel Core i3-3210",
+        "cores": 2,
+        "totalbench": 2224,
+        "threadbench": 1704,
+        "tdp": 55,
+        "socket": "Intel_Socket",
+        "price": 70
+    },
+    {
+        "name": "Intel Celeron G3930TE",
+        "cores": 2,
+        "totalbench": 2218,
+        "threadbench": 1706,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 42
+    },
+    {
+        "name": "AMD Phenom II X4 920",
+        "cores": 4,
+        "totalbench": 2209,
+        "threadbench": 1132,
+        "tdp": 125,
+        "socket": "AMD_Socket",
+        "price": 27
+    },
+    {
+        "name": "Intel Celeron G5905T",
+        "cores": 2,
+        "totalbench": 2206,
+        "threadbench": 1809,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 42
+    },
+    {
+        "name": "Intel Pentium G3440",
+        "cores": 2,
+        "totalbench": 2202,
+        "threadbench": 1917,
+        "tdp": 53,
+        "socket": "Intel_Socket",
+        "price": 51
+    },
+    {
+        "name": "AMD A8-3820 APU",
+        "cores": 4,
+        "totalbench": 2174,
+        "threadbench": 1131,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 44
+    },
+    {
+        "name": "AMD A6-3670 APU",
+        "cores": 4,
+        "totalbench": 2171,
+        "threadbench": 1144,
+        "tdp": 100,
+        "socket": "AMD_Socket",
+        "price": 54
+    },
+    {
+        "name": "Intel Pentium G3450",
+        "cores": 2,
+        "totalbench": 2167,
+        "threadbench": 1887,
+        "tdp": 53,
+        "socket": "Intel_Socket",
+        "price": 52
+    },
+    {
+        "name": "Intel Celeron G3900",
+        "cores": 2,
+        "totalbench": 2165,
+        "threadbench": 1706,
+        "tdp": 51,
+        "socket": "Intel_Socket",
+        "price": 15
+    },
+    {
+        "name": "Intel Celeron G5900T",
+        "cores": 2,
+        "totalbench": 2155,
+        "threadbench": 1640,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 42
+    },
+    {
+        "name": "AMD Athlon II X4 630",
+        "cores": 4,
+        "totalbench": 2148,
+        "threadbench": 1128,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 48
+    },
+    {
+        "name": "Intel Core2 Extreme Q6800",
+        "cores": 4,
+        "totalbench": 2145,
+        "threadbench": 1124,
+        "tdp": 75,
+        "socket": "Intel_Socket",
+        "price": 1125
+    },
+    {
+        "name": "AMD Phenom II X4 910e",
+        "cores": 4,
+        "totalbench": 2131,
+        "threadbench": 1082,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 69
+    },
+    {
+        "name": "Intel Pentium G3430",
+        "cores": 2,
+        "totalbench": 2127,
+        "threadbench": 1912,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 92
+    },
+    {
+        "name": "AMD Phenom II X4 820",
+        "cores": 4,
+        "totalbench": 2096,
+        "threadbench": 1121,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 62
+    },
+    {
+        "name": "Intel Pentium G2140",
+        "cores": 2,
+        "totalbench": 2092,
+        "threadbench": 1842,
+        "tdp": 55,
+        "socket": "Intel_Socket",
+        "price": 45
+    },
+    {
+        "name": "Intel Pentium G3260",
+        "cores": 2,
+        "totalbench": 2090,
+        "threadbench": 1867,
+        "tdp": 53,
+        "socket": "Intel_Socket",
+        "price": 14
+    },
+    {
+        "name": "Intel Core i3-2125",
+        "cores": 2,
+        "totalbench": 2083,
+        "threadbench": 1570,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 154
+    },
+    {
+        "name": "Intel Pentium G3258",
+        "cores": 2,
+        "totalbench": 2076,
+        "threadbench": 1857,
+        "tdp": 53,
+        "socket": "Intel_Socket",
+        "price": 51
+    },
+    {
+        "name": "AMD Phenom II X4 830",
+        "cores": 4,
+        "totalbench": 2070,
+        "threadbench": 1084,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 19
+    },
+    {
+        "name": "AMD A6-3650 APU",
+        "cores": 4,
+        "totalbench": 2070,
+        "threadbench": 1038,
+        "tdp": 100,
+        "socket": "AMD_Socket",
+        "price": 128
+    },
+    {
+        "name": "AMD A8-3800 APU",
+        "cores": 4,
+        "totalbench": 2049,
+        "threadbench": 1068,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 109
+    },
+    {
+        "name": "Intel Core i3-2130",
+        "cores": 2,
+        "totalbench": 2040,
+        "threadbench": 1562,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 49
+    },
+    {
+        "name": "Intel Celeron G3930T",
+        "cores": 2,
+        "totalbench": 2040,
+        "threadbench": 1657,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 39
+    },
+    {
+        "name": "Intel Core i3-2102",
+        "cores": 2,
+        "totalbench": 2029,
+        "threadbench": 1400,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 58
+    },
+    {
+        "name": "Intel Celeron G3900T",
+        "cores": 2,
+        "totalbench": 2020,
+        "threadbench": 1560,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 112
+    },
+    {
+        "name": "Intel Core i5-655K",
+        "cores": 2,
+        "totalbench": 2017,
+        "threadbench": 1446,
+        "tdp": 73,
+        "socket": "Intel_Socket",
+        "price": 76
+    },
+    {
+        "name": "AMD Athlon II X4 620",
+        "cores": 4,
+        "totalbench": 2015,
+        "threadbench": 1063,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 54
+    },
+    {
+        "name": "AMD Athlon II X3 460",
+        "cores": 3,
+        "totalbench": 2008,
+        "threadbench": 1395,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 16
+    },
+    {
+        "name": "AMD Phenom II X4 810",
+        "cores": 4,
+        "totalbench": 2003,
+        "threadbench": 1047,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 213
+    },
+    {
+        "name": "AMD Athlon II X4 615e",
+        "cores": 4,
+        "totalbench": 2000,
+        "threadbench": 1037,
+        "tdp": 45,
+        "socket": "AMD_Socket",
+        "price": 59
+    },
+    {
+        "name": "Intel Pentium G3250",
+        "cores": 2,
+        "totalbench": 1986,
+        "threadbench": 1803,
+        "tdp": 53,
+        "socket": "Intel_Socket",
+        "price": 61
+    },
+    {
+        "name": "AMD Athlon II X4 610e",
+        "cores": 4,
+        "totalbench": 1964,
+        "threadbench": 1037,
+        "tdp": 45,
+        "socket": "AMD_Socket",
+        "price": 16
+    },
+    {
+        "name": "AMD Athlon II X4 605e",
+        "cores": 4,
+        "totalbench": 1963,
+        "threadbench": 986,
+        "tdp": 45,
+        "socket": "AMD_Socket",
+        "price": 15
+    },
+    {
+        "name": "AMD Phenom II X4 805",
+        "cores": 4,
+        "totalbench": 1959,
+        "threadbench": 1017,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 173
+    },
+    {
+        "name": "Intel Core i3-2120",
+        "cores": 2,
+        "totalbench": 1956,
+        "threadbench": 1511,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 60
+    },
+    {
+        "name": "Intel Pentium G3240",
+        "cores": 2,
+        "totalbench": 1940,
+        "threadbench": 1747,
+        "tdp": 53,
+        "socket": "Intel_Socket",
+        "price": 81
+    },
+    {
+        "name": "Intel Core i3-3220T",
+        "cores": 2,
+        "totalbench": 1940,
+        "threadbench": 1489,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 80
+    },
+    {
+        "name": "AMD Phenom II X4 905e",
+        "cores": 4,
+        "totalbench": 1936,
+        "threadbench": 1012,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 53
+    },
+    {
+        "name": "Intel Pentium G3420",
+        "cores": 2,
+        "totalbench": 1933,
+        "threadbench": 1753,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 100
+    },
+    {
+        "name": "AMD A8-6500T APU",
+        "cores": 2,
+        "totalbench": 1929,
+        "threadbench": 1111,
+        "tdp": 45,
+        "socket": "AMD_Socket",
+        "price": 59
+    },
+    {
+        "name": "Intel Pentium G2130",
+        "cores": 2,
+        "totalbench": 1926,
+        "threadbench": 1748,
+        "tdp": 55,
+        "socket": "Intel_Socket",
+        "price": 43
+    },
+    {
+        "name": "Intel Celeron G1850",
+        "cores": 2,
+        "totalbench": 1915,
+        "threadbench": 1692,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 59
+    },
+    {
+        "name": "Intel Pentium G3420T",
+        "cores": 2,
+        "totalbench": 1912,
+        "threadbench": 1570,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 159
+    },
+    {
+        "name": "Intel Pentium G3220",
+        "cores": 2,
+        "totalbench": 1894,
+        "threadbench": 1702,
+        "tdp": 54,
+        "socket": "Intel_Socket",
+        "price": 29
+    },
+    {
+        "name": "Intel Pentium G2120",
+        "cores": 2,
+        "totalbench": 1892,
+        "threadbench": 1715,
+        "tdp": 55,
+        "socket": "Intel_Socket",
+        "price": 52
+    },
+    {
+        "name": "AMD Athlon II X3 455",
+        "cores": 3,
+        "totalbench": 1879,
+        "threadbench": 1332,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 25
+    },
+    {
+        "name": "AMD A6-9500",
+        "cores": 2,
+        "totalbench": 1869,
+        "threadbench": 1624,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 50
+    },
+    {
+        "name": "AMD Athlon 5370 APU",
+        "cores": 4,
+        "totalbench": 1867,
+        "threadbench": 755,
+        "tdp": 25,
+        "socket": "AMD_Socket",
+        "price": 598
+    },
+    {
+        "name": "Intel Core i3-2100",
+        "cores": 2,
+        "totalbench": 1854,
+        "threadbench": 1421,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 49
+    },
+    {
+        "name": "AMD A6-3620 APU",
+        "cores": 4,
+        "totalbench": 1851,
+        "threadbench": 985,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 22
+    },
+    {
+        "name": "AMD Athlon II X3 450",
+        "cores": 3,
+        "totalbench": 1847,
+        "threadbench": 1301,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 25
+    },
+    {
+        "name": "AMD Phenom II X3 B77",
+        "cores": 3,
+        "totalbench": 1844,
+        "threadbench": 1310,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 22
+    },
+    {
+        "name": "Intel Pentium G3260T",
+        "cores": 2,
+        "totalbench": 1837,
+        "threadbench": 1609,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 49
+    },
+    {
+        "name": "Intel Core i3-2105",
+        "cores": 2,
+        "totalbench": 1837,
+        "threadbench": 1415,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 112
+    },
+    {
+        "name": "AMD A6-7480",
+        "cores": 2,
+        "totalbench": 1836,
+        "threadbench": 1558,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 34
+    },
+    {
+        "name": "AMD Athlon II X3 445",
+        "cores": 3,
+        "totalbench": 1823,
+        "threadbench": 1274,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 14
+    },
+    {
+        "name": "Intel Pentium G3250T",
+        "cores": 2,
+        "totalbench": 1809,
+        "threadbench": 1594,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 49
+    },
+    {
+        "name": "AMD A6-7470K",
+        "cores": 1,
+        "totalbench": 1799,
+        "threadbench": 1576,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 89
+    },
+    {
+        "name": "AMD Athlon II X4 600e",
+        "cores": 4,
+        "totalbench": 1795,
+        "threadbench": 913,
+        "tdp": 45,
+        "socket": "AMD_Socket",
+        "price": 19
+    },
+    {
+        "name": "AMD Phenom II X3 B75",
+        "cores": 3,
+        "totalbench": 1781,
+        "threadbench": 1256,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 49
+    },
+    {
+        "name": "AMD Athlon 5350 APU",
+        "cores": 4,
+        "totalbench": 1779,
+        "threadbench": 699,
+        "tdp": 25,
+        "socket": "AMD_Socket",
+        "price": 147
+    },
+    {
+        "name": "Intel Celeron G1840",
+        "cores": 2,
+        "totalbench": 1777,
+        "threadbench": 1582,
+        "tdp": 53,
+        "socket": "Intel_Socket",
+        "price": 117
+    },
+    {
+        "name": "AMD Phenom II X4 910",
+        "cores": 4,
+        "totalbench": 1776,
+        "threadbench": 988,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 100
+    },
+    {
+        "name": "AMD PRO A6-9500",
+        "cores": 2,
+        "totalbench": 1770,
+        "threadbench": 1520,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 74
+    },
+    {
+        "name": "AMD A6-9500E",
+        "cores": 2,
+        "totalbench": 1756,
+        "threadbench": 1347,
+        "tdp": 35,
+        "socket": "AMD_Socket",
+        "price": 57
+    },
+    {
+        "name": "Intel Pentium G2030",
+        "cores": 2,
+        "totalbench": 1747,
+        "threadbench": 1606,
+        "tdp": 55,
+        "socket": "Intel_Socket",
+        "price": 59
+    },
+    {
+        "name": "AMD Athlon II X3 440",
+        "cores": 3,
+        "totalbench": 1712,
+        "threadbench": 1194,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 14
+    },
+    {
+        "name": "Intel Celeron G1820",
+        "cores": 2,
+        "totalbench": 1709,
+        "threadbench": 1538,
+        "tdp": 53,
+        "socket": "Intel_Socket",
+        "price": 46
+    },
+    {
+        "name": "Intel Celeron G1630",
+        "cores": 2,
+        "totalbench": 1707,
+        "threadbench": 1553,
+        "tdp": 55,
+        "socket": "Intel_Socket",
+        "price": 69
+    },
+    {
+        "name": "AMD A6-3600 APU",
+        "cores": 4,
+        "totalbench": 1697,
+        "threadbench": 909,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 24
+    },
+    {
+        "name": "Intel Pentium G2020",
+        "cores": 2,
+        "totalbench": 1684,
+        "threadbench": 1554,
+        "tdp": 55,
+        "socket": "Intel_Socket",
+        "price": 34
+    },
+    {
+        "name": "Intel Core i3-560",
+        "cores": 2,
+        "totalbench": 1662,
+        "threadbench": 1359,
+        "tdp": 73,
+        "socket": "Intel_Socket",
+        "price": 60
+    },
+    {
+        "name": "AMD PRO A6-9500E",
+        "cores": 2,
+        "totalbench": 1662,
+        "threadbench": 1493,
+        "tdp": 35,
+        "socket": "AMD_Socket",
+        "price": 74
+    },
+    {
+        "name": "AMD PRO A4-8350B",
+        "cores": 1,
+        "totalbench": 1651,
+        "threadbench": 1433,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 28
+    },
+    {
+        "name": "AMD Athlon II X3 435",
+        "cores": 3,
+        "totalbench": 1644,
+        "threadbench": 1171,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 159
+    },
+    {
+        "name": "Intel Celeron G1820T",
+        "cores": 2,
+        "totalbench": 1631,
+        "threadbench": 1394,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 42
+    },
+    {
+        "name": "AMD A6-7400K APU",
+        "cores": 2,
+        "totalbench": 1625,
+        "threadbench": 1435,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 85
+    },
+    {
+        "name": "Intel Pentium G3220T",
+        "cores": 2,
+        "totalbench": 1609,
+        "threadbench": 1466,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 40
+    },
+    {
+        "name": "Intel Core i3-550",
+        "cores": 2,
+        "totalbench": 1607,
+        "threadbench": 1338,
+        "tdp": 73,
+        "socket": "Intel_Socket",
+        "price": 12
+    },
+    {
+        "name": "Intel Pentium G2010",
+        "cores": 2,
+        "totalbench": 1586,
+        "threadbench": 1497,
+        "tdp": 55,
+        "socket": "Intel_Socket",
+        "price": 22
+    },
+    {
+        "name": "Intel Pentium G2030T",
+        "cores": 2,
+        "totalbench": 1581,
+        "threadbench": 1442,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 130
+    },
+    {
+        "name": "AMD Athlon II X3 425",
+        "cores": 3,
+        "totalbench": 1576,
+        "threadbench": 1084,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 58
+    },
+    {
+        "name": "AMD A6-6420K APU",
+        "cores": 2,
+        "totalbench": 1576,
+        "threadbench": 1553,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 149
+    },
+    {
+        "name": "Intel Celeron G1830",
+        "cores": 2,
+        "totalbench": 1560,
+        "threadbench": 1513,
+        "tdp": 53,
+        "socket": "Intel_Socket",
+        "price": 65
+    },
+    {
+        "name": "Intel Celeron G1620",
+        "cores": 2,
+        "totalbench": 1560,
+        "threadbench": 1451,
+        "tdp": 55,
+        "socket": "Intel_Socket",
+        "price": 49
+    },
+    {
+        "name": "AMD Athlon II X3 420e",
+        "cores": 3,
+        "totalbench": 1557,
+        "threadbench": 1058,
+        "tdp": 45,
+        "socket": "AMD_Socket",
+        "price": 116
+    },
+    {
+        "name": "AMD Phenom II X3 720",
+        "cores": 3,
+        "totalbench": 1554,
+        "threadbench": 1103,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 64
+    },
+    {
+        "name": "AMD Phenom II X3 710",
+        "cores": 3,
+        "totalbench": 1551,
+        "threadbench": 1070,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 169
+    },
+    {
+        "name": "Intel Celeron J4005",
+        "cores": 2,
+        "totalbench": 1550,
+        "threadbench": 1082,
+        "tdp": 10,
+        "socket": "Intel_Socket",
+        "price": 168
+    },
+    {
+        "name": "Intel Celeron G1620T",
+        "cores": 2,
+        "totalbench": 1541,
+        "threadbench": 1332,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 42
+    },
+    {
+        "name": "AMD Phenom II X3 B73",
+        "cores": 3,
+        "totalbench": 1538,
+        "threadbench": 1056,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 75
+    },
+    {
+        "name": "Intel Pentium G870",
+        "cores": 2,
+        "totalbench": 1537,
+        "threadbench": 1465,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 77
+    },
+    {
+        "name": "Intel Core i3-540",
+        "cores": 2,
+        "totalbench": 1537,
+        "threadbench": 1272,
+        "tdp": 73,
+        "socket": "Intel_Socket",
+        "price": 60
+    },
+    {
+        "name": "AMD A4-6320 APU",
+        "cores": 1,
+        "totalbench": 1530,
+        "threadbench": 1529,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 69
+    },
+    {
+        "name": "AMD A4-7300 APU",
+        "cores": 1,
+        "totalbench": 1528,
+        "threadbench": 1479,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 18
+    },
+    {
+        "name": "Intel Core i3-2120T",
+        "cores": 2,
+        "totalbench": 1524,
+        "threadbench": 1162,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 60
+    },
+    {
+        "name": "Intel Celeron G1610",
+        "cores": 2,
+        "totalbench": 1518,
+        "threadbench": 1376,
+        "tdp": 55,
+        "socket": "Intel_Socket",
+        "price": 37
+    },
+    {
+        "name": "Intel Core i3-530",
+        "cores": 2,
+        "totalbench": 1499,
+        "threadbench": 1167,
+        "tdp": 73,
+        "socket": "Intel_Socket",
+        "price": 45
+    },
+    {
+        "name": "AMD A6-6400K APU",
+        "cores": 1,
+        "totalbench": 1499,
+        "threadbench": 1448,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 75
+    },
+    {
+        "name": "Intel Core i3-2100T",
+        "cores": 2,
+        "totalbench": 1488,
+        "threadbench": 1088,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 214
+    },
+    {
+        "name": "AMD Phenom 8600B Triple-Core",
+        "cores": 3,
+        "totalbench": 1464,
+        "threadbench": 969,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 14
+    },
+    {
+        "name": "Intel Pentium G860",
+        "cores": 2,
+        "totalbench": 1459,
+        "threadbench": 1393,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 70
+    },
+    {
+        "name": "AMD A6-5400B APU",
+        "cores": 1,
+        "totalbench": 1459,
+        "threadbench": 1408,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 28
+    },
+    {
+        "name": "AMD Phenom II X2 565",
+        "cores": 2,
+        "totalbench": 1442,
+        "threadbench": 1376,
+        "tdp": 80,
+        "socket": "AMD_Socket",
+        "price": 168
+    },
+    {
+        "name": "AMD Athlon II X3 415e",
+        "cores": 3,
+        "totalbench": 1441,
+        "threadbench": 1028,
+        "tdp": 45,
+        "socket": "AMD_Socket",
+        "price": 75
+    },
+    {
+        "name": "Intel Pentium G850",
+        "cores": 2,
+        "totalbench": 1435,
+        "threadbench": 1349,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 33
+    },
+    {
+        "name": "AMD Phenom II X2 B59",
+        "cores": 2,
+        "totalbench": 1431,
+        "threadbench": 1395,
+        "tdp": 80,
+        "socket": "AMD_Socket",
+        "price": 48
+    },
+    {
+        "name": "Intel Pentium G2020T",
+        "cores": 2,
+        "totalbench": 1430,
+        "threadbench": 1298,
+        "tdp": 35,
+        "socket": "Intel_Socket",
+        "price": 47
+    },
+    {
+        "name": "AMD Phenom II X3 740",
+        "cores": 3,
+        "totalbench": 1424,
+        "threadbench": 982,
+        "tdp": 95,
+        "socket": "AMD_Socket",
+        "price": 88
+    },
+    {
+        "name": "AMD A4-6300 APU",
+        "cores": 1,
+        "totalbench": 1424,
+        "threadbench": 1402,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 42
+    },
+    {
+        "name": "Intel Pentium G645",
+        "cores": 2,
+        "totalbench": 1418,
+        "threadbench": 1337,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 70
+    },
+    {
+        "name": "AMD A6-3500 APU",
+        "cores": 3,
+        "totalbench": 1417,
+        "threadbench": 964,
+        "tdp": 65,
+        "socket": "AMD_Socket",
+        "price": 60
+    },
+    {
+        "name": "Intel Celeron G555",
+        "cores": 2,
+        "totalbench": 1388,
+        "threadbench": 1289,
+        "tdp": 65,
+        "socket": "Intel_Socket",
+        "price": 55
+    },
+    {
+        "name": "AMD Athlon 5150 APU",
+        "cores": 4,
+        "totalbench": 1388,
+        "threadbench": 546,
+        "tdp": 25,
+        "socket": "AMD_Socket",
+        "price": 98
+    },
+    {
+        "name": "Intel Pentium G6951",
+        "cores": 2,
+        "totalbench": 1383,
+        "threadbench": 1173,
+        "tdp": 73,
+        "socket": "Intel_Socket",
+        "price": 74
+    }
+]
