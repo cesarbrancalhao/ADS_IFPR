@@ -1,0 +1,56 @@
+[
+    {
+        "name": "HDD WhiteLabel 500GB",
+        "price": 110,
+        "reading_speed": 150,
+        "storage_size": 500
+    },
+    {
+        "name": "HDD WhiteLabel 1TB",
+        "price": 180,
+        "reading_speed": 150,
+        "storage_size": 1000
+    },
+    {
+        "name": "HDD WhiteLabel 2TB",
+        "price": 290,
+        "reading_speed": 150,
+        "storage_size": 2000
+    },
+    {
+        "name": "SSD WhiteLabel 500GB",
+        "price": 195,
+        "reading_speed": 3000,
+        "storage_size": 500
+    },
+    {
+        "name": "SSD WhiteLabel 1TB",
+        "price": 300,
+        "reading_speed": 3500,
+        "storage_size": 1000
+    },
+    {
+        "name": "SSD WhiteLabel 2TB",
+        "price": 440,
+        "reading_speed": 4000,
+        "storage_size": 2000
+    },
+    {
+        "name": "NVMe SSD WhiteLabel 500GB",
+        "price": 210,
+        "reading_speed": 4500,
+        "storage_size": 500
+    },
+    {
+        "name": "NVMe SSD WhiteLabel 1TB",
+        "price": 350,
+        "reading_speed": 5500,
+        "storage_size": 1000
+    },
+    {
+        "name": "NVMe SSD WhiteLabel 2TB",
+        "price": 500,
+        "reading_speed": 6500,
+        "storage_size": 2000
+    }
+]

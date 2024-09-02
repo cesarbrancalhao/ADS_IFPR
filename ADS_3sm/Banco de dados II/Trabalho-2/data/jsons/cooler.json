@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Air Cooler WhiteLabel 50mm",
+        "price": 79,
+        "fans": 1,
+        "fan_speed": 1000,
+        "noise_level": 30
+    },
+    {
+        "name": "Air Cooler WhiteLabel 70mm",
+        "price": 99,
+        "fans": 2,
+        "fan_speed": 1500,
+        "noise_level": 35
+    },
+    {
+        "name": "Air Cooler WhiteLabel 90mm",
+        "price": 119,
+        "fans": 3,
+        "fan_speed": 2000,
+        "noise_level": 40
+    },
+    {
+        "name": "Air Cooler WhiteLabel 110mm",
+        "price": 139,
+        "fans": 4,
+        "fan_speed": 2500,
+        "noise_level": 45
+    },
+    {
+        "name": "Air Cooler WhiteLabel 130mm",
+        "price": 159,
+        "fans": 5,
+        "fan_speed": 3000,
+        "noise_level": 50
+    },
+    {
+        "name": "Water Cooler WhiteLabel 120mm",
+        "price": 199,
+        "fans": 2,
+        "fan_speed": 2000,
+        "noise_level": 40
+    },
+    {
+        "name": "Water Cooler WhiteLabel 140mm",
+        "price": 229,
+        "fans": 3,
+        "fan_speed": 2500,
+        "noise_level": 45
+    },
+    {
+        "name": "Water Cooler WhiteLabel 160mm",
+        "price": 259,
+        "fans": 4,
+        "fan_speed": 3000,
+        "noise_level": 50
+    },
+    {
+        "name": "Water Cooler WhiteLabel 180mm",
+        "price": 289,
+        "fans": 5,
+        "fan_speed": 3500,
+        "noise_level": 55
+    },
+    {
+        "name": "Water Cooler WhiteLabel 240mm",
+        "price": 329,
+        "fans": 6,
+        "fan_speed": 4000,
+        "noise_level": 60
+    }
+]

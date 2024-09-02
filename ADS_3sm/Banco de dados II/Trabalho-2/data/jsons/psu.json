@@ -1,0 +1,56 @@
+[
+    {
+        "name": "PSU WhiteLabel 400W",
+        "wattage": 400,
+        "price": 129,
+        "efficiency": 80
+    },
+    {
+        "name": "PSU WhiteLabel 500W",
+        "wattage": 500,
+        "price": 149,
+        "efficiency": 82
+    },
+    {
+        "name": "PSU WhiteLabel 600W",
+        "wattage": 600,
+        "price": 169,
+        "efficiency": 84
+    },
+    {
+        "name": "PSU WhiteLabel 700W",
+        "wattage": 700,
+        "price": 189,
+        "efficiency": 86
+    },
+    {
+        "name": "PSU WhiteLabel 800W",
+        "wattage": 800,
+        "price": 209,
+        "efficiency": 88
+    },
+    {
+        "name": "PSU WhiteLabel 900W",
+        "wattage": 900,
+        "price": 229,
+        "efficiency": 90
+    },
+    {
+        "name": "PSU WhiteLabel 1000W",
+        "wattage": 1000,
+        "price": 249,
+        "efficiency": 92
+    },
+    {
+        "name": "PSU WhiteLabel 1100W",
+        "wattage": 1100,
+        "price": 269,
+        "efficiency": 94
+    },
+    {
+        "name": "PSU WhiteLabel 1200W",
+        "wattage": 1200,
+        "price": 289,
+        "efficiency": 96
+    }
+]

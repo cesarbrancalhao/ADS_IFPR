@@ -1,0 +1,92 @@
+[
+    {
+        "name": "WhiteLabel Motherboard A",
+        "socket": "AMD_Socket",
+        "price": 299,
+        "sata_slots": 7,
+        "nvme_slots": 2,
+        "ram_slots": 4,
+        "tdp": 105
+    },
+    {
+        "name": "WhiteLabel Motherboard B",
+        "socket": "AMD_Socket",
+        "price": 329,
+        "sata_slots": 8,
+        "nvme_slots": 3,
+        "ram_slots": 4,
+        "tdp": 107
+    },
+    {
+        "name": "WhiteLabel Motherboard C",
+        "socket": "AMD_Socket",
+        "price": 359,
+        "sata_slots": 9,
+        "nvme_slots": 3,
+        "ram_slots": 4,
+        "tdp": 109
+    },
+    {
+        "name": "WhiteLabel Motherboard D",
+        "socket": "AMD_Socket",
+        "price": 389,
+        "sata_slots": 10,
+        "nvme_slots": 3,
+        "ram_slots": 4,
+        "tdp": 111
+    },
+    {
+        "name": "WhiteLabel Motherboard E",
+        "socket": "AMD_Socket",
+        "price": 419,
+        "sata_slots": 11,
+        "nvme_slots": 3,
+        "ram_slots": 4,
+        "tdp": 113
+    },
+    {
+        "name": "WhiteLabel Motherboard F",
+        "socket": "Intel_Socket",
+        "price": 299,
+        "sata_slots": 7,
+        "nvme_slots": 2,
+        "ram_slots": 4,
+        "tdp": 105
+    },
+    {
+        "name": "WhiteLabel Motherboard G",
+        "socket": "Intel_Socket",
+        "price": 329,
+        "sata_slots": 8,
+        "nvme_slots": 3,
+        "ram_slots": 4,
+        "tdp": 107
+    },
+    {
+        "name": "WhiteLabel Motherboard H",
+        "socket": "Intel_Socket",
+        "price": 359,
+        "sata_slots": 9,
+        "nvme_slots": 3,
+        "ram_slots": 4,
+        "tdp": 109
+    },
+    {
+        "name": "WhiteLabel Motherboard I",
+        "socket": "Intel_Socket",
+        "price": 389,
+        "sata_slots": 10,
+        "nvme_slots": 3,
+        "ram_slots": 4,
+        "tdp": 111
+    },
+    {
+        "name": "WhiteLabel Motherboard J",
+        "socket": "Intel_Socket",
+        "price": 419,
+        "sata_slots": 11,
+        "nvme_slots": 3,
+        "ram_slots": 4,
+        "tdp": 113
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "name": "WhiteLabel DDR4 1600MHz 4GB",
+        "memory": 4,
+        "frequency": 1600,
+        "price": 53
+    },
+    {
+        "name": "WhiteLabel DDR4 1600MHz 8GB",
+        "memory": 8,
+        "frequency": 1600,
+        "price": 95
+    },
+    {
+        "name": "WhiteLabel DDR4 2133MHz 8GB",
+        "memory": 8,
+        "frequency": 2133,
+        "price": 115
+    },
+    {
+        "name": "WhiteLabel DDR4 2400MHz 8GB",
+        "memory": 8,
+        "frequency": 2400,
+        "price": 130
+    },
+    {
+        "name": "WhiteLabel DDR4 2400MHz 16GB",
+        "memory": 16,
+        "frequency": 2400,
+        "price": 215
+    },
+    {
+        "name": "WhiteLabel DDR4 2666MHz 8GB",
+        "memory": 8,
+        "frequency": 2666,
+        "price": 155
+    },
+    {
+        "name": "WhiteLabel DDR4 2666MHz 16GB",
+        "memory": 16,
+        "frequency": 2666,
+        "price": 270
+    },
+    {
+        "name": "WhiteLabel DDR4 2666MHz 32GB",
+        "memory": 32,
+        "frequency": 2666,
+        "price": 455
+    },
+    {
+        "name": "WhiteLabel DDR4 3200MHz 8GB",
+        "memory": 8,
+        "frequency": 3200,
+        "price": 170
+    },
+    {
+        "name": "WhiteLabel DDR4 3200MHz 16GB",
+        "memory": 16,
+        "frequency": 3600,
+        "price": 340
+    },
+    {
+        "name": "WhiteLabel DDR4 3200MHz 32GB",
+        "memory": 32,
+        "frequency": 3200,
+        "price": 620
+    }
+]
