@@ -7,7 +7,7 @@ Dados:
     - Dado o objetivo e tempo disponível da atividade, a coleta de dados dos itens se limitará a CPUs das marcas Intel e AMD e GPUs das marcas NVIDIA e AMD.
     - Itens para mobile, laptops, servidores e mineração serão excluídos do dataset pois possuem métodos de avaliação inconstantes e resultam em dados inconsistentes.
 - Os preços dos itens no dataset base foram coletados em 19/08/2024 do site Amazon e convertidos para a cotação do dólar de 22/08/2024 (5.4 + impostos).
-- Estimativas como o cálculo de bottleneck (gargalo) e o consumo de energia das peças serão feitas a partir de [fórmulas especulativas](./data/jsons/functions.js) a partir de observações de resultados em aplicativos de análise de perfomance.
+- Estimativas como o cálculo de bottleneck (gargalo) e o consumo de energia das peças serão feitas a partir de [fórmulas especulativas](./data/jsons/functions.js) a partir de observações de resultados em aplicativos de análise de performance.
 
 Funções:
 - Analisar e encontrar a melhor combinação possível dentro de um orçamento.
