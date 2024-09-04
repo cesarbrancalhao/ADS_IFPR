@@ -11,7 +11,7 @@ Dados:
 
 Funções:
 - Analisar e encontrar a melhor combinação possível dentro de um orçamento.
-- Determinar a melhor combinação de peças dada uma GPU ou CPU (calculando bottleneck).
+- Calcular o possível bottleneck dada uma combinação de CPU e GPU.
 - Calcular e criar um ranking dos melhores custos-benefícios de GPU ou CPU.
 - Buscar e listar itens ideais dentro de intervalos definidos pelo usuário, como as 10 GPUs com maior VRAM e preço abaixo de 500.
 - Determinar o consumo de energia médio dado um número de horas médio de uso diário e o tipo de atividade mais exercida pelo computador.
