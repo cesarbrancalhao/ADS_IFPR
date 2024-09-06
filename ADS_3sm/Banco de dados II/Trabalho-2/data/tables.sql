@@ -1,63 +1,63 @@
 CREATE TABLE cpu (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(255),
-    cores INTEGER,
-    price NUMERIC(10, 2),
-    totalbench INTEGER,
-    threadbench INTEGER,
-    tdp INTEGER,    
-    socket VARCHAR(50)
+    id SERIAL PRIMARY KEY NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    cores INTEGER NOT NULL,
+    price NUMERIC(10, 2) NOT NULL,
+    totalbench INTEGER NOT NULL,
+    threadbench INTEGER NOT NULL,
+    tdp INTEGER NOT NULL,
+    socket VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE gpu (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(255),
-    tdp INTEGER,
-    vram INTEGER,
-    benchmark_score INTEGER,
-    price NUMERIC(10, 2)
+    id SERIAL PRIMARY KEY NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    tdp INTEGER NOT NULL,
+    vram INTEGER NOT NULL,
+    benchmark INTEGER NOT NULL,
+    price NUMERIC(10, 2) NOT NULL
 );
 
 CREATE TABLE hdd (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(255),
-    price NUMERIC(10, 2),
-    reading_speed INTEGER,
-    storage_size INTEGER
+    id SERIAL PRIMARY KEY NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    price NUMERIC(10, 2) NOT NULL,
+    reading_speed INTEGER NOT NULL,
+    storage_size INTEGER NOT NULL
 );
 
 CREATE TABLE cooler (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(255),
-    price NUMERIC(10, 2),
-    fans INTEGER,
-    fan_speed INTEGER,
-    noise_level INTEGER
+    id SERIAL PRIMARY KEY NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    price NUMERIC(10, 2) NOT NULL,
+    fans INTEGER NOT NULL,
+    fan_speed INTEGER NOT NULL,
+    noise_level INTEGER NOT NULL
 );
 
 CREATE TABLE psu (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(255),
-    wattage INTEGER,
-    price NUMERIC(10, 2),
-    efficiency INTEGER
+    id SERIAL PRIMARY KEY NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    wattage INTEGER NOT NULL,
+    price NUMERIC(10, 2) NOT NULL,
+    efficiency INTEGER NOT NULL
 );
 
 CREATE TABLE ram (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(255),
-    memory INTEGER,
-    frequency INTEGER,
-    price NUMERIC(10, 2)
+    id SERIAL PRIMARY KEY NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    memory INTEGER NOT NULL,
+    frequency INTEGER NOT NULL,
+    price NUMERIC(10, 2) NOT NULL
 );
 
 CREATE TABLE motherboard (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(255),
-    socket VARCHAR(50),
-    price NUMERIC(10, 2),
-    sata_slots INTEGER,
-    nvme_slots INTEGER,
-    ram_slots INTEGER,
-    tdp INTEGER
+    id SERIAL PRIMARY KEY NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    socket VARCHAR(50) NOT NULL,
+    price NUMERIC(10, 2) NOT NULL,
+    sata_slots INTEGER NOT NULL,
+    nvme_slots INTEGER NOT NULL,
+    ram_slots INTEGER NOT NULL,
+    tdp INTEGER NOT NULL
 );

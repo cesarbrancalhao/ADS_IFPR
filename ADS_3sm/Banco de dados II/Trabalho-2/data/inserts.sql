@@ -1,5 +1,5 @@
 INSERT INTO hdd (name, price, reading_speed, storage_size)
-VALUES 
+VALUES
     ('HDD WhiteLabel 500GB', 110, 150, 500),
     ('HDD WhiteLabel 1TB', 180, 150, 1000),
     ('HDD WhiteLabel 2TB', 290, 150, 2000),
@@ -11,7 +11,7 @@ VALUES
     ('NVMe SSD WhiteLabel 2TB', 500, 6500, 2000);
 
 INSERT INTO cooler (name, price, fans, fan_speed, noise_level)
-VALUES 
+VALUES
     ('Air Cooler WhiteLabel 50mm', 79, 1, 1000, 30),
     ('Air Cooler WhiteLabel 70mm', 99, 2, 1500, 35),
     ('Air Cooler WhiteLabel 90mm', 119, 3, 2000, 40),
@@ -24,7 +24,7 @@ VALUES
     ('Water Cooler WhiteLabel 240mm', 329, 6, 4000, 60);
 
 INSERT INTO psu (name, wattage, price, efficiency)
-VALUES 
+VALUES
     ('PSU WhiteLabel 400W', 400, 129, 80),
     ('PSU WhiteLabel 500W', 500, 149, 82),
     ('PSU WhiteLabel 600W', 600, 169, 84),
@@ -36,7 +36,7 @@ VALUES
     ('PSU WhiteLabel 1200W', 1200, 289, 96);
 
 INSERT INTO ram (name, memory, frequency, price)
-VALUES 
+VALUES
     ('WhiteLabel DDR4 1600MHz 4GB', 4, 1600, 53),
     ('WhiteLabel DDR4 1600MHz 8GB', 8, 1600, 95),
     ('WhiteLabel DDR4 2133MHz 8GB', 8, 2133, 115),
@@ -50,7 +50,7 @@ VALUES
     ('WhiteLabel DDR4 3200MHz 32GB', 32, 3200, 620);
 
 INSERT INTO motherboard (name, socket, price, sata_slots, nvme_slots, ram_slots, tdp)
-VALUES 
+VALUES
     ('WhiteLabel Motherboard A', 'AMD_Socket', 299, 7, 2, 4, 105),
     ('WhiteLabel Motherboard B', 'AMD_Socket', 329, 8, 3, 4, 107),
     ('WhiteLabel Motherboard C', 'AMD_Socket', 359, 9, 3, 4, 109),
@@ -62,8 +62,8 @@ VALUES
     ('WhiteLabel Motherboard I', 'Intel_Socket', 389, 10, 3, 4, 111),
     ('WhiteLabel Motherboard J', 'Intel_Socket', 419, 11, 3, 4, 113);
 
-INSERT INTO gpu (name, tdp, vram, benchmark_score, price)
-VALUES 
+INSERT INTO gpu (name, tdp, vram, benchmark, price)
+VALUES
     ('GeForce RTX 4090', 450, 24, 35966, 15825),
     ('Radeon RX 7900 XTX', 355, 24, 29246, 8890),
     ('GeForce RTX 4080 SUPER', 320, 16, 28531, 9214),

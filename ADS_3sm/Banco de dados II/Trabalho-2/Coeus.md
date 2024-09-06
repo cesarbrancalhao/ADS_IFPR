@@ -10,9 +10,9 @@ Dados:
 - Estimativas como o cálculo de bottleneck (gargalo) e o consumo de energia das peças serão feitas a partir de [fórmulas especulativas](./data/jsons/functions.js) a partir de observações de resultados em aplicativos de análise de performance.
 
 Funções:
+1. Calcular o possível bottleneck dada uma combinação de CPU e GPU.
+2. Calcular e criar um ranking dos melhores custos-benefícios de GPU ou CPU.
 - Analisar e encontrar a melhor combinação possível dentro de um orçamento.
-- Calcular o possível bottleneck dada uma combinação de CPU e GPU.
-- Calcular e criar um ranking dos melhores custos-benefícios de GPU ou CPU.
 - Buscar e listar itens ideais dentro de intervalos definidos pelo usuário, como as 10 GPUs com maior VRAM e preço abaixo de 500.
 - Determinar o consumo de energia médio dado um número de horas médio de uso diário e o tipo de atividade mais exercida pelo computador.
 

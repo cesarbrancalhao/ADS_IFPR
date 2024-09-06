@@ -9,7 +9,19 @@ function calculoBottleneckCpu(gpuBenchmark, cpuBenchmark, cpuThreadmark, cores) 
     const gpuBottleneck = Math.floor((cpuBenchmark * 0.77) / (gpuBenchmark * 1.77));
 
     return `GPU bottleneck: ${gpuBottleneck}%, CPU bottleneck: ${cpuBottleneck}%, Thread bottleneck: ${threadBottleneck}%.`;
-}
+};
 
-console.log(calculoBottleneckCpu(35966, 63061, 4879, 24));
-console.log(calculoBottleneckCpu(1062, 3000, 2000, 2));
+function calculoRanking(tipo){
+    if (tipo === 'cpu') return calculoRangingCpu();
+    if (tipo === 'gpu') return calculoRangingGpu();
+};
+
+function calculoRangingCpu() {
+    cpu.sort((a, b) => (b.totalbench / b.price) - (a.totalbench / a.price));
+    return cpu;
+};
+
+function calculoRangingGpu() {
+    gpu.sort((a, b) => (b.benchmark_score / b.price) - (a.benchmark_score / a.price));
+    return gpu;
+};
