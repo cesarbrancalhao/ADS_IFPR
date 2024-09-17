@@ -150,17 +150,50 @@ RETURNS TABLE (
     id INTEGER,
     name VARCHAR(255),
     totalbench INTEGER,
-    price NUMERIC(10, 2)
+    price NUMERIC(10, 2),
+    performance_factor NUMERIC(10, 2)
 ) AS $$
+DECLARE
+    best_cpu_id INTEGER;
+    best_gpu_id INTEGER;
+    best_hdd_id INTEGER;
+    best_cooler_id INTEGER;
+    best_psu_id INTEGER;
+    best_ram_id INTEGER;
+    best_motherboard_id INTEGER;
+    max_performance NUMERIC(10, 2);
 BEGIN
-    RETURN  QUERY
+    SELECT id INTO best_cpu_id FROM cpu WHERE price <= valor ORDER BY totalbench DESC LIMIT 1;
+
+    SELECT id INTO best_gpu_id FROM gpu WHERE tdp <= best_cpu.tdp AND price <= valor ORDER BY benchmark DESC LIMIT 1;
+
+    SELECT id INTO best_hdd_id FROM hdd WHERE price <= valor ORDER BY storage_size DESC LIMIT 1;
+
+    SELECT id INTO best_cooler_id FROM cooler WHERE price <= valor ORDER BY fans DESC LIMIT 1;
+
+    SELECT id INTO best_psu_id FROM psu WHERE wattage >= best_cpu.tdp + best_gpu.tdp + best_motherboard.tdp + best_ram.frequency * best_motherboard.ram_slots AND price <= valor ORDER BY efficiency DESC LIMIT 1;
+
+    SELECT id INTO best_ram_id FROM ram WHERE price <= valor ORDER BY memory DESC LIMIT 1;
+
+    SELECT id INTO best_motherboard_id FROM motherboard WHERE socket = best_cpu.socket AND price <= valor ORDER BY ram_slots DESC LIMIT 1;
+
+    max_performance := COALESCE(best_cpu.totalbench, 0) +
+                      COALESCE(best_gpu.benchmark, 0) +
+                      COALESCE(best_hdd.storage_size, 0) +
+                      COALESCE(best_motherboard.ram_slots, 0) +
+                      COALESCE(best_ram.memory, 0) +
+                      COALESCE(best_psu.wattage, 0) +
+                      COALESCE(best_cooler.fans, 0);
+
+    RETURN QUERY
     SELECT
         c.id,
         c.name,
         c.totalbench,
-        c.price
+        c.price,
+        c.totalbench::numeric / c.price::numeric AS performance_factor
     FROM cpu c
-    WHERE c.totalbench / c.price <= valor
-    -- TODO
+    WHERE c.id IN (best_cpu_id, best_gpu_id, best_hdd_id, best_cooler_id, best_psu_id, best_ram_id, best_motherboard_id)
+    ORDER BY performance_factor DESC;
 END;
 $$ LANGUAGE plpgsql;
