@@ -63,11 +63,11 @@ BEGIN
     SELECT * INTO v_gpu FROM gpu WHERE id = p_gpuid;
 
     IF v_cpu.id IS NULL THEN
-        RETURN 'CPU não encontrado';
+        RETURN 'CPU não encontrada';
     END IF;
 
     IF v_gpu.id IS NULL THEN
-        RETURN 'GPU não encontrado';
+        RETURN 'GPU não encontrada';
     END IF;
 
     cpu_calc := FLOOR(((v_gpu.benchmark * 1.77) / v_cpu.totalbench) * 100);
@@ -85,7 +85,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 -- 2. Calcular e criar um ranking dos melhores custos-benefícios de GPU ou CPU.
-CREATE OR REPLACE FUNCTION calculoRankingCpu()
+CREATE OR REPLACE FUNCTION calculoRankingCpu(max INTEGER)
 RETURNS TABLE (
     ranking BIGINT,
     id INTEGER,
@@ -105,7 +105,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE OR REPLACE FUNCTION calculoRankingGpu()
+CREATE OR REPLACE FUNCTION calculoRankingGpu(max INTEGER)
 RETURNS TABLE (
     ranking BIGINT,
     id INTEGER,
@@ -125,7 +125,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE OR REPLACE FUNCTION calculoRanking(tipo TEXT)
+CREATE OR REPLACE FUNCTION calculoRanking(tipo TEXT, max INTEGER DEFAULT 10)
 RETURNS TABLE (
     ranking BIGINT,
     id INTEGER,
@@ -135,9 +135,9 @@ RETURNS TABLE (
 ) AS $$
 BEGIN
     IF tipo = 'cpu' THEN
-        RETURN QUERY SELECT * FROM calculoRankingCpu();
+        RETURN QUERY SELECT * FROM calculoRankingCpu(max);
     ELSIF tipo = 'gpu' THEN
-        RETURN QUERY SELECT * FROM calculoRankingGpu();
+        RETURN QUERY SELECT * FROM calculoRankingGpu(max);
     ELSE
         RAISE EXCEPTION 'Tipo inválido. Use "cpu" ou "gpu"';
     END IF;
@@ -146,54 +146,83 @@ $$ LANGUAGE plpgsql;
 
 -- 3. Analisar e encontrar a melhor combinação possível dentro de um orçamento.
 CREATE OR REPLACE FUNCTION calculoOrcamento(valor NUMERIC(10, 2))
-RETURNS TABLE (
-    id INTEGER,
-    name VARCHAR(255),
-    totalbench INTEGER,
-    price NUMERIC(10, 2),
-    performance_factor NUMERIC(10, 2)
-) AS $$
+RETURNS TEXT AS $$
 DECLARE
-    best_cpu_id INTEGER;
-    best_gpu_id INTEGER;
-    best_hdd_id INTEGER;
-    best_cooler_id INTEGER;
-    best_psu_id INTEGER;
-    best_ram_id INTEGER;
-    best_motherboard_id INTEGER;
-    max_performance NUMERIC(10, 2);
+    cpu_socket VARCHAR(50);
+    cpu_name VARCHAR(255);
+    cpu_price NUMERIC(10, 2);
+    gpu_name VARCHAR(255);
+    gpu_price NUMERIC(10, 2);
+    hdd_name VARCHAR(255);
+    hdd_price NUMERIC(10, 2);
+    cooler_name VARCHAR(255);
+    cooler_price NUMERIC(10, 2);
+    psu_name VARCHAR(255);
+    psu_price NUMERIC(10, 2);
+    ram_name VARCHAR(255);
+    ram_price NUMERIC(10, 2);
+    motherboard_name VARCHAR(255);
+    motherboard_price NUMERIC(10, 2);
+    total_price NUMERIC(10, 2);
 BEGIN
-    SELECT id INTO best_cpu_id FROM cpu WHERE price <= valor ORDER BY totalbench DESC LIMIT 1;
+    SELECT name, price, split_part(name, ' ', 1) INTO cpu_name, cpu_price, cpu_socket
+    FROM cpu r
+    WHERE r.price < valor * 0.20
+    ORDER BY r.totalbench DESC
+    LIMIT 1;
 
-    SELECT id INTO best_gpu_id FROM gpu WHERE tdp <= best_cpu.tdp AND price <= valor ORDER BY benchmark DESC LIMIT 1;
+    SELECT name, price INTO gpu_name, gpu_price
+    FROM gpu r
+    WHERE r.price < valor * 0.30
+    ORDER BY r.benchmark DESC
+    LIMIT 1;
 
-    SELECT id INTO best_hdd_id FROM hdd WHERE price <= valor ORDER BY storage_size DESC LIMIT 1;
+    SELECT name, price INTO hdd_name, hdd_price
+    FROM hdd t
+    WHERE t.price < valor * (0.5 / 5)
+    ORDER BY t.storage_size DESC
+    LIMIT 1;
 
-    SELECT id INTO best_cooler_id FROM cooler WHERE price <= valor ORDER BY fans DESC LIMIT 1;
+    SELECT name, price INTO cooler_name, cooler_price
+    FROM cooler t
+    WHERE t.price < valor * (0.5 / 5)
+    ORDER BY t.fans DESC
+    LIMIT 1;
 
-    SELECT id INTO best_psu_id FROM psu WHERE wattage >= best_cpu.tdp + best_gpu.tdp + best_motherboard.tdp + best_ram.frequency * best_motherboard.ram_slots AND price <= valor ORDER BY efficiency DESC LIMIT 1;
+    SELECT name, price INTO psu_name, psu_price
+    FROM psu t
+    WHERE t.price < valor * (0.5 / 5)
+    ORDER BY t.wattage DESC
+    LIMIT 1;
 
-    SELECT id INTO best_ram_id FROM ram WHERE price <= valor ORDER BY memory DESC LIMIT 1;
+    SELECT name, price INTO ram_name, ram_price
+    FROM ram t
+    WHERE t.price < valor * (0.5 / 5)
+    ORDER BY t.memory DESC
+    LIMIT 1;
 
-    SELECT id INTO best_motherboard_id FROM motherboard WHERE socket = best_cpu.socket AND price <= valor ORDER BY ram_slots DESC LIMIT 1;
+    SELECT name, price INTO motherboard_name, motherboard_price
+    FROM motherboard t
+    WHERE t.price < valor * (0.5 / 5)AND split_part(t.socket, '_', 1) = cpu_socket
+    ORDER BY t.ram_slots DESC
+    LIMIT 1;
 
-    max_performance := COALESCE(best_cpu.totalbench, 0) +
-                      COALESCE(best_gpu.benchmark, 0) +
-                      COALESCE(best_hdd.storage_size, 0) +
-                      COALESCE(best_motherboard.ram_slots, 0) +
-                      COALESCE(best_ram.memory, 0) +
-                      COALESCE(best_psu.wattage, 0) +
-                      COALESCE(best_cooler.fans, 0);
+    RETURN FORMAT('CPU: %s, PRECO: %s. GPU: %s, PRECO: %s. HDD: %s, PRECO: %s. COOLER: %s, PRECO: %s. PSU: %s, PRECO: %s. RAM: %s, PRECO: %s. PLACA-MAE: %s, PRECO: %s. TOTAL: %s', cpu_name, cpu_price, gpu_name, gpu_price, hdd_name, hdd_price, cooler_name, cooler_price, psu_name, psu_price, ram_name, ram_price, motherboard_name, motherboard_price, (cpu_price + gpu_price + hdd_price + cooler_price + psu_price + ram_price + motherboard_price));
+END;
+$$ LANGUAGE plpgsql;
 
-    RETURN QUERY
-    SELECT
-        c.id,
-        c.name,
-        c.totalbench,
-        c.price,
-        c.totalbench::numeric / c.price::numeric AS performance_factor
-    FROM cpu c
-    WHERE c.id IN (best_cpu_id, best_gpu_id, best_hdd_id, best_cooler_id, best_psu_id, best_ram_id, best_motherboard_id)
-    ORDER BY performance_factor DESC;
+-- 4. Determinar o consumo de energia médio dado um número de horas médio de uso diário.
+CREATE OR REPLACE FUNCTION calculoTDP(cpu_id INTEGER, gpu_id INTEGER, motherboard_id INTEGER, hours INTEGER)
+RETURNS TEXT AS $$
+DECLARE
+    cpu_tdp INTEGER;
+    gpu_tdp INTEGER;
+    motherboard_tdp INTEGER;
+BEGIN
+    SELECT tdp INTO cpu_tdp FROM cpu WHERE id = cpu_id;
+    SELECT tdp INTO gpu_tdp FROM gpu WHERE id = gpu_id;
+    SELECT tdp INTO motherboard_tdp FROM motherboard WHERE id = motherboard_id;
+    RETURN 
+        FORMAT('Consumo médio de energia mensal: %s kWh', ((cpu_tdp + gpu_tdp + motherboard_tdp * hours) * 30) / 1000);
 END;
 $$ LANGUAGE plpgsql;
