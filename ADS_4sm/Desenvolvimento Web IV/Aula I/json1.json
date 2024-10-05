@@ -1,0 +1,23 @@
+{
+    "Filme": "Pearl",
+    "Foto": "https://filmow.com/pearl-t343849/",
+    "Ano": 2022,
+    "Diretor": "Ti West",
+    "Estreia": "09/02/2023",
+    "Duracao": 103,
+    "Classificacao": 16,
+    "Genero": [
+        "Drama",
+        "Suspense",
+        "Terror"
+    ],
+    "Origem": [
+        "Estados Unidos",
+        "Canada"
+    ],
+    "Roteiro": [
+        "Ti West",
+        "Mia Goth"
+    ],
+    "Sinopse": "Situada em 1918, durante a Primeira Guerra Mundial, a história explora as origens de Pearl (Mia Goth), do filme 'X: A Marca da Morte'. Os eventos se passam antes do primeiro filme e revelam como a cabana onde ocorre o massacre de 'X' foi usada durante a guerra."
+}

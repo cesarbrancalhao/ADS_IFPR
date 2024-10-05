@@ -1,0 +1,55 @@
+{
+    "Pais": "Chile",
+    "Capital": "Santiago",
+    "Cidade_Mais_Populosa": "Santiago",
+    "Lingua": "Espanhol",
+    "Governo": "República unitária presidencialista",
+    "Presidente": "Gabriel Boric",
+    "Presidente_Senado": "Álvaro Elizalde",
+    "Presidente_Camara": "Raúl Soto",
+    "Presidente_Supremo": "Guillermo Silva",
+    "Independencia": {
+        "Inicio": "18/09/1810",
+        "Declarada": "12/02/1812",
+        "Reconhecida": "25/04/1844"
+    },
+    "Area": {
+        "Total_Area": 756950,
+        "Agua": 1.07,
+        "Fronteira": {
+            "Pais": {
+                "Norte": "Peru",
+                "Nordeste": "Bolívia",
+                "Leste": "Argentina"
+            },
+            "Oceano": {
+                "Oeste": "Oceano Pacífico",
+                "Sul": "Oceano Antártico",
+                "Leste": "Oceano Atlântico"
+            }
+        }
+    },
+    "Populacao": {
+        "Censo_2022": 19603733,
+        "Densidade": 25.89
+    },
+    "PIB": {
+        "base": "PPC",
+        "Data": "2014",
+        "Total_PIB": 410277000000,
+        "Per_capita": 23165
+    },
+    "IDH": {
+        "Data": "2021",
+        "Total_IDH": 0.855,
+        "Posicao_IDH": 42
+    },
+    "Gini": {
+        "Data": "2017",
+        "Total_Gini": 44.4
+    },
+    "Moeda": "Peso Chileno",
+    "ISO": "CHL",
+    "Internet": ".cl"
+
+}
