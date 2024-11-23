@@ -1,5 +1,5 @@
 import requests
-import dotenv
+import dotenv # type: ignore
 import os
 from pycine.models import Artist, PeopleResults, ArtistMovies
 dotenv.load_dotenv(".env") 
