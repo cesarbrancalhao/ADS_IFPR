@@ -30,9 +30,12 @@
 </script>
 
 <div class="container">
-    <button type="button" onclick="{back}" class="btn" aria-label="Back">Voltar</button>
+    <button type="button" onclick="{back}" class="btn" aria-label="Back">Voltar</button><br />
     {#if people}
         {#each people as person}
+            {#if person.profile_path}
+                <img src={`https://image.tmdb.org/t/p/w200/${person.profile_path}`} alt={person.name} />
+            {/if}
             <h2>Nome: {person.name}</h2>
             {#if person.birthday}
                 <p>{person.birthday} - {person.deathday ? person.deathday : "Presente"}</p>
