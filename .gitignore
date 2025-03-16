@@ -1,3 +1,10 @@
 .env
 .env.*
 env/
+vendor/
+node_modules/
+.idea
+.vscode
+.DS_Store
+__pycache__
+*.log
