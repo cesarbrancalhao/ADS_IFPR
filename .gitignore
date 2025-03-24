@@ -1,6 +1,7 @@
 .env
 .env.*
 env/
+.venv
 vendor/
 node_modules/
 .idea
@@ -8,3 +9,7 @@ node_modules/
 .DS_Store
 __pycache__
 *.log
+*.swp
+__pycache__/
+.pytest_cache/
+.coverage
