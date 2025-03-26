@@ -19,6 +19,12 @@ def load_csv_data():
 class TestConta:
     @pytest.mark.parametrize("saldo,limite,valor",load_csv_data())
     def test_transferir(self, saldo, limite, valor):
-        conta = c.Conta(saldo,limite,"10000-0")
-        conta.transferir("testepix123", valor)
-        assert c.saldo < 0
+        conta = c.Conta(float(saldo), float(limite), "10000-0")
+        conta.transferir("testepix123", float(valor))
+        assert conta.saldo < 0
+
+        #O arquivo CSV contém todos os casos de teste para a função transferir
+        # pix no valor do saldo
+        # pix no valor do saldo + limite
+        # pix com valor acima do saldo + limite
+        # o resultado esperado são 2 erros, na quarta e sexta linha
